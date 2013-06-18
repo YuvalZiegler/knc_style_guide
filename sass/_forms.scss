@@ -1,0 +1,253 @@
+$fieldHeight: 44px;
+// Buttons
+@mixin button($background, $color ) {
+   
+  background: $background;
+  color: $color;
+  @include single-transition(all, 0.2s, ease, 0);
+  &:hover {
+    @include single-transition(all, 0.2s, ease, 0);
+    background: darken($background, 5%);
+    cursor: pointer;
+  }
+
+  &:active { 
+    @include box-shadow(inset 0 2px 2px 0 rgba(black,0.2)); 
+  }
+}
+
+.button{
+
+  font-family: $sansFontFamily;
+  font-size: 0.9em;
+  font-weight: 900;
+  line-height: $fieldHeight;
+  height:$fieldHeight;
+  margin-top:0.2em;
+  margin-bottom:0.2em;
+  display: inline-block;
+  border: none;
+  text-transform: uppercase;
+  text-align: center;
+  width:100%;
+  letter-spacing: 2px;
+  text-decoration: none !important;
+  color: white !important;
+  
+  @include button($knc-marigold , #fff);
+
+  &.inverted{
+    @include button($knc-dark-gray , #fff);
+  }
+  &.green{
+    @include button($green , #fff); 
+  }
+  &.red{
+    @include button($red , #fff); 
+  }
+  &.short{
+    height:$fieldHeight - 10;
+    line-height:$fieldHeight - 10;
+
+  }
+  
+}
+form {
+
+  fieldset {
+    clear: both;
+    margin-bottom: 2em;
+
+    legend {
+      @include sans-font;
+      text-transform: uppercase;
+      width:100%;
+      font-weight: 700;
+      font-size: 1.3em;
+      padding-bottom: 0.5em;
+      margin-bottom: 0.5em;
+      border-bottom:  $lightBorder;
+
+
+    }
+    button, input[type="button"],input[type="submit"]{
+      padding:0;
+
+    }
+    label {
+      display: block;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      @include sans-font;
+      font-size: 1em;
+      text-transform: uppercase;
+      line-height: $fieldHeight;
+      padding-top:4px;
+      padding-right: 10px;
+      &.right {
+        text-align: right;
+      }
+      &.left {
+        text-align: left;
+      }
+      @media screen and (max-width: $tablet)  {
+        text-align: left;
+        &.right{
+          text-align: left;
+        }
+      }
+      &.checkbox { display: inline-block; }
+      &.error { @include serif-font; font-size: 0.9em; font-weight: 500; color: #ff6363; text-transform: none; letter-spacing: 0; }
+    }
+    input[type=text],
+    input[type=url],
+    input[type=tel],
+    input[type=number],
+    input[type=color],
+    input[type=email],
+    input[type=password],
+    textarea {
+      border: 5px $knc-light-gray solid;
+      box-shadow: none;
+      border-radius: 4px;
+      &.light{
+        border: 5px $knc-bright-gray solid;
+      }
+      &:focus{
+        outline-color: transparent;
+
+      }
+    }
+    input[type="text"], input[type="email"], input[type="password"], textarea, select {
+      background: #fff;
+      //width:100%;
+      padding: 8px;
+      margin-top: 0.5em;
+
+      &:focus { border-color: #999; }
+      &.placeholder { color: #999; }
+      &.error { border: 1px solid #ff6363; background-color: #ffd5d5;}
+      &.percentage { background: #fff asset-url("percentage.png", image) no-repeat 95% 50%; width: 50px; }
+      &.money { background: #fff asset-url("icons/dollar-sign.png", image) no-repeat 5px 50%; width: 50px; padding-left: 20px; }
+      &.skinny { width: 50px; }
+    }
+    input[readonly="readonly"] {
+      background: #eaeaea;
+      color: #777;
+    }
+    textarea { height: 60px; }
+    select { line-height: 1em; }
+
+    .note {
+      float: left;
+      font-size: 0.8em;
+      color: $knc-gray;
+      line-height: 1.4em;
+      padding: 5px;
+    }
+
+
+
+    .checkbox {
+        label { display: inline; }
+      }
+
+
+
+
+
+    .chzn-container { margin-top: 0.4em; }
+    .chzn-container-active .chzn-single { border-color: $link_color; }
+
+
+
+    .field_with_errors {
+      input[type="text"], input[type="email"], input[type="password"], textarea {
+        background-color: #fddfde;
+        border-color: $dark_red;
+      }
+      span.error { margin-left: 0.5em; color: $dark_red; }
+    }
+}
+
+
+  #error-explanation {
+
+    background-color: #fddfde;
+    border: 1px solid #fbc7c6;
+    color: #DA6666;
+    //text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+    padding: 14px;
+    margin-bottom: 2em;
+    @include border-radius;
+
+    ul {
+      list-style-type: disc;
+      margin: 0.5em 0 0 2em;
+    }
+  }
+
+  // PRETTY-CHECKABLE
+  .prettycheckbox,
+  .prettyradio {
+    display: inline-block;
+    padding:0;
+    margin:0;
+  }
+
+  .prettycheckbox a,
+  .prettyradio a{
+    width: 30px;
+    height: 30px;
+    background: asset-url("externals/prettyCheckable-orange.png", image) top left no-repeat;
+    display: block;
+    float: left;
+    cursor: pointer;
+    margin:0;
+  }
+
+
+  .prettyradio a {background-position: 0 -120px;}
+
+  .prettycheckbox a:focus,
+  .prettyradio a:focus {outline: 0 none;}
+
+  .prettycheckbox a:focus{background-position: 0 -30px;}
+  .prettyradio a:focus{background-position: 0 -150px;}
+
+  .prettycheckbox a.checked{ background-position: 0 -60px; }
+  .prettyradio a.checked { background-position: 0 -180px; }
+
+  .prettycheckbox a.checked:focus{ background-position: 0 -90px; }
+  .prettyradio a.checked:focus { background-position: 0 -210px; }
+
+  .prettycheckbox label,
+  .prettyradio label {
+    display: block;
+    float: left;
+    margin: 3px 5px;
+    cursor: pointer;
+  }
+
+  .prettycheckbox.disabled a,
+  .prettyradio.disabled a,
+  .prettycheckbox.disabled label,
+  .prettyradio.disabled label{
+    cursor:not-allowed;
+  }
+
+  .prettycheckbox.disabled a {
+    background-position: 0 -240px;
+  }
+
+  .prettyradio.disabled a {
+    background-position: 0 -270px;
+  }
+}
+
+
+
+
+
+.ui-datepicker { @include serif-font; }
+

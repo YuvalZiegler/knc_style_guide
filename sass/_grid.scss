@@ -1,0 +1,162 @@
+// create a fixed width grid that changes to fluid width on smaller sizes
+$full_width: $small-screen;
+$container_padding_lr: 40px;
+$columns: 12;
+$column_margin_r: 10px; 
+
+// HORIZONTAL GRID /////////////////////
+// a full width container
+*{
+  @include box-sizing(border-box);
+}
+.container {
+  width:        100%;
+  max-width:    $full_width;
+  margin: 0 auto;
+}
+// full width minus padding and clear both
+// a block of content inside the .container
+.block{
+  width:        100%;
+  padding-left: $container_padding_lr;
+  padding-right:$container_padding_lr;
+  margin: 0.5em auto;
+  clear:both;
+  @include clearfix;
+}
+
+@mixin fluidGrid($baseName, $columns){
+  $column_width:  100 / $columns ;
+  @for $i from 1 through $columns{
+    .#{$baseName}-#{$i}{
+      float:left;
+      width: percentage($column_width * $i /100);
+      padding:{
+        left: 5px;
+        right:5px;
+      } ;
+    }
+    .push-#{$baseName}-#{$i}{
+      margin-left: percentage($column_width * $i /100);
+    }
+  }
+
+}
+
+// create spans-1 through span-...
+@mixin fixedGrid($baseName, $columns, $full_width:$full_width,$container_padding_lr:$container_padding_lr, $column_margin_r:$column_margin_r ){
+
+  $column_width: (($full_width - ($container_padding_lr * 2)) / $columns);
+
+  @for $i from 1 through $columns{
+    .push-#{$baseName}-none{
+      margin-left: 0 !important;
+    }
+    .push-#{$baseName}-#{$i}{
+      margin-left: $column_width * $i;
+    }
+  }
+  @for $i from 1 through $columns{
+    @if($i == $columns){
+    .#{$baseName}-#{$i}{
+      float:left;
+      width:100%;
+      max-width:$column_width * $i;
+      margin-right:0;
+
+
+
+      &.center{
+        @include clearfix;
+        max-width:(($column_width) * $i);
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+
+      }
+    }
+  }
+    @else {
+    .#{$baseName}-#{$i}{
+      float:left;
+      width:100%;
+      max-width: (($column_width) * $i) - $column_margin_r - 2px;
+      margin-right: $column_margin_r;
+
+      &.last {
+        margin-right: 0;
+        max-width: ($column_width) * $i -  $column_margin_r - 2px;
+      }
+
+
+      &.center{
+        @include clearfix;
+        max-width:(($column_width) * $i);
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: $column_margin_r;
+        float: none;
+        & > [class*=span]:last-child{
+          margin-right: 0;
+          width:($column_width) * $i -  $column_margin_r - 2px;
+        }
+      }
+    }
+  }
+
+  }
+}
+
+
+// GRIDS
+@include fixedGrid(span, 12);
+@include fluidGrid(f-span, 6);
+
+@media screen and (max-width: $tablet) {
+  .span-6, .span-7, .span-8, .span-9, .span-10, .span-11  {
+    max-width:100%;
+  }
+  .f-span-4, .f-span-5, .f-span-6, {
+    width:100%;
+  }
+  .block{
+    padding-left:25px;
+    padding-right:25px;
+  }
+  @include fixedGrid(span, 6, $tablet);
+  @include fixedGrid(tablet-span, 6, $tablet);
+  @include fluidGrid(f-span, 3);
+}
+
+
+@media screen and (max-width: $iphone) {
+   .block{
+     padding-left:10px;
+     padding-right:10px;
+   }
+
+  [class*='span-'], [class*='span-'].last{
+        margin-right: 0;
+        max-width:    100%;
+  }
+  .f-span-3 {
+    width:100%;
+  }
+  @include fixedGrid(span, 2, $iphone, 10px);
+  @include fixedGrid(phone-span, 2, $iphone, 10px, 5px);
+  @include fluidGrid(f-span, 2);
+}
+
+// VERTICAL GRID /////////////////////
+ .section{
+  padding-top:1em;
+  padding-bottom:1em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.clear{
+  margin: 0.5em auto;
+  clear:both;
+  @include clearfix;
+}

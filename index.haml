@@ -1,0 +1,373 @@
+<!doctype html>
+%html{:lang => "en"} 
+%head 
+  %meta{:charset => "UTF-8"}/ 
+  %title Kid And Coe Style Guide
+  %link{:rel => "stylesheet", :href => "stylesheet/application.css"}/ 
+%body 
+  #header
+    #ui-switch
+      %a{:href=>"#", :id=>"desktop"} desktop
+      %a{:href=>"#", :id=>"small-screen"} small screen
+      %a{:href=>"#", :id=>"tablet"} tablet
+      %a{:href=>"#", :id=>"iphone"} phone
+  #main
+    #grid-system.section.container
+      .block
+        %h1.thin Grid
+        %h2 Fixed grid
+      .block
+        .span-1.debug span-1
+        .span-1.debug span-1
+        .span-1.debug span-1
+        .span-1.debug span-1
+        .span-1.debug span-1
+        .span-1.debug span-1
+        .span-1.debug span-1
+        .span-1.debug span-1
+        .span-1.debug span-1
+        .span-1.debug span-1
+        .span-1.debug span-1
+        .span-1.debug.last span-1
+      .block
+        .span-2.debug span-2
+        .span-2.debug span-2
+        .span-2.debug span-2
+        .span-2.debug span-2
+        .span-2.debug span-2
+        .span-2.debug.last span-2
+      .block
+        .span-3.debug span-3
+        .span-3.debug span-3
+        .span-3.debug span-3
+        .span-3.debug.last span-3
+      .block
+        .span-4.debug span-4
+        .span-4.debug span-4
+        .span-4.debug.last span-4
+      .block
+        .span-5.debug span-7
+        .span-7.debug.last span-5
+      .block
+        .span-6.debug span-6
+        .span-6.debug.last span-6
+      .block
+        .span-8.debug span-8
+        .span-4.debug.last span-4
+      .block
+        .span-9.debug span-9
+        .span-3.debug.last span-3
+      .block
+        .span-10.debug span-10
+        .span-2.debug.last span-2
+      .block
+        .span-11.debug span-11
+        .span-1.debug.last span 1
+      .block
+        .span-12.debug span-12
+
+      .block
+        %h5.span-12
+          12 column grid <em>.span-1 [...] .span-12</em> within a <em>.block</em> class
+        %ul 
+          %li
+            Add <em>tablet-span-1 [...] tablet-span-6</em> for a 6 column tablet grid and  <em>phone-span-1</em> for a two column mobile grid
+          %li
+            Use <em>.push-[span:string]-[columns:int]</em> to push a column right
+          %li
+            Add <em>.center</em> to center a span
+          %li
+            Add <em>.last</em> to remove a spans right margin  
+      #fluid.block
+        %h2
+          Fluid Grid
+        %p a six column percentage based fluid grid
+        .block.f-span-6
+          .f-span-1.debug .f-span-1
+          .f-span-1.debug .f-span-1
+          .f-span-1.debug .f-span-1
+          .f-span-1.debug .f-span-1
+          .f-span-1.debug .f-span-1
+          .f-span-1.debug .f-span-1
+        .block.f-span-6
+          .f-span-2.debug .f-span-2
+          .f-span-2.debug .f-span-2
+          .f-span-2.debug .f-span-2
+        .block.f-span-6
+          .f-span-3.debug .f-span-3
+          .f-span-3.debug .f-span-3
+        .block.f-span-6
+          .f-span-4.debug .f-span-4
+          .f-span-2.debug .f-span-2
+        .block.f-span-6
+          .f-span-5.debug .f-span-5
+          .f-span-1.debug .f-span-1
+        .block.f-span-6
+          .f-span-6.debug .f-span-6
+
+    #typography.section.container
+      .block
+        %h1.thin Typography
+      .block  
+        %h1.span-2
+          h1
+        %h1.thin.span-3
+          \.thin
+        %h1.serif.span-3
+          \.serif
+        %h1.serif.thin.span-4.last
+          \.serif.thin
+      .block  
+        %h2.span-2
+          h2
+        %h2.thin.span-3
+          \.thin
+        %h2.serif.span-3
+          \.serif
+        %h2.serif.thin.span-4.last
+          \.serif.thin
+      .block  
+        %h3.span-2
+          h3
+        %h3.thin.span-3
+          \.thin
+        %h3.serif.span-3
+          \.serif
+        %h3.serif.thin.span-4.last
+          \.serif.thin
+      .block  
+        %h4.span-2
+          h4
+        %h4.thin.span-3
+          \.thin
+        %h4.serif.span-3
+          \.serif
+        %h4.serif.thin.span-4.last
+          \.serif.thin
+      .block  
+        %h5.span-2
+          h5
+        %h5.thin.span-3
+          \.thin
+        %h5.serif.span-3
+          \.serif
+        %h5.serif.thin.span-4.last
+          \.serif.thin
+      .block  
+        %h6.span-2
+          h6
+        %h6.thin.span-3
+          \.thin
+        %h6.serif.span-3
+          \.serif
+        %h6.serif.thin.span-4.last
+          \.serif.thin
+      .block
+        .span-6
+          %h2.span-6
+            Paragraphs
+          %p.span-6
+            My money's in that office, right? If she start giving me some bullshit about it ain't there, and we got to go someplace else and get it, I'm gonna shoot you in the head then and there. Then I'm gonna shoot that bitch in the kneecaps, find out where my goddamn money is. 
+        .span-6
+          %h2.span-6
+            blockquote
+          %blockquote.span-6
+            "She gonna tell me too. Hey, look at me when I'm talking to you, motherfucker. You listen: we go in there, and that nigga Winston or anybody else is in there, you the first motherfucker to get shot. You understand?"
+    // EXAMPLE 1
+    .container.bg-knc-dark-gray.fg-knc-bright-gray
+      .block.centered-text
+        %h6.thin Sample page header:
+    #example1.section.container.transparent
+      .block.centered-text
+        %h1.thin        
+          ADELPHI STREET
+        %h3             
+          4 BEDROOMS • 1 BATHROOMS • 2000 SQUARE FEET
+        %h6.serif.thin
+          %em
+            395 adelphi st, #2l
+        .separator
+
+
+    .container.bg-knc-dark-gray.fg-knc-bright-gray
+      .block.centered-text
+        %h6
+    // EXAMPLE 1 END
+
+    #colors.section.container
+      .block
+        %h1.thin
+          Colors
+        .span-12
+          %p
+            These classes contain color info only and can either be extended or inserted directly into the markup:
+          %ul
+            %li .fg-[color-name] for text color
+            %li .bg-[color-name] for background color
+            %li .br-[color-name] for border color
+      .block
+        .span-2.centered-text
+          .swatch.bg-knc-cream
+          .span-2 knc-cream
+        .span-2.centered-text
+          .swatch.bg-knc-marigold
+          .span-2 knc-marigold
+        .span-2.centered-text  
+          .swatch.bg-knc-dark-gray
+          .span-2 knc-dark-gray
+        .span-2.centered-text
+          .swatch.bg-knc-gray
+          .span-2 knc-gray
+        .span-2.centered-text  
+          .swatch.bg-knc-light-gray
+          .span-2 knc-light-gray
+        .span-2.centered-text  
+          .swatch.bg-knc-bright-gray
+          .span-2 knc-bright-gray
+    
+    #forms.section.container
+      .block
+        %h1.thin Forms
+      #buttons.block
+        %h2 Buttons 
+      .block
+        .span-8.tablet-span-4.phone-span-2.center
+          .span-2.phone-span-1
+            %a{href:"#", class:"button"}
+              button
+          .span-2.phone-span-1
+            %a{href:"#", class:"button inverted"}
+              inverted
+          .span-2.phone-span-1
+            %a{href:"#", class:"button green"}
+              green
+          .span-2.phone-span-1
+            %a{href:"#", class:"button red"}
+              red
+      .block
+        %h3 .short
+        .span-8.tablet-span-4.phone-span-2.center
+          .span-2.phone-span-1
+            %a{href:"#", class:"button short"}
+              short
+          .span-2.phone-span-1
+            %a{href:"#", class:"button short inverted"}
+              inverted
+          .span-2.phone-span-1
+            %a{href:"#", class:"button short green"}
+              green
+          .span-2.phone-span-1
+            %a{href:"#", class:"button short red"}
+              red
+      .block
+        %hr
+      #inputs.block
+        %h2 inputs
+        %h3 centered
+
+        %form.span-6.tablet-span-3.center
+          %fieldset
+            %legend Legend
+            .clear
+              %label.span-2.right Label name
+              %input.span-4.last{:placeholder => "Type something…", :type => "text"}
+              %span.span-4.note.last Example block-level help text here.
+            .clear
+              %label.span-2.right Label name
+              %input.span-4.last{:placeholder => "Type something…", :type => "text"}
+              %span.span-4.note.last Example block-level help text here.
+            .clear.span-6.tablet-span-4
+              %button.button.span-2.pull-right{:type => "submit"} Submit
+        %hr
+      .block
+        %h3 two panes
+      .block
+        .span-11.tablet-span-3.center
+          %form.span-5.tablet-span-4.push-tablet-span-none.last
+            %fieldset
+              %legend Log In
+              .clear
+                %label.span-2 Email
+                %input.span-3.last{:placeholder => "Type something…", :type => "text"}
+                %span.span-3.note.last Example block-level help text here.
+              .clear
+                %label.span-2 Password
+                %input.span-3.last{:placeholder => "Type something…", :type => "password"}
+                %span.span-3.note.last Example block-level help text here.
+              .clear.span-5.tablet-span-4
+                %button.button.span-2.pull-right{:type => "submit"} Submit
+
+          %form.span-5.push-span-1.tablet-span-4.push-tablet-span-none.last
+            %fieldset
+              %legend Invite a Friend
+              .clear
+                %label.span-2 Friend name
+                %input.span-3.last{:placeholder => "Type something…", :type => "text"}
+                %span.span-3.note.last Example block-level help text here.
+              .clear
+                %label.span-2 Friend email
+                %input.span-3.last{:placeholder => "Type something…", :type => "email"}
+                %span.span-3.note.last Example block-level help text here.
+              .clear.span-5.tablet-span-4
+                %button.button.span-2.pull-right{:type => "submit"} Submit
+        %hr
+
+
+      .block
+        %h3 two panes fluid
+      .block
+        .f-span-6
+          %form.f-span-3
+            %fieldset
+              %legend Log In
+              .clear
+                %label.f-span-2 Email
+                %input.f-span-3{:placeholder => "Type something…", :type => "text"}
+                %span.f-span-3.note Example block-level help text here.
+              .clear
+                %label.f-span-2 Password
+                %input.f-span-3{:placeholder => "Type something…", :type => "password"}
+                %span.f-span-3.note Example block-level help text here.
+              .clear.f-span-5
+                %button.button.span-3.last.pull-right{:type => "submit"} Submit
+
+          %form.f-span-3
+            %fieldset
+              %legend Invite a Friend
+              .clear
+                %label.f-span-2 Friend name
+                %input.f-span-3{:placeholder => "Type something…", :type => "text"}
+                %span.f-span-3.note Example block-level help text here.
+              .clear
+                %label.f-span-2 Friend email
+                %input.f-span-3{:placeholder => "Type something…", :type => "email"}
+                %span.f-span-3.note Example block-level help text here.
+              .clear.f-span-5
+                %button.button.span-3.last.pull-right{:type => "submit"} Submit
+    #tabs.section.container
+      .block
+        %h1.thin
+          Components
+      #tabs.block
+        %h2
+          Tabs
+      .block
+        %hr
+      #tabs.block
+        %h2
+          Calendar
+
+  #footer
+
+%script{:src=>"http://code.jquery.com/jquery-2.0.2.min.js"}
+:javascript
+  var targets = {
+      "iphone": 320,
+      "tablet": 720,
+      "small-screen":920
+  }
+  $('#ui-switch').on('click', function(e){
+     e.target.id == "desktop" ?   $('body').width('100%'): $('body').width(targets[e.target.id])
+    
+  })
+

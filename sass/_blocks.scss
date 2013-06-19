@@ -1,0 +1,22 @@
+#header{
+  
+  position:relative;
+  width:100%;
+  background: $header_background;
+  margin:0;
+  .header{
+    padding-top:20px;
+    padding-bottom:20px;
+  }
+
+}
+
+
+
+#nav-bar{
+  height:44px;
+  width:100%;
+  background:white;
+  position:relative;
+  @include box-shadow(0 3px 8px rgba(black,0.05));
+}

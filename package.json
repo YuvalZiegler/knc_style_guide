@@ -1,0 +1,19 @@
+{
+  "name": "KidAndCoe-styleGuide",
+  "version": "0.0.1",
+  "description": "CSS Frame work for Kid And Coe",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "YZ",
+  "license": "BSD",
+  "gitHead": "7cc2c430355eda5b544cc98e4b381a0b4a317d1c",
+  "devDependencies": {
+    "grunt-contrib-compass": "~0.2.0",
+    "grunt-contrib-watch": "~0.4.4",
+    "grunt": "~0.4.1",
+    "grunt-contrib-haml": "~0.1.0"
+  }
+}

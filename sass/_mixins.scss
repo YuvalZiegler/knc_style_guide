@@ -105,3 +105,38 @@
 }
 
 
+// Color pallete mixins
+// -------------------------
+// fg-[color-name]: sets foreground to color name
+// bg-[color-name]: sets background to color name
+// br-[color-name]: sets border to color name    
+@mixin makePallete($name, $color){ 
+  .fg_#{$name}{
+    color:$color !important;
+  }
+  .bg_#{$name}{
+    background-color:$color !important;
+  }
+  .br_#{$name}{
+    border:{
+      color:$color;
+    }
+  }
+}
+
+// Buttons
+@mixin button($background, $color ) {
+
+  background: $background;
+  color: $color;
+  @include single-transition(background, 0.2s, ease, 0);
+  &:hover {
+    @include single-transition(background, 0.2s, ease, 0);
+    background: darken($background, 5%);
+    cursor: pointer;
+  }
+
+  &:active {
+    @include box-shadow(inset 0 2px 2px 0 rgba(black,0.2));
+  }
+}

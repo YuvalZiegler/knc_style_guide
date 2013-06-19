@@ -1,8 +1,10 @@
 // CONFIGURATION
 $asset_path: "../images";
 
+
+// deprecated //////////////////////
 // Colors
-// BRAND
+// BRAND 
 $cream: #F3EEE5;
 $marigold: #FBC90D;
 $gray: #766F69;
@@ -17,51 +19,38 @@ $blue: #244276;
 $light_blue: #deeaff;
 $light_yellow: #fffedb;
 $lightGray: #efefef;
+/////////////////////////////////////
+
+$knc_cream:       $cream;
+$knc_marigold:    $marigold;
+$knc_bright_gray: #f8f8f8;
+$knc_light_gray:  #EFEEEC;
+$knc_gray:        $gray;
+$knc_dark_gray:   #4E4A47;
 
 $header_background:#f4f0e7; //#f3f2f0;
 $background_color: #efeeec;
 $text_color: #4e4a47;
-$textColor: #4e4a47;
 $link_color: $text_color;
 $border_color: #e0dfdc;
 $hrBorder: rgba( #ddd, 0.5);
+
+
 // borders
 $inputBorderRadius:5px;
 $lightBorder: 1px solid $lightGray;
 
 // Media Queries size:
 $iphone: 480px;
-$iphone-landscape: 480px;
+$iphone_landscape: 480px;
 $tablet: 720px;
-$small-screen:920px;
+$small_screen:920px;
 
-//
+// Form
+$fieldHeight: 44px;
+
+// Generic Layout
 $horizontalComponentOffset:1em;
-
-// Form states and alerts
-// -------------------------
-
-// Input placeholder text color
-// -------------------------
-$placeholderText:         $lightGray !default;
-
-$warningText:             #c09853 !default;
-$warningBackground:       #fcf8e3 !default;
-$warningBorder:           darken(adjust-hue($warningBackground, -10), 3%) !default;
-
-$errorText:               #b94a48 !default;
-$errorBackground:         #f2dede !default;
-$errorBorder:             darken(adjust-hue($errorBackground, -10), 3%) !default;
-
-$successText:             #468847 !default;
-$successBackground:       #dff0d8 !default;
-$successBorder:           darken(adjust-hue($successBackground, -10), 5%) !default;
-
-$infoText:                #3a87ad !default;
-$infoBackground:          #d9edf7 !default;
-$infoBorder:              darken(adjust-hue($infoBackground, -10), 7%) !default;
-
-////////////////////////////////////////////////////////////////////////
 
 *{
   @include box-sizing(border-box);

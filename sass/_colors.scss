@@ -1,39 +1,16 @@
-$knc-cream:       #F3EEE5;
-$knc-marigold:    #FBC90D;
-$knc-bright-gray: #f8f8f8;
-$knc-light-gray:  #EFEEEC;
-$knc-gray:        #766F69;
-$knc-dark-gray:   #4E4A47;
 
-// fg-[color-name]: sets foreground to color name
-// bg-[color-name]: sets background to color name
-// br-[color-name]: sets border to color name    
-@mixin makePallete($name, $color){ 
-  .fg-#{$name}{
-    color:$color !important;
-  }
-  .bg-#{$name}{
-    background-color:$color !important;
-  }
-  .br-#{$name}{
-    border:{
-      color:$color;
-    }
-  }
-}
-
-@include makePallete(knc-cream,  #F3EEE5);
-@include makePallete(knc-marigold, #FBC90D);
-@include makePallete(knc-bright-gray, #f8f8f8);
-@include makePallete(knc-light-gray, #EFEEEC);
-@include makePallete(knc-gray, #766F69);
-@include makePallete(knc-dark-gray, #4E4A47);
+@include makePallete(knc_cream,  #F3EEE5);
+@include makePallete(knc_marigold, #FBC90D);
+@include makePallete(knc_bright_gray, #f8f8f8);
+@include makePallete(knc_light_gray, #EFEEEC);
+@include makePallete(knc_gray, #766F69);
+@include makePallete(knc_dark_gray, #4E4A47);
 
 
 // layout color modifiers
 body{
-  @extend .bg-knc-light-gray;
-  @extend .fg-knc-dark-gray;
+  @extend .bg_knc_light_gray;
+  @extend .fg_knc_dark_gray;
 }
 
 .container{

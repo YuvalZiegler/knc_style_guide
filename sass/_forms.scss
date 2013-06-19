@@ -4,9 +4,9 @@ $fieldHeight: 44px;
    
   background: $background;
   color: $color;
-  @include single-transition(all, 0.2s, ease, 0);
+  @include single-transition(background, 0.2s, ease, 0);
   &:hover {
-    @include single-transition(all, 0.2s, ease, 0);
+    @include single-transition(background, 0.2s, ease, 0);
     background: darken($background, 5%);
     cursor: pointer;
   }
@@ -29,7 +29,7 @@ $fieldHeight: 44px;
   border: none;
   text-transform: uppercase;
   text-align: center;
-  width:100%;
+  width:100% default;
   letter-spacing: 2px;
   text-decoration: none !important;
   color: white !important;
@@ -60,6 +60,7 @@ form {
 
     legend {
       @include sans-font;
+      
       text-transform: uppercase;
       width:100%;
       font-weight: 700;
@@ -67,7 +68,6 @@ form {
       padding-bottom: 0.5em;
       margin-bottom: 0.5em;
       border-bottom:  $lightBorder;
-
 
     }
     button, input[type="button"],input[type="submit"]{
@@ -81,9 +81,9 @@ form {
       @include sans-font;
       font-size: 1em;
       text-transform: uppercase;
-      line-height: $fieldHeight;
-      padding-top:4px;
-      padding-right: 10px;
+      padding:15px 10px 15px 0;
+      
+      
       &.right {
         text-align: right;
       }
@@ -110,13 +110,17 @@ form {
       border: 5px $knc-light-gray solid;
       box-shadow: none;
       border-radius: 4px;
-      &.light{
+
+      .transparent  & {
         border: 5px $knc-bright-gray solid;
       }
+
+
       &:focus{
         outline-color: transparent;
 
       }
+
     }
     input[type="text"], input[type="email"], input[type="password"], textarea, select {
       background: #fff;

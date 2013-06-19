@@ -1,3 +1,6 @@
+// CONFIGURATION
+$asset_path: "../images";
+
 // Colors
 // BRAND
 $cream: #F3EEE5;
@@ -15,9 +18,7 @@ $light_blue: #deeaff;
 $light_yellow: #fffedb;
 $lightGray: #efefef;
 
-
-
-$header_background:#f3f2f0;
+$header_background:#f4f0e7; //#f3f2f0;
 $background_color: #efeeec;
 $text_color: #4e4a47;
 $textColor: #4e4a47;
@@ -27,8 +28,9 @@ $hrBorder: rgba( #ddd, 0.5);
 // borders
 $inputBorderRadius:5px;
 $lightBorder: 1px solid $lightGray;
+
 // Media Queries size:
-$iphone: 320px;
+$iphone: 480px;
 $iphone-landscape: 480px;
 $tablet: 720px;
 $small-screen:920px;

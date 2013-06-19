@@ -2,3 +2,4 @@
 .idea/
 .sass-cache/
 components/
+node_modules/

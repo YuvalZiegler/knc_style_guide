@@ -2,22 +2,22 @@
 <html lang='en'></html>
 <head>
   <meta charset='UTF-8' />
-  <title>Kid And Coe Style Guide</title>
+  <title>Kid And Coe Style Guide ***</title>
   <link href='stylesheet/application.css' rel='stylesheet' />
 </head>
 <body>
   <div id='header'>
-    <div id='ui-switch'>
-      <a href='#' id='desktop'>desktop</a>
-      <a href='#' id='small-screen'>small screen</a>
-      <a href='#' id='tablet'>tablet</a>
-      <a href='#' id='iphone'>phone</a>
+    <div class='header'>
+      <div class='logo'>
+        <img alt='logo' src='images/logo.png' />
+      </div>
     </div>
+    <div class='nav-bar' id='nav-bar'></div>
   </div>
   <div id='main'>
     <div class='section container' id='grid-system'>
       <div class='block'>
-        <h1 class='thin'>Grid</h1>
+        <h1 class='thin'>Grid Systems</h1>
         <h2>Fixed grid</h2>
       </div>
       <div class='block'>
@@ -261,14 +261,11 @@
           </em>
         </h6>
         <div class='separator'></div>
+        <div class='span-8 center'>
+          <p class='lead'>Lead paragraphs are usualy center aligned and are slightly larger than regular paragraphs</p>
+        </div>
       </div>
     </div>
-    <div class='container bg-knc-dark-gray fg-knc-bright-gray'>
-      <div class='block centered-text'>
-        <h6></h6>
-      </div>
-    </div>
-    <!-- / EXAMPLE 1 END -->
     <div class='section container' id='colors'>
       <div class='block'>
         <h1 class='thin'>
@@ -322,22 +319,22 @@
       <div class='block'>
         <div class='span-8 tablet-span-4 phone-span-2 center'>
           <div class='span-2 phone-span-1'>
-            <a class='button' href='#'>
+            <a class='button span-2' href='#'>
               button
             </a>
           </div>
           <div class='span-2 phone-span-1'>
-            <a class='button inverted' href='#'>
+            <a class='button inverted span-2' href='#'>
               inverted
             </a>
           </div>
           <div class='span-2 phone-span-1'>
-            <a class='button green' href='#'>
+            <a class='button green span-2' href='#'>
               green
             </a>
           </div>
           <div class='span-2 phone-span-1'>
-            <a class='button red' href='#'>
+            <a class='button red span-2' href='#'>
               red
             </a>
           </div>
@@ -347,22 +344,22 @@
         <h3>.short</h3>
         <div class='span-8 tablet-span-4 phone-span-2 center'>
           <div class='span-2 phone-span-1'>
-            <a class='button short' href='#'>
+            <a class='button short span-2' href='#'>
               short
             </a>
           </div>
           <div class='span-2 phone-span-1'>
-            <a class='button short inverted' href='#'>
+            <a class='button short inverted span-2' href='#'>
               inverted
             </a>
           </div>
           <div class='span-2 phone-span-1'>
-            <a class='button short green' href='#'>
+            <a class='button short green span-2' href='#'>
               green
             </a>
           </div>
           <div class='span-2 phone-span-1'>
-            <a class='button short red' href='#'>
+            <a class='button short red span-2 ' href='#'>
               red
             </a>
           </div>
@@ -373,113 +370,89 @@
       </div>
       <div class='block' id='inputs'>
         <h2>inputs</h2>
-        <h3>centered</h3>
-        <form class='span-6 tablet-span-3 center'>
-          <fieldset>
-            <legend>Legend</legend>
-            <div class='clear'>
-              <label class='span-2 right'>Label name</label>
-              <input class='span-4 last' placeholder='Type something…' type='text' />
-              <span class='span-4 note last'>Example block-level help text here.</span>
-            </div>
-            <div class='clear'>
-              <label class='span-2 right'>Label name</label>
-              <input class='span-4 last' placeholder='Type something…' type='text' />
-              <span class='span-4 note last'>Example block-level help text here.</span>
-            </div>
-            <div class='clear span-6 tablet-span-4'>
-              <button class='button span-2 pull-right' type='submit'>Submit</button>
-            </div>
-          </fieldset>
-        </form>
-        <hr />
       </div>
       <div class='block'>
-        <h3>two panes</h3>
-      </div>
-      <div class='block'>
-        <div class='span-11 tablet-span-3 center'>
-          <form class='span-5 tablet-span-4 push-tablet-span-none last'>
-            <fieldset>
-              <legend>Log In</legend>
-              <div class='clear'>
-                <label class='span-2'>Email</label>
-                <input class='span-3 last' placeholder='Type something…' type='text' />
-                <span class='span-3 note last'>Example block-level help text here.</span>
-              </div>
-              <div class='clear'>
-                <label class='span-2'>Password</label>
-                <input class='span-3 last' placeholder='Type something…' type='password' />
-                <span class='span-3 note last'>Example block-level help text here.</span>
-              </div>
-              <div class='clear span-5 tablet-span-4'>
-                <button class='button span-2 pull-right' type='submit'>Submit</button>
-              </div>
-            </fieldset>
-          </form>
-          <form class='span-5 push-span-1 tablet-span-4 push-tablet-span-none last'>
-            <fieldset>
-              <legend>Invite a Friend</legend>
-              <div class='clear'>
-                <label class='span-2'>Friend name</label>
-                <input class='span-3 last' placeholder='Type something…' type='text' />
-                <span class='span-3 note last'>Example block-level help text here.</span>
-              </div>
-              <div class='clear'>
-                <label class='span-2'>Friend email</label>
-                <input class='span-3 last' placeholder='Type something…' type='email' />
-                <span class='span-3 note last'>Example block-level help text here.</span>
-              </div>
-              <div class='clear span-5 tablet-span-4'>
-                <button class='button span-2 pull-right' type='submit'>Submit</button>
-              </div>
-            </fieldset>
-          </form>
-        </div>
-        <hr />
-      </div>
-      <div class='block'>
-        <h3>two panes fluid</h3>
+        <h3>two panes fluid sample</h3>
       </div>
       <div class='block'>
         <div class='f-span-6'>
-          <form class='f-span-3'>
-            <fieldset>
+          <form class='f-span-3 tablet-f-span-3'>
+            <fieldset class='f-span-5 center'>
               <legend>Log In</legend>
               <div class='clear'>
                 <label class='f-span-2'>Email</label>
-                <input class='f-span-3' placeholder='Type something…' type='text' />
-                <span class='f-span-3 note'>Example block-level help text here.</span>
+                <div class='f-span-4'>
+                  <input class='fluid-full' placeholder='Type something…' type='text' />
+                  <span class='fluid-full note'>Example block-level help text here.</span>
+                </div>
               </div>
               <div class='clear'>
                 <label class='f-span-2'>Password</label>
-                <input class='f-span-3' placeholder='Type something…' type='password' />
-                <span class='f-span-3 note'>Example block-level help text here.</span>
+                <div class='f-span-4'>
+                  <input class='fluid-full' placeholder='Type something…' type='password' />
+                  <span class='fluid-full note'>Example block-level help text here.</span>
+                </div>
               </div>
-              <div class='clear f-span-5'>
-                <button class='button span-3 last pull-right' type='submit'>Submit</button>
+              <div class='clear fluid-full'>
+                <div class='f-span-4 push-f-span-2 push-tablet-f-span-none'>
+                  <button class='button fluid-full' type='submit'>Submit</button>
+                </div>
               </div>
             </fieldset>
           </form>
-          <form class='f-span-3'>
-            <fieldset>
+          <form class='f-span-3 tablet-f-span-3'>
+            <fieldset class='f-span-5 center'>
               <legend>Invite a Friend</legend>
               <div class='clear'>
-                <label class='f-span-2'>Friend name</label>
-                <input class='f-span-3' placeholder='Type something…' type='text' />
-                <span class='f-span-3 note'>Example block-level help text here.</span>
+                <label class='f-span-2'>Friend's name</label>
+                <div class='f-span-4'>
+                  <input class='fluid-full' placeholder='Type something…' type='text' />
+                  <span class='fluid-full note'>Example block-level help text here.</span>
+                </div>
               </div>
               <div class='clear'>
-                <label class='f-span-2'>Friend email</label>
-                <input class='f-span-3' placeholder='Type something…' type='email' />
-                <span class='f-span-3 note'>Example block-level help text here.</span>
+                <label class='f-span-2'>Friend's email</label>
+                <div class='f-span-4'>
+                  <input class='fluid-full' placeholder='Type something…' type='email' />
+                  <span class='fluid-full note'>Example block-level help text here.</span>
+                </div>
               </div>
-              <div class='clear f-span-5'>
-                <button class='button span-3 last pull-right' type='submit'>Submit</button>
+              <div class='clear fluid-full'>
+                <div class='f-span-4 push-f-span-2 push-tablet-f-span-none'>
+                  <button class='button fluid-full' type='submit'>Submit</button>
+                </div>
               </div>
             </fieldset>
           </form>
         </div>
+      </div>
+    </div>
+    <div class='container bg-knc-dark-gray fg-knc-bright-gray'>
+      <div class='block centered-text'>
+        <h6 class='thin'>Forms in transparent containers have a lighter border</h6>
+      </div>
+    </div>
+    <div class='section container transparent'>
+      <div class='block'>
+        <form class='f-span-3 tablet-f-span-3 center'>
+          <fieldset>
+            <legend>Invite a Friend</legend>
+            <p>Invite your friends to host their property with Kid & Coe. Earn $25 in credit when they sign up.</p>
+            <div class='clear'>
+              <label class='f-span-2'>Friend name</label>
+              <input class='f-span-3' placeholder='Type something…' type='text' />
+              <span class='f-span-3 note'>Example block-level help text here.</span>
+            </div>
+            <div class='clear'>
+              <label class='f-span-2'>Friend email</label>
+              <input class='f-span-3' placeholder='Type something…' type='email' />
+              <span class='f-span-3 note'>Example block-level help text here.</span>
+            </div>
+            <div class='clear f-span-6'>
+              <button class='button f-span-3 push-f-span-2 push-tablet-f-span-none' type='submit'>Submit</button>
+            </div>
+          </fieldset>
+        </form>
       </div>
     </div>
     <div class='section container' id='tabs'>
@@ -508,14 +481,6 @@
 <script src='http://code.jquery.com/jquery-2.0.2.min.js'></script>
 <script type='text/javascript'>
   //<![CDATA[
-    var targets = {
-        "iphone": 320,
-        "tablet": 720,
-        "small-screen":920
-    }
-    $('#ui-switch').on('click', function(e){
-       e.target.id == "desktop" ?   $('body').width('100%'): $('body').width(targets[e.target.id])
-      
-    })
+    
   //]]>
 </script>

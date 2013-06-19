@@ -2,19 +2,19 @@
 %html{:lang => "en"} 
 %head 
   %meta{:charset => "UTF-8"}/ 
-  %title Kid And Coe Style Guide
-  %link{:rel => "stylesheet", :href => "stylesheet/application.css"}/ 
+  %title Kid And Coe Style Guide ***
+  %link{:rel => "stylesheet", :href => "stylesheet/application.css"}
 %body 
-  #header
-    #ui-switch
-      %a{:href=>"#", :id=>"desktop"} desktop
-      %a{:href=>"#", :id=>"small-screen"} small screen
-      %a{:href=>"#", :id=>"tablet"} tablet
-      %a{:href=>"#", :id=>"iphone"} phone
+  #header    
+    .header
+      .logo
+        %img{:src => "images/logo.png", :alt => "logo"}
+    #nav-bar.nav-bar
+
   #main
     #grid-system.section.container
       .block
-        %h1.thin Grid
+        %h1.thin Grid Systems
         %h2 Fixed grid
       .block
         .span-1.debug span-1
@@ -173,6 +173,7 @@
             blockquote
           %blockquote.span-6
             "She gonna tell me too. Hey, look at me when I'm talking to you, motherfucker. You listen: we go in there, and that nigga Winston or anybody else is in there, you the first motherfucker to get shot. You understand?"
+
     // EXAMPLE 1
     .container.bg-knc-dark-gray.fg-knc-bright-gray
       .block.centered-text
@@ -187,12 +188,9 @@
           %em
             395 adelphi st, #2l
         .separator
+        .span-8.center
+          %p.lead Lead paragraphs are usualy center aligned and are slightly larger than regular paragraphs
 
-
-    .container.bg-knc-dark-gray.fg-knc-bright-gray
-      .block.centered-text
-        %h6
-    // EXAMPLE 1 END
 
     #colors.section.container
       .block
@@ -233,117 +231,94 @@
       .block
         .span-8.tablet-span-4.phone-span-2.center
           .span-2.phone-span-1
-            %a{href:"#", class:"button"}
+            %a{href:"#", class:"button span-2"}
               button
           .span-2.phone-span-1
-            %a{href:"#", class:"button inverted"}
+            %a{href:"#", class:"button inverted span-2"}
               inverted
           .span-2.phone-span-1
-            %a{href:"#", class:"button green"}
+            %a{href:"#", class:"button green span-2"}
               green
           .span-2.phone-span-1
-            %a{href:"#", class:"button red"}
+            %a{href:"#", class:"button red span-2"}
               red
       .block
         %h3 .short
         .span-8.tablet-span-4.phone-span-2.center
           .span-2.phone-span-1
-            %a{href:"#", class:"button short"}
+            %a{href:"#", class:"button short span-2"}
               short
           .span-2.phone-span-1
-            %a{href:"#", class:"button short inverted"}
+            %a{href:"#", class:"button short inverted span-2"}
               inverted
           .span-2.phone-span-1
-            %a{href:"#", class:"button short green"}
+            %a{href:"#", class:"button short green span-2"}
               green
           .span-2.phone-span-1
-            %a{href:"#", class:"button short red"}
+            %a{href:"#", class:"button short red span-2 "}
               red
       .block
         %hr
       #inputs.block
         %h2 inputs
-        %h3 centered
-
-        %form.span-6.tablet-span-3.center
-          %fieldset
-            %legend Legend
-            .clear
-              %label.span-2.right Label name
-              %input.span-4.last{:placeholder => "Type something…", :type => "text"}
-              %span.span-4.note.last Example block-level help text here.
-            .clear
-              %label.span-2.right Label name
-              %input.span-4.last{:placeholder => "Type something…", :type => "text"}
-              %span.span-4.note.last Example block-level help text here.
-            .clear.span-6.tablet-span-4
-              %button.button.span-2.pull-right{:type => "submit"} Submit
-        %hr
       .block
-        %h3 two panes
-      .block
-        .span-11.tablet-span-3.center
-          %form.span-5.tablet-span-4.push-tablet-span-none.last
-            %fieldset
-              %legend Log In
-              .clear
-                %label.span-2 Email
-                %input.span-3.last{:placeholder => "Type something…", :type => "text"}
-                %span.span-3.note.last Example block-level help text here.
-              .clear
-                %label.span-2 Password
-                %input.span-3.last{:placeholder => "Type something…", :type => "password"}
-                %span.span-3.note.last Example block-level help text here.
-              .clear.span-5.tablet-span-4
-                %button.button.span-2.pull-right{:type => "submit"} Submit
-
-          %form.span-5.push-span-1.tablet-span-4.push-tablet-span-none.last
-            %fieldset
-              %legend Invite a Friend
-              .clear
-                %label.span-2 Friend name
-                %input.span-3.last{:placeholder => "Type something…", :type => "text"}
-                %span.span-3.note.last Example block-level help text here.
-              .clear
-                %label.span-2 Friend email
-                %input.span-3.last{:placeholder => "Type something…", :type => "email"}
-                %span.span-3.note.last Example block-level help text here.
-              .clear.span-5.tablet-span-4
-                %button.button.span-2.pull-right{:type => "submit"} Submit
-        %hr
-
-
-      .block
-        %h3 two panes fluid
+        %h3 two panes fluid sample
       .block
         .f-span-6
-          %form.f-span-3
-            %fieldset
+          %form.f-span-3.tablet-f-span-3
+            %fieldset.f-span-5.center
               %legend Log In
               .clear
                 %label.f-span-2 Email
-                %input.f-span-3{:placeholder => "Type something…", :type => "text"}
-                %span.f-span-3.note Example block-level help text here.
+                .f-span-4
+                  %input.fluid-full{:placeholder => "Type something…", :type => "text"}
+                  %span.fluid-full.note Example block-level help text here.
               .clear
                 %label.f-span-2 Password
-                %input.f-span-3{:placeholder => "Type something…", :type => "password"}
-                %span.f-span-3.note Example block-level help text here.
-              .clear.f-span-5
-                %button.button.span-3.last.pull-right{:type => "submit"} Submit
+                .f-span-4
+                  %input.fluid-full{:placeholder => "Type something…", :type => "password"}
+                  %span.fluid-full.note Example block-level help text here.
+              .clear.fluid-full
+                .f-span-4.push-f-span-2.push-tablet-f-span-none 
+                  %button.button.fluid-full{:type => "submit"} Submit
 
-          %form.f-span-3
-            %fieldset
+          %form.f-span-3.tablet-f-span-3
+            %fieldset.f-span-5.center
               %legend Invite a Friend
               .clear
-                %label.f-span-2 Friend name
-                %input.f-span-3{:placeholder => "Type something…", :type => "text"}
-                %span.f-span-3.note Example block-level help text here.
+                %label.f-span-2 Friend's name
+                .f-span-4
+                  %input.fluid-full{:placeholder => "Type something…", :type => "text"}
+                  %span.fluid-full.note Example block-level help text here.
               .clear
-                %label.f-span-2 Friend email
-                %input.f-span-3{:placeholder => "Type something…", :type => "email"}
-                %span.f-span-3.note Example block-level help text here.
-              .clear.f-span-5
-                %button.button.span-3.last.pull-right{:type => "submit"} Submit
+                %label.f-span-2 Friend's email
+                .f-span-4
+                  %input.fluid-full{:placeholder => "Type something…", :type => "email"}
+                  %span.fluid-full.note Example block-level help text here.
+              .clear.fluid-full
+                .f-span-4.push-f-span-2.push-tablet-f-span-none 
+                  %button.button.fluid-full{:type => "submit"} Submit
+
+    .container.bg-knc-dark-gray.fg-knc-bright-gray
+      .block.centered-text
+        %h6.thin Forms in transparent containers have a lighter border
+    .section.container.transparent
+      .block
+        %form.f-span-3.tablet-f-span-3.center
+          %fieldset
+            %legend Invite a Friend
+            %p Invite your friends to host their property with Kid & Coe. Earn $25 in credit when they sign up.
+            .clear
+              %label.f-span-2 Friend name
+              %input.f-span-3{:placeholder => "Type something…", :type => "text"}
+              %span.f-span-3.note Example block-level help text here.
+            .clear
+              %label.f-span-2 Friend email
+              %input.f-span-3{:placeholder => "Type something…", :type => "email"}
+              %span.f-span-3.note Example block-level help text here.
+            .clear.f-span-6
+              %button.button.f-span-3.push-f-span-2.push-tablet-f-span-none{:type => "submit"} Submit
+    
     #tabs.section.container
       .block
         %h1.thin
@@ -361,13 +336,5 @@
 
 %script{:src=>"http://code.jquery.com/jquery-2.0.2.min.js"}
 :javascript
-  var targets = {
-      "iphone": 320,
-      "tablet": 720,
-      "small-screen":920
-  }
-  $('#ui-switch').on('click', function(e){
-     e.target.id == "desktop" ?   $('body').width('100%'): $('body').width(targets[e.target.id])
-    
-  })
+  
 

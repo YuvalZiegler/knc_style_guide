@@ -180,7 +180,7 @@ abbr[title],
   // Added data-* attribute to help out our tooltip plugin, per https://github.com/twitter/bootstrap/issues/5257
 abbr[data-original-title] {
   cursor: help;
-  border-bottom: 1px dotted $lightGray;
+  border-bottom: 1px dotted $knc_light_gray;
 }
 abbr.initialism {
   font-size: 90%;
@@ -191,7 +191,7 @@ abbr.initialism {
 blockquote {
   padding: 0 0 0 15px;
   margin: 0 0 $baseLineHeight;
-  border-left: 5px solid $lightGray;
+  border-left: 5px solid $knc_light_gray;
   p {
     margin-bottom: 0;
     font-size: $baseFontSize * 1.25;
@@ -212,7 +212,7 @@ blockquote {
     float: right;
     padding-right: 15px;
     padding-left: 0;
-    border-right: 5px solid $lightGray;
+    border-right: 5px solid $knc_light_gray;
     border-left: 0;
     p,
     small {
@@ -254,7 +254,7 @@ a {
   }
   &:hover {
     text-decoration: underline;
-    color: darken($marigold,5%);
+    color: darken($knc_marigold,5%);
   }
 }
 

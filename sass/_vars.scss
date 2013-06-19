@@ -1,31 +1,32 @@
 // CONFIGURATION
 $asset_path: "../images";
+$prettycheckable_path: "../images/prettyCheckable-orange.png";
 
-
-// deprecated //////////////////////
-// Colors
-// BRAND 
+/*
+// Deprecated //////////////////////
+// BRAND
 $cream: #F3EEE5;
 $marigold: #FBC90D;
 $gray: #766F69;
 // OTHER
-$white: #fff;
+
 $red: #e45560;
-$light_red: #ffebeb;
-$dark_red: $red - #444;
-$green: #7db14c;
 $light_green: #eeffde;
 $blue: #244276;
 $light_blue: #deeaff;
 $light_yellow: #fffedb;
 $lightGray: #efefef;
-/////////////////////////////////////
-
-$knc_cream:       $cream;
-$knc_marigold:    $marigold;
+*/
+$white:           #fff;
+$green:           #7db14c;
+$red:             #e45560;
+$dark_red:        darken($red,20%);
+$light_red:       #ffebeb;
+$knc_cream:       #F3EEE5;
+$knc_marigold:    #FBC90D;
 $knc_bright_gray: #f8f8f8;
 $knc_light_gray:  #EFEEEC;
-$knc_gray:        $gray;
+$knc_gray:        #766F69;
 $knc_dark_gray:   #4E4A47;
 
 $header_background:#f4f0e7; //#f3f2f0;
@@ -37,8 +38,12 @@ $hrBorder: rgba( #ddd, 0.5);
 
 
 // borders
-$inputBorderRadius:5px;
-$lightBorder: 1px solid $lightGray;
+$input_border:                  4px $knc_light_gray solid;
+$input_border_over_transparent: 4px darken($knc_light_gray,5%) solid;
+
+$light_border: 1px solid $knc_light_gray;
+
+//$darkBorder: 1px solid $lightGray;
 
 // Media Queries size:
 $iphone: 480px;

@@ -81,7 +81,7 @@
       #fluid.block
         %h2
           Fluid Grid
-        %p a six column percentage based fluid grid
+        %p a six column percentage based fluid grid as well as a 3 column tablet grid and a two column iphone grid
         .block.f-span-6
           .f-span-1.debug .f-span-1
           .f-span-1.debug .f-span-1
@@ -211,8 +211,8 @@
           .swatch.bg_knc_marigold
           .span-2 knc_marigold
         .span-2.centered-text  
-          .swatch.bg_knc_dark-gray
-          .span-2 knc_dark-gray
+          .swatch.bg_knc_dark_gray
+          .span-2 knc_dark_gray
         .span-2.centered-text
           .swatch.bg_knc_gray
           .span-2 knc_gray
@@ -276,7 +276,7 @@
               .clear
                 %label.f-span-2 Password
                 .f-span-4
-                  %input.fluid-full{:placeholder => "Type something…", :type => "password"}
+                  %input.fluid-full.error{:placeholder => "Something's Wrong", :type => "password"}
                   %span.fluid-full.note Example block-level help text here.
               .clear.fluid-full
                 .f-span-4.push-f-span-2.push-tablet-f-span-none 
@@ -309,13 +309,23 @@
             %legend Invite a Friend
             %p Invite your friends to host their property with Kid & Coe. Earn $25 in credit when they sign up.
             .clear
-              %label.f-span-2 Friend name
+              %label.f-span-2.right name:
               %input.f-span-3{:placeholder => "Type something…", :type => "text"}
               %span.f-span-3.note Example block-level help text here.
             .clear
-              %label.f-span-2 Friend email
+              %label.f-span-2.right email:
               %input.f-span-3{:placeholder => "Type something…", :type => "email"}
               %span.f-span-3.note Example block-level help text here.
+            .clear
+              %label.f-span-2.right{:for => "select-choice"} gender:
+              %select#select-choice.f-span-3{:name => "select-choice"}
+                %option{:value => "male"} Male
+                %option{:value => "female"} Female
+                %option{:value => "robot"} Robot
+            .clear.f-span-6  
+              // needs to be in a div for positioning          
+              .f-span-3.push-f-span-2.push-tablet-f-span-none  
+                %input{ :name => "checkbox", :type => "checkbox", :value=>"yep", :id=>"checkbox", :data=>{ :label=>"I agree"}}
             .clear.f-span-6
               %button.button.f-span-3.push-f-span-2.push-tablet-f-span-none{:type => "submit"} Submit
     
@@ -335,6 +345,13 @@
   #footer
 
 %script{:src=>"http://code.jquery.com/jquery-2.0.2.min.js"}
+%script{:src=>"javascript/prettyCheckable.js"}
 :javascript
-  
+  $().ready(function(){
+      
+     $('input[type="radio"]').prettyCheckable();
+     $('input[type="checkbox"]').prettyCheckable();
+
+  });
+
 

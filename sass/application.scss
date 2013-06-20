@@ -9,10 +9,11 @@
 @include font-face("brandon-grotesque", font-files("../../fonts/Brandon_thin.woff","../../fonts/Brandon_thin.ttf","../../fonts/Brandon_thin.svg" ), "../../fonts/Brandon_thin.eot", 200 );
 @include font-face("adobe-caslon-pro", font-files("../../fonts/caslon540-webfont.woff","../../fonts/caslon540-webfont.ttf","../../fonts/caslon540-webfont.svg" ), "../../fonts/caslon540-webfont.eot" );
 ////////////////////////////////////////////////////
-
+@import "externals/font_awesome/font-awesome";
 // PARTIALS IMPORTS
 @import "vars";
 @import "mixins";
+
 /* GRID */
 @import "grid";
 /* TYPOGRAPHY */
@@ -25,6 +26,8 @@
 @import "elements";
 /* FORMS */
 @import "forms";
+/* UTILITIES */
+@import "modifiers";
 /* UTILITIES */
 @import "utilities";
 

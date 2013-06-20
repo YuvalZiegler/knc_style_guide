@@ -330,31 +330,75 @@
             .clear.f-span-6
               %button.button.f-span-3.push-f-span-2.push-tablet-f-span-none{:type => "submit"} Submit
     
-    #tabs.section.container
+    #components.section.container
       .block
         %h1.thin
           Components
-      #tabs.block
+      .block
         %h2
           Tabs
+    #tabs.section.container.transparent
+      .tabs_panel
+        .tabs
+          %a.active{:href => "#availabilities", :title =>"Availability & Rates"}
+            %span.hidden-tablet Availability &amp; Rates
+            %span.visible-tablet.hidden-phone   Avail. &amp; Rates
+            %i.icon-calendar
+          %a{:href => "#pricing", :title =>"Deposit & Fees"}
+            %span.hidden-tablet Deposits &amp; Fees
+            %span.visible-tablet.hidden-phone   Fees
+            %i.icon-money
+          %a{:href => "#neighborhood_spots", :title =>"City Scout"}
+            %span City Scout
+            %i.icon-map-marker
+          %a{:href => "#amenities", :title =>"Property Details"}
+            %span.hidden-tablet Property Details
+            %span.visible-tablet.hidden-phone Details
+            %i.icon-key
+          %a{:href => "#nuts_and_bolts", :title =>"Property Guidelines"}
+            %span.hidden-tablet Property Guidelines
+            %span.visible-tablet.hidden-phone Guidelines
+
+            %i.icon-info-sign
+        .tabs_content.container
+          #availabilities.content.block.active
+            .f-span-3
+              %h3
+                Manage your calendar
+              %p
+                As a host, you can specify when a property is available for booking. Guests are only able to book reservations during the periods you designate below. Each availability period can be set to a custom nightly rate and can also be changed at any time. Once reservations are made, those dates will be marked as unavailable on this calendar and details around the reservation will be listed below.
+            .f-span-3
+              %h3
+                Calendar goes here
+        .info-bar
+          %i.icon-hand-right
+          %span Messaging goes here!
+
+    #cal.section.container  
       .block
-        %hr
-      #tabs.block
         %h2
           Calendar
+      .block
+        %hr
+      .block
+        %h2
+          Modal
+      .block
+        %hr
+      .block
+        %h2
+          Image Slider
+    #content_blocks.section.container  
+      .block
+        %h1.thin
+          Content Blocks
 
   #footer
 
 %script{:src=>"javascript/jquery-2.0.2.min.js"}
 %script{:src=>"javascript/prettyCheckable.js"}
 %script{:src=>"javascript/jquery.dropkick-1.0.0.js"}
-:javascript
-  $().ready(function(){
-      
-     $('input[type="radio"]').prettyCheckable();
-     $('input[type="checkbox"]').prettyCheckable();
-     $('select').dropkick({startSpeed:0});
+%script{:src=>"javascript/app.js"}
 
-  });
 
 

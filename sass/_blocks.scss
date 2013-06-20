@@ -15,12 +15,14 @@
 
 }
 
-
-
 #nav-bar{
   height:44px;
   width:100%;
   background:white;
   position:relative;
   @include box-shadow(0 3px 8px rgba(black,0.05));
+}
+
+.tab_block{
+  @extend .full-width;
 }

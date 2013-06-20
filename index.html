@@ -471,24 +471,97 @@
         </form>
       </div>
     </div>
-    <div class='section container' id='tabs'>
+    <div class='section container' id='components'>
       <div class='block'>
         <h1 class='thin'>
           Components
         </h1>
       </div>
-      <div class='block' id='tabs'>
+      <div class='block'>
         <h2>
           Tabs
+        </h2>
+      </div>
+    </div>
+    <div class='section container transparent' id='tabs'>
+      <div class='tabs_panel'>
+        <div class='tabs'>
+          <a class='active' href='#availabilities' title='Availability &amp; Rates'>
+            <span class='hidden-tablet'>Availability &amp; Rates</span>
+            <span class='visible-tablet hidden-phone'>Avail. &amp; Rates</span>
+            <i class='icon-calendar'></i>
+          </a>
+          <a href='#pricing' title='Deposit &amp; Fees'>
+            <span class='hidden-tablet'>Deposits &amp; Fees</span>
+            <span class='visible-tablet hidden-phone'>Fees</span>
+            <i class='icon-money'></i>
+          </a>
+          <a href='#neighborhood_spots' title='City Scout'>
+            <span>City Scout</span>
+            <i class='icon-map-marker'></i>
+          </a>
+          <a href='#amenities' title='Property Details'>
+            <span class='hidden-tablet'>Property Details</span>
+            <span class='visible-tablet hidden-phone'>Details</span>
+            <i class='icon-key'></i>
+          </a>
+          <a href='#nuts_and_bolts' title='Property Guidelines'>
+            <span class='hidden-tablet'>Property Guidelines</span>
+            <span class='visible-tablet hidden-phone'>Guidelines</span>
+            <i class='icon-info-sign'></i>
+          </a>
+        </div>
+        <div class='tabs_content container'>
+          <div class='content block active' id='availabilities'>
+            <div class='f-span-3'>
+              <h3>
+                Manage your calendar
+              </h3>
+              <p>
+                As a host, you can specify when a property is available for booking. Guests are only able to book reservations during the periods you designate below. Each availability period can be set to a custom nightly rate and can also be changed at any time. Once reservations are made, those dates will be marked as unavailable on this calendar and details around the reservation will be listed below.
+              </p>
+            </div>
+            <div class='f-span-3'>
+              <h3>
+                Calendar goes here
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class='info-bar'>
+          <i class='icon-hand-right'></i>
+          <span>Messaging goes here!</span>
+        </div>
+      </div>
+    </div>
+    <div class='section container' id='cal'>
+      <div class='block'>
+        <h2>
+          Calendar
         </h2>
       </div>
       <div class='block'>
         <hr />
       </div>
-      <div class='block' id='tabs'>
+      <div class='block'>
         <h2>
-          Calendar
+          Modal
         </h2>
+      </div>
+      <div class='block'>
+        <hr />
+      </div>
+      <div class='block'>
+        <h2>
+          Image Slider
+        </h2>
+      </div>
+    </div>
+    <div class='section container' id='content_blocks'>
+      <div class='block'>
+        <h1 class='thin'>
+          Content Blocks
+        </h1>
       </div>
     </div>
   </div>
@@ -497,14 +570,4 @@
 <script src='javascript/jquery-2.0.2.min.js'></script>
 <script src='javascript/prettyCheckable.js'></script>
 <script src='javascript/jquery.dropkick-1.0.0.js'></script>
-<script type='text/javascript'>
-  //<![CDATA[
-    $().ready(function(){
-        
-       $('input[type="radio"]').prettyCheckable();
-       $('input[type="checkbox"]').prettyCheckable();
-       $('select').dropkick({startSpeed:0});
-    
-    });
-  //]]>
-</script>
+<script src='javascript/app.js'></script>

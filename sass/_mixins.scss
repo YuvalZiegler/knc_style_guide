@@ -143,3 +143,96 @@
     @include box-shadow(inset 0 2px 2px 0 rgba(black,0.2));
   }
 }
+
+// GRID
+@mixin fluidGrid($baseName, $columns){
+  $column_width:  100 / $columns ;
+  @for $i from 1 through $columns{
+    .#{$baseName}-#{$i}{
+      float:left;
+      width: percentage($column_width * $i /100);
+      padding:{
+        left: 5px;
+        right:5px;
+      };
+      &.center{
+        @include clearfix;
+        max-width:100%;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+      }
+    }
+    .push-#{$baseName}-none{
+      margin-left: 0 !important;
+    }
+    .push-#{$baseName}-#{$i}{
+      margin-left: percentage($column_width * $i /100);
+    }
+
+
+  }
+
+}
+
+// create spans-1 through span-...
+@mixin fixedGrid($baseName, $columns, $full_width:$full_width,$container_padding_lr:$container_padding_lr, $column_margin_r:$column_margin_r ){
+
+  $column_width: (($full_width - ($container_padding_lr * 2)) / $columns);
+
+  @for $i from 1 through $columns{
+    .push-#{$baseName}-none{
+      margin-left: 0 !important;
+    }
+    .push-#{$baseName}-#{$i}{
+      margin-left: $column_width * $i;
+    }
+  }
+  @for $i from 1 through $columns{
+    @if($i == $columns){
+      .#{$baseName}-#{$i}{
+        float:left;
+        width:100%;
+        max-width:$column_width * $i;
+        margin-right:0;
+
+        &.center{
+          @include clearfix;
+          max-width:(($column_width) * $i);
+          margin-left: auto;
+          margin-right: auto;
+          float: none;
+
+        }
+      }
+    }
+    @else {
+      .#{$baseName}-#{$i}{
+        float:left;
+        width:100%;
+        max-width: (($column_width) * $i) - $column_margin_r - 2px;
+        margin-right: $column_margin_r;
+
+        &.last {
+          margin-right: 0;
+          max-width: ($column_width) * $i -  $column_margin_r - 2px;
+        }
+
+
+        &.center{
+          @include clearfix;
+          max-width:(($column_width) * $i);
+          margin-left: auto;
+          margin-right: auto;
+          padding-left: $column_margin_r;
+          float: none;
+          & > [class*=span]:last-child{
+            margin-right: 0;
+            width:($column_width) * $i -  $column_margin_r - 2px;
+          }
+        }
+      }
+    }
+
+  }
+}

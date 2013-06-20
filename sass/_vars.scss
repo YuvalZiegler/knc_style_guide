@@ -57,6 +57,13 @@ $fieldHeight: 44px;
 // Generic Layout
 $horizontalComponentOffset:1em;
 
+
+// GRID SYSTEM VARS
+$full_width: $small_screen;
+$container_padding_lr: 40px;
+$columns: 12;
+$column_margin_r: 10px;
+////////////////////////
 *{
   @include box-sizing(border-box);
 }

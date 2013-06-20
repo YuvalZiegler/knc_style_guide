@@ -7,10 +7,15 @@ $().ready(function(){
   $('select').dropkick({startSpeed:0});
   
   // TABS
-  $('.tabs').find('a').on('click', function(e){switchTabs(e)});
+  $('.tabs').find('a').on('click', function(e){switchTabs(e);});
   function switchTabs(e){
-
-    console.log(this);
-    console.log(e);
+    e.preventDefault();
+    var $source    = $(e.currentTarget),
+        $target    = $($source.attr('href')),
+        tabContent = $target[0].parentNode;
+        $(tabContent).find('.active').removeClass('active');
+        $($source[0].parentNode).find('.active').removeClass('active');
+        $target.addClass('active');
+        $source.addClass('active');
   }
 });

@@ -450,11 +450,13 @@
             </div>
             <div class='clear'>
               <label class='f-span-2 right' for='select-choice'>gender:</label>
-              <select class='f-span-3' id='select-choice' name='select-choice'>
-                <option value='male'>Male</option>
-                <option value='female'>Female</option>
-                <option value='robot'>Robot</option>
-              </select>
+              <div class='f-span-3'>
+                <select class='f-span-3' id='select-choice' name='selecta'>
+                  <option value='male'>Male</option>
+                  <option value='female'>Female</option>
+                  <option value='robot'>Robot</option>
+                </select>
+              </div>
             </div>
             <div class='clear f-span-6'>
               <!-- / needs to be in a div for positioning -->
@@ -492,14 +494,16 @@
   </div>
   <div id='footer'></div>
 </body>
-<script src='http://code.jquery.com/jquery-2.0.2.min.js'></script>
+<script src='javascript/jquery-2.0.2.min.js'></script>
 <script src='javascript/prettyCheckable.js'></script>
+<script src='javascript/jquery.dropkick-1.0.0.js'></script>
 <script type='text/javascript'>
   //<![CDATA[
     $().ready(function(){
         
        $('input[type="radio"]').prettyCheckable();
        $('input[type="checkbox"]').prettyCheckable();
+       $('select').dropkick({startSpeed:0});
     
     });
   //]]>

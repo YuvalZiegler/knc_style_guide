@@ -184,11 +184,10 @@ form {
       }
       span.error { margin-left: 0.5em; color: $dark_red; }
     }
-}
+  }
 
-
+  // TODO: NEEDS TESTING AND STYLING
   #error-explanation {
-
     background-color: #fddfde;
     border: 1px solid #fbc7c6;
     color: #DA6666;
@@ -221,7 +220,7 @@ form {
     float: left;
     cursor: pointer;
     cursor: pointer;
-    margin: 0 5px 0 -10px;
+    margin: 0 5px 0 -9px;
   }
 
 
@@ -264,7 +263,13 @@ form {
   .prettyradio.disabled a {
     background-position: 0 -270px;
   }
+
+
 }
+
+///////////////////////////////////
+// DROP Kick
+@import "externals/dropkick";
 
 .ui-datepicker { @include serif-font; }
 

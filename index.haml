@@ -318,10 +318,11 @@
               %span.f-span-3.note Example block-level help text here.
             .clear
               %label.f-span-2.right{:for => "select-choice"} gender:
-              %select#select-choice.f-span-3{:name => "select-choice"}
-                %option{:value => "male"} Male
-                %option{:value => "female"} Female
-                %option{:value => "robot"} Robot
+              .f-span-3
+                %select#select-choice.f-span-3{:name => "selecta"}
+                  %option{:value => "male"} Male
+                  %option{:value => "female"} Female
+                  %option{:value => "robot"} Robot
             .clear.f-span-6  
               // needs to be in a div for positioning          
               .f-span-3.push-f-span-2.push-tablet-f-span-none  
@@ -344,13 +345,15 @@
 
   #footer
 
-%script{:src=>"http://code.jquery.com/jquery-2.0.2.min.js"}
+%script{:src=>"javascript/jquery-2.0.2.min.js"}
 %script{:src=>"javascript/prettyCheckable.js"}
+%script{:src=>"javascript/jquery.dropkick-1.0.0.js"}
 :javascript
   $().ready(function(){
       
      $('input[type="radio"]').prettyCheckable();
      $('input[type="checkbox"]').prettyCheckable();
+     $('select').dropkick({startSpeed:0});
 
   });
 

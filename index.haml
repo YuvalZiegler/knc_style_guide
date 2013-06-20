@@ -2,7 +2,7 @@
 %html{:lang => "en"} 
 %head 
   %meta{:charset => "UTF-8"}/ 
-  %title Kid And Coe Style Guide ***
+  %title Kid And Coe Style Guide
   %link{:rel => "stylesheet", :href => "stylesheet/application.css"}
 %body 
   #header    
@@ -276,7 +276,7 @@
               .clear
                 %label.f-span-2 Password
                 .f-span-4
-                  %input.fluid-full.error{:placeholder => "Something's Wrong", :type => "password"}
+                  %input.fluid-full.error{:placeholder => "Something Went Terribly Wrong", :type => "password"}
                   %span.fluid-full.note Example block-level help text here.
               .clear.fluid-full
                 .f-span-4.push-f-span-2.push-tablet-f-span-none 
@@ -301,7 +301,7 @@
 
     .container.bg_knc_dark_gray.fg_knc_bright_gray
       .block.centered-text
-        %h6.thin Forms in transparent containers have a lighter border
+        %h6.thin Forms inputs in transparent containers have a darker border
     .section.container.transparent
       .block
         %form.f-span-3.tablet-f-span-3.center
@@ -325,7 +325,7 @@
             .clear.f-span-6  
               // needs to be in a div for positioning          
               .f-span-3.push-f-span-2.push-tablet-f-span-none  
-                %input{ :name => "checkbox", :type => "checkbox", :value=>"yep", :id=>"checkbox", :data=>{ :label=>"I agree"}}
+                %input{ :name => "checkbox", :type => "checkbox", :value=>"yep", :id=>"checkbox", :data=>{ :label=>"Yes, I agree"}}
             .clear.f-span-6
               %button.button.f-span-3.push-f-span-2.push-tablet-f-span-none{:type => "submit"} Submit
     

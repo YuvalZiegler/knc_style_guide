@@ -64,10 +64,13 @@ form {
       font-weight: 700;
       letter-spacing: 0.02em;
       @include sans-font;
-      font-size: 1em;
+      font-size: 0.95em;
+
       text-transform: uppercase;
-      padding:15px 10px 15px 0;
-      
+      padding:16px 10px 16px 0;
+      overflow:hidden;
+      line-height:1em;
+      text-overflow:ellipsis;
       
       &.right {
         text-align: right;
@@ -119,12 +122,14 @@ form {
       padding: 8px;
       margin-top: 0.5em;
 
+      @include placeholder(rgba($knc_gray,0.5));
       
-      &.placeholder { color: $knc_gray;; }
       &.error { 
         @include transition(background 0.5s);
         border-color: $red; 
-        background-color: $light_red;}
+        background-color: $light_red;
+        @include placeholder(rgba($red,0.8));
+      }
       &.percentage { 
         background: #fff asset-url("percentage.png", image) no-repeat 95% 50%; width: 50px; 
         
@@ -132,6 +137,7 @@ form {
       &.money { background: #fff asset-url("icons/dollar-sign.png", image) no-repeat 5px 50%; width: 50px; padding-left: 20px; }
       &:focus { 
         @include transition(background 0.5s);
+        @include placeholder(rgba($knc_gray,0));
         background: $knc_bright_gray; 
         border-color: $knc_gray; 
       }
@@ -143,11 +149,16 @@ form {
     }
 
     textarea { height: 60px; }
-
+    // applies only when no js
     select { 
       line-height: 1em;
       height:$fieldHeight - 10;
-      margin-top: 11px;
+      margin-top: 6px;
+      border:$input_border;
+      padding-top:5px;
+      .transparent & {
+        border: $input_border_over_transparent;
+      }
     }
 
     .note {
@@ -192,6 +203,7 @@ form {
     }
   }
 
+  ///////////////////////////////////
   // PRETTY-CHECKABLE
   .prettycheckbox,
   .prettyradio {
@@ -209,7 +221,7 @@ form {
     float: left;
     cursor: pointer;
     cursor: pointer;
-    margin: 0 10px 0 -10px;
+    margin: 0 5px 0 -10px;
   }
 
 
@@ -232,11 +244,9 @@ form {
     display: block;
     float: left;
     cursor: pointer;
-    font-size: 0.8em;
-    color: $knc_gray;
+    font-size: 0.9em;
     line-height: 1.4em;
-    padding-top: 7px;
-
+    padding-top: 5px;
 
   }
 

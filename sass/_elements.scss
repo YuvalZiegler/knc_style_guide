@@ -1,20 +1,3 @@
-.logo{ 
-  img{
-    width:100%;
-    height:auto;
-  }
-  #header &{
-    width: 131px;
-    height: 100px; 
-    margin:0 auto;   
-    @media screen and (max-width: $tablet) {
-        width : 65.5px;
-        height: 50px;
-        float:left;
-    }  
-  }
-
-}
 
 .separator {
   width: 40px;
@@ -25,8 +8,7 @@
 
 // TABS PANEL
 .tabs_panel{
-  
-  
+   
   .tabs{
     @include clearfix;
     @include sans-font;

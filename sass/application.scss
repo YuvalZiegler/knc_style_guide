@@ -3,8 +3,7 @@
 @import "compass/css3";
 @import "compass/utilities/general/clearfix";
 @import "compass/typography/vertical_rhythm";
-
-// DEV ONLY LOCAL FONTS
+// FOR DEV: ONLY LOCAL FONTS
 @include font-face("brandon-grotesque", font-files("../../fonts/Brandon_bld.woff","../../fonts/Brandon_bld.ttf","../../fonts/Brandon_bld.svg" ), "../../fonts/Brandon_bld.eot", 700 );
 @include font-face("brandon-grotesque", font-files("../../fonts/Brandon_thin.woff","../../fonts/Brandon_thin.ttf","../../fonts/Brandon_thin.svg" ), "../../fonts/Brandon_thin.eot", 200 );
 @include font-face("adobe-caslon-pro", font-files("../../fonts/caslon540-webfont.woff","../../fonts/caslon540-webfont.ttf","../../fonts/caslon540-webfont.svg" ), "../../fonts/caslon540-webfont.eot" );
@@ -31,7 +30,7 @@
 @import "modifiers";
 /* UTILITIES */
 @import "utilities";
-
+//////////////////////////////////////////////////////
 
 // STYLE GUIDE ONLY - REMOVE FROM PRODUCTION:
 .swatch{

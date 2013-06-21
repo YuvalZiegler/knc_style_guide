@@ -3169,14 +3169,14 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
 }
 
 /* line 151, ../sass/_mixins.scss */
-.f-span-6 {
+.f-span-6, #header .button_group a {
   float: left;
   width: 100%;
   padding-left: 5px;
   padding-right: 5px;
 }
 /* line 158, ../sass/_mixins.scss */
-.f-span-6.center {
+.f-span-6.center, #header .button_group a.center {
   *zoom: 1;
   max-width: 100%;
   margin-left: auto;
@@ -3184,13 +3184,13 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
   float: none;
 }
 /* line 8, ../sass/_mixins.scss */
-.f-span-6.center:before, .f-span-6.center:after {
+.f-span-6.center:before, #header .button_group a.center:before, .f-span-6.center:after, #header .button_group a.center:after {
   display: table;
   content: "";
   line-height: 0;
 }
 /* line 15, ../sass/_mixins.scss */
-.f-span-6.center:after {
+.f-span-6.center:after, #header .button_group a.center:after {
   clear: both;
 }
 
@@ -3211,7 +3211,7 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
   }
 
   /* line 35, ../sass/_grid.scss */
-  .f-span-4, .f-span-5, .f-span-6 {
+  .f-span-4, .f-span-5, .f-span-6, #header .button_group a {
     width: 100%;
   }
 
@@ -4803,20 +4803,59 @@ a:hover {
   background: #f4f0e7;
   margin: 0;
 }
-/* line 7, ../sass/_blocks.scss */
+/* line 8, ../sass/_blocks.scss */
 #header .header {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 @media screen and (max-width: 720px) {
-  /* line 7, ../sass/_blocks.scss */
+  /* line 8, ../sass/_blocks.scss */
   #header .header {
-    padding-bottom: 65px;
+    padding-bottom: 75px;
     padding-left: 10px;
   }
 }
+/* line 19, ../sass/_blocks.scss */
+#header .logo {
+  width: 131px;
+  height: 100px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 720px) {
+  /* line 19, ../sass/_blocks.scss */
+  #header .logo {
+    width: 65.5px;
+    height: 50px;
+    float: left;
+  }
+}
+/* line 30, ../sass/_blocks.scss */
+#header .logo img {
+  width: 100%;
+  height: auto;
+}
+/* line 36, ../sass/_blocks.scss */
+#header .button_group {
+  font-family: "brandon-grotesque", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 0.7em;
+  text-align: center;
+  position: absolute;
+  top: 11px;
+  right: 0;
+  width: 170px;
+  text-transform: uppercase;
+}
+/* line 50, ../sass/_blocks.scss */
+#header .button_group a {
+  letter-spacing: 1px;
+  margin: 5px 0;
+  background: #fbf7f4;
+  text-decoration: none;
+}
 
-/* line 18, ../sass/_blocks.scss */
+/* line 60, ../sass/_blocks.scss */
 #nav-bar {
   height: 44px;
   width: 100%;
@@ -4829,26 +4868,6 @@ a:hover {
 
 /* ELEMENTS */
 /* line 2, ../sass/_elements.scss */
-.logo img {
-  width: 100%;
-  height: auto;
-}
-/* line 6, ../sass/_elements.scss */
-#header .logo {
-  width: 131px;
-  height: 100px;
-  margin: 0 auto;
-}
-@media screen and (max-width: 720px) {
-  /* line 6, ../sass/_elements.scss */
-  #header .logo {
-    width: 65.5px;
-    height: 50px;
-    float: left;
-  }
-}
-
-/* line 19, ../sass/_elements.scss */
 .separator {
   width: 40px;
   height: 5px;
@@ -4856,7 +4875,7 @@ a:hover {
   margin: 2em auto;
 }
 
-/* line 30, ../sass/_elements.scss */
+/* line 12, ../sass/_elements.scss */
 .tabs_panel .tabs {
   *zoom: 1;
   font-family: "brandon-grotesque", "Helvetica Neue", Arial, sans-serif;
@@ -4874,7 +4893,7 @@ a:hover {
 .tabs_panel .tabs:after {
   clear: both;
 }
-/* line 37, ../sass/_elements.scss */
+/* line 19, ../sass/_elements.scss */
 .tabs_panel .tabs a {
   display: block;
   float: left;
@@ -4890,7 +4909,7 @@ a:hover {
   -moz-box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.05) inset;
   box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.05) inset;
 }
-/* line 46, ../sass/_elements.scss */
+/* line 28, ../sass/_elements.scss */
 .tabs_panel .tabs a:hover {
   -webkit-transition: background color, 0.5s;
   -moz-transition: background color, 0.5s;
@@ -4898,59 +4917,59 @@ a:hover {
   transition: background, color, 0.5s;
   background: white;
 }
-/* line 51, ../sass/_elements.scss */
+/* line 33, ../sass/_elements.scss */
 .tabs_panel .tabs a.active {
   background: white;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
 }
-/* line 57, ../sass/_elements.scss */
+/* line 39, ../sass/_elements.scss */
 .tabs_panel .tabs a span {
   margin-right: 10px;
 }
 @media screen and (max-width: 720px) {
-  /* line 37, ../sass/_elements.scss */
+  /* line 19, ../sass/_elements.scss */
   .tabs_panel .tabs a {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
   }
-  /* line 70, ../sass/_elements.scss */
+  /* line 52, ../sass/_elements.scss */
   .tabs_panel .tabs a i {
     display: none;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 37, ../sass/_elements.scss */
+  /* line 19, ../sass/_elements.scss */
   .tabs_panel .tabs a {
     width: auto;
   }
-  /* line 76, ../sass/_elements.scss */
+  /* line 58, ../sass/_elements.scss */
   .tabs_panel .tabs a span {
     display: none;
   }
-  /* line 77, ../sass/_elements.scss */
+  /* line 59, ../sass/_elements.scss */
   .tabs_panel .tabs a i {
     display: block;
     font-size: 1.6em;
     padding: 3px;
   }
 }
-/* line 89, ../sass/_elements.scss */
+/* line 71, ../sass/_elements.scss */
 .tabs_panel .tabs_content {
   padding-top: 1em;
   padding-bottom: 1em;
 }
-/* line 92, ../sass/_elements.scss */
+/* line 74, ../sass/_elements.scss */
 .tabs_panel .tabs_content .content {
   display: none;
 }
-/* line 94, ../sass/_elements.scss */
+/* line 76, ../sass/_elements.scss */
 .tabs_panel .tabs_content .content.active {
   display: block;
 }
-/* line 100, ../sass/_elements.scss */
+/* line 82, ../sass/_elements.scss */
 .tabs_panel .info-bar {
   background: #e5e5e5;
   padding: 5px 10px;
@@ -5636,6 +5655,17 @@ table.fc-border-separate {
 /* line 622, ../sass/externals/_fullcalendar.scss */
 .fc-event.booked {
   background-color: #fbc90d;
+}
+
+/* line 628, ../sass/externals/_fullcalendar.scss */
+.legend {
+  margin: 10px 0 0;
+}
+/* line 630, ../sass/externals/_fullcalendar.scss */
+.legend span {
+  margin-right: 10px;
+  display: block;
+  float: left;
 }
 
 /* FORMS */
@@ -6419,7 +6449,7 @@ form .prettyradio.disabled a {
     display: none !important;
   }
 }
-/* line 37, ../sass/application.scss */
+/* line 36, ../sass/application.scss */
 .swatch {
   width: 50px;
   padding: 24px 0;
@@ -6427,7 +6457,7 @@ form .prettyradio.disabled a {
   margin: 1em auto;
 }
 
-/* line 44, ../sass/application.scss */
+/* line 43, ../sass/application.scss */
 #ui-switch {
   position: fixed;
   right: 10px;
@@ -6435,7 +6465,7 @@ form .prettyradio.disabled a {
   padding: 10px;
   background: rgba(239, 239, 239, 0.5);
 }
-/* line 50, ../sass/application.scss */
+/* line 49, ../sass/application.scss */
 #ui-switch a {
   display: block;
   float: right;

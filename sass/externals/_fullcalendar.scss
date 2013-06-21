@@ -622,6 +622,18 @@ table.fc-border-separate {
 	&.booked{
 	  
 	  background-color: $knc_marigold;
-		
 	}	
+}
+
+.legend{
+	margin:10px 0 0;
+	span{
+		margin-right:10px;
+		display:block;
+		float:left;
+		&:before{
+			
+		}
+	}
+
 }

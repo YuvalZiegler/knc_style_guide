@@ -6,9 +6,19 @@
   %link{:rel => "stylesheet", :href => "stylesheet/application.css"}
 %body 
   #header    
-    .header
+    .header.container.transparent
       .logo
         %img{:src => "images/logo.png", :alt => "logo"}
+      %ul.button_group.hidden-tablet 
+        %li
+          %a{:href => "#" } login / signup
+        %li  
+          %a{:href => "#" } contact us
+        %li  
+          %a{:href => "#" } +1.212.905.6065
+        %li  
+          %a{:href => "#" } list a property
+
     #nav-bar.nav-bar
 
   #main
@@ -371,7 +381,10 @@
                 As a host, you can specify when a property is available for booking. Guests are only able to book reservations during the periods you designate below. Each availability period can be set to a custom nightly rate and can also be changed at any time. Once reservations are made, those dates will be marked as unavailable on this calendar and details around the reservation will be listed below.
             .f-span-3
               .small_calendar_block
-                Legend goes here
+                .legend
+                  %span.booked booked
+                  %span.available available
+                  %span.tentative tentative
           #pricing.content.block
             .f-span-6
               %h3

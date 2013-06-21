@@ -13,7 +13,6 @@
 // PARTIALS IMPORTS
 @import "vars";
 @import "mixins";
-
 /* GRID */
 @import "grid";
 /* TYPOGRAPHY */
@@ -24,6 +23,8 @@
 @import "blocks";
 /* ELEMENTS */
 @import "elements";
+/* FULLCALENDAR */
+@import "externals/fullcalendar";
 /* FORMS */
 @import "forms";
 /* UTILITIES */

@@ -8,6 +8,7 @@
 .fc {
 	direction: ltr;
 	text-align: left;
+	//margin-top:8px;
 	}
 	
 .fc table {
@@ -20,11 +21,16 @@ html .fc,
 	font-size: 1em;
 	}
 	
-.fc td,
-.fc th {
+.fc td {
 	padding: 0;
 	vertical-align: top;
-	}
+}
+
+
+.fc th {
+	padding: 0;
+	vertical-align: middle;
+}
 
 
 
@@ -33,6 +39,8 @@ html .fc,
 
 .fc-header td {
 	white-space: nowrap;
+	background:$knc_marigold;
+	vertical-align:middle;
 	}
 
 .fc-header-left {
@@ -55,8 +63,11 @@ html .fc,
 	}
 	
 .fc-header-title h2 {
-	margin-top: 0;
+	@extend h3;
+	font-weight:200;
+	color:$white;
 	white-space: nowrap;
+
 	}
 	
 .fc .fc-header-space {
@@ -64,14 +75,14 @@ html .fc,
 	}
 	
 .fc-header .fc-button {
-	margin-bottom: 1em;
-	vertical-align: top;
+	
+	vertical-align: middle;
 	}
 	
 /* buttons edges butting together */
 
 .fc-header .fc-button {
-	margin-right: -1px;
+	margin-right: 3px;
 	}
 	
 .fc-header .fc-corner-right,  /* non-theme */
@@ -124,9 +135,9 @@ html .fc,
 	}
 	
 .fc-cell-overlay { /* semi-transparent rectangle while dragging */
-	background: #bce8f1;
-	opacity: .3;
-	filter: alpha(opacity=30); /* for IE */
+	background: lighten($knc_marigold,20%);//#bce8f1;
+	opacity: .5;
+	filter: alpha(opacity=50); /* for IE */
 	}
 	
 
@@ -150,13 +161,13 @@ html .fc,
 	}
 
 .fc-state-default.fc-corner-left { /* non-theme */
-	border-top-left-radius: 4px;
-	border-bottom-left-radius: 4px;
+	//border-top-left-radius: 4px;
+	//border-bottom-left-radius: 4px;
 	}
 
 .fc-state-default.fc-corner-right { /* non-theme */
-	border-top-right-radius: 4px;
-	border-bottom-right-radius: 4px;
+	//border-top-right-radius: 4px;
+	//border-bottom-right-radius: 4px;
 	}
 
 /*
@@ -175,7 +186,8 @@ html .fc,
 .fc-button-next .fc-text-arrow { /* for &lsaquo; &rsaquo; */
 	font-weight: bold;
 	}
-	
+
+
 /* icon (for jquery ui) */
 	
 .fc-button .fc-icon-wrap {
@@ -198,44 +210,33 @@ html .fc,
 */
 
 .fc-state-default {
-	background-color: #f5f5f5;
-	background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
-	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
-	background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
-	background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
-	background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
-	background-repeat: repeat-x;
-	border-color: #e6e6e6 #e6e6e6 #bfbfbf;
-	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-	color: #333;
-	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
-	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	@include sans-font;
+	font-weight:900;
+	border:none;
+	background:$knc_marigold;
+	color:$white;
+	text-transform:uppercase;
 	}
 
 .fc-state-hover,
 .fc-state-down,
 .fc-state-active,
 .fc-state-disabled {
-	color: #333333;
-	background-color: #e6e6e6;
+	color: $white;
+	//background-color: darken($knc_marigold,3%);
 	}
 
 .fc-state-hover {
 	color: #333333;
 	text-decoration: none;
-	background-position: 0 -15px;
-	-webkit-transition: background-position 0.1s linear;
-	   -moz-transition: background-position 0.1s linear;
-	     -o-transition: background-position 0.1s linear;
-	        transition: background-position 0.1s linear;
+
 	}
 
 .fc-state-down,
 .fc-state-active {
-	background-color: #cccccc;
+	//background-color: darken($knc_marigold,10%);
 	background-image: none;
 	outline: 0;
-	box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
 	}
 
 .fc-state-disabled {
@@ -252,7 +253,7 @@ html .fc,
 ------------------------------------------------------------------------*/
 	 
 .fc-event {
-	border: 1px solid #3a87ad; /* default BORDER color */
+	// border: 1px solid #3a87ad; /* default BORDER color */
 	background-color: #3a87ad; /* default BACKGROUND color */
 	color: #fff;               /* default TEXT color */
 	font-size: .85em;
@@ -276,6 +277,7 @@ a.fc-event,
 	width: 100%;
 	height: 100%;
 	overflow: hidden;
+	padding-left:10px;
 	}
 	
 .fc-event-time,
@@ -575,5 +577,51 @@ table.fc-border-separate {
 .fc-agenda .ui-resizable-resizing { /* TODO: better selector */
 	_overflow: hidden;
 	}
+
+
+.fc-header{
+	//margin-bottom:2px;
+}
+/// DAY HEADER
+
+.fc-day-header{
+	@include sans-font;
+	background: $knc_dark_gray;
+	color:$white;
+	text-transform: uppercase;
+	border:none;	
 	
-	
+	@media screen and (max-width:$iphone) {
+		font-size:0.8em;
+	}
+
+}
+.fc-view-month{ 
+
+	tbody{
+
+		background:$knc_light_gray;
+		.transparent &{
+			background:$knc_bright_gray;
+		}
+	}
+}
+.fc-content thead .fc-widget-header{
+	padding-top: 16px;
+	padding-bottom: 10px;
+
+}	
+// EVENT COLOR MODIFIERS
+.fc-event{
+	&.tentative{
+		background-color:$knc_dark_gray;
+	}
+	&.available{
+		background-color:$green;
+	}	
+	&.booked{
+	  
+	  background-color: $knc_marigold;
+		
+	}	
+}

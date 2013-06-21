@@ -1,3 +1,55 @@
+// SAMPLE CALENDAR DATA
+var date = new Date();
+var d = date.getDate();
+var m = date.getMonth();
+var y = date.getFullYear();
+  
+var dates = [
+    {
+      title: 'Tentative',
+      start: new Date(y, m, 1),
+      className: 'tentative'
+    },
+    {
+      title: 'Long Tentative Event',
+      start: new Date(y, m, d-5),
+      end: new Date(y, m, d-2),
+      className: 'tentative'
+    },
+    {
+      id: 999,
+      title: 'Available',
+      start: new Date(y, m, d-11),
+      allDay: true,
+      className: 'available'
+    },
+    {
+      id: 999,
+      title: 'Available',
+      start: new Date(y, m, d+3),
+      allDay: true,
+      className: 'available'
+    },
+    
+    {
+      title: 'Booked',
+      start: new Date(y, m, d, 13, 0),
+      end: new Date(y, m, d+2, 12, 0),
+      allDay: false,
+      className: 'booked'
+    },
+ 
+    {
+      title: 'With Link',
+      start: new Date(y, m, 28),
+      end: new Date(y, m, 29),
+      url: 'http://google.com/',
+      className: 'booked'
+    }
+];
+
+////////////////////////////////////////////////////////////
+
 $().ready(function(){
   
   // CHECKBOXES AND RADIO BUTTONS 
@@ -18,4 +70,12 @@ $().ready(function(){
         $target.addClass('active');
         $source.addClass('active');
   }
+
+  // CALENDAR
+  var smallCalendarConfig  = { events:dates, editable:false, selectable:false,  titleFormat: { month: 'MMM yyyy'}};
+  var fullCalendarConfig   = { events:dates, editable:true, selectable:true  };
+  var Reservations      = new ReservationsView({el:$('.calendar_block')      , model:new ReservationsModel({config:fullCalendarConfig})});
+  var ReservationsSmall = new ReservationsView({el:$('.small_calendar_block'), model:new ReservationsModel({config:smallCalendarConfig})});
+  Reservations.render();
+  ReservationsSmall.render();
 });

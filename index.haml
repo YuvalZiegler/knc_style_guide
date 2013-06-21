@@ -319,7 +319,7 @@
             .clear
               %label.f-span-2.right{:for => "select-choice"} gender:
               .f-span-3
-                %select#select-choice.f-span-3{:name => "selecta"}
+                %select#select-choice.f-span-3{:name => "selecta", :tabindex =>"9" }
                   %option{:value => "male"} Male
                   %option{:value => "female"} Female
                   %option{:value => "robot"} Robot
@@ -370,8 +370,8 @@
               %p
                 As a host, you can specify when a property is available for booking. Guests are only able to book reservations during the periods you designate below. Each availability period can be set to a custom nightly rate and can also be changed at any time. Once reservations are made, those dates will be marked as unavailable on this calendar and details around the reservation will be listed below.
             .f-span-3
-              %h3
-                Calendar goes here
+              .small_calendar_block
+                Legend goes here
           #pricing.content.block
             .f-span-6
               %h3
@@ -404,6 +404,10 @@
       .block.centered-text
         %h6.thin
           Calendar
+    .container.transparent.clearfix
+      .calendar_block.block.f-span-6
+      
+    
     .container.bg_knc_dark_gray.fg_knc_bright_gray
       .block.centered-text
         %h6.thin
@@ -422,9 +426,16 @@
 
   #footer
 
-%script{:src=>"javascript/jquery-2.0.2.min.js"}
-%script{:src=>"javascript/prettyCheckable.js"}
-%script{:src=>"javascript/jquery.dropkick-1.0.0.js"}
+// LIB
+%script{:src=>"javascript/libs/jquery-2.0.2.min.js"}
+%script{:src=>"javascript/libs/jquery-ui-1.10.3.custom.js"}
+%script{:src=>"javascript/libs/lodash.min.js"}
+%script{:src=>"javascript/libs/backbone-min.js"}
+%script{:src=>"javascript/libs/prettyCheckable.js"}
+%script{:src=>"javascript/libs/jquery.dropkick-1.0.0.js"}
+%script{:src=>"javascript/libs/fullcalendar/fullcalendar.js"}
+// APP
+%script{:src=>"javascript/views/reservations.js"}
 %script{:src=>"javascript/app.js"}
 
 

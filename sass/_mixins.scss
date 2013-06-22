@@ -140,7 +140,7 @@
   }
 
   &:active {
-    @include box-shadow(inset 0 2px 2px 0 rgba(black,0.2));
+    @include box-shadow(inset 0 0 4px 0 rgba(black,0.2));
   }
 }
 
@@ -235,4 +235,14 @@
     }
 
   }
+}
+
+// TYPOGRAPHY
+
+@mixin serif-font {
+  font-family: $serifFontFamily;
+}
+
+@mixin sans-font {
+  font-family: $sansFontFamily;
 }

@@ -12,26 +12,33 @@
 // PARTIALS IMPORTS
 @import "vars";
 @import "mixins";
-/* GRID */
-@import "grid";
-/* TYPOGRAPHY */
-@import "typography";
-/* COLORS */
-@import "colors";
-/* BLOCKS */
-@import "blocks";
-/* ELEMENTS */
-@import "elements";
-/* FULLCALENDAR */
-@import "externals/fullcalendar";
-/* FORMS */
-@import "forms";
-/* UTILITIES */
-@import "modifiers";
-/* UTILITIES */
-@import "utilities";
+
+// TEMPORARY NAMESPACING
+#v2{
+  /* GRID */
+  @import "grid";
+  /* TYPOGRAPHY */
+  @import "typography";
+  /* COLORS */
+  @import "colors";
+  /* BLOCKS */ 
+  @import "blocks";
+  /* ELEMENTS */
+  @import "elements";
+  /* FORMS */
+  @import "forms";
+  /* MODIFIERS */
+  @import "modifiers";
+  /* UTILITIES */
+  @import "utilities";
+}
 //////////////////////////////////////////////////////
 
+
+body#v2{
+    background: $knc_light_gray;
+    color: $knc_dark_gray;
+}
 // STYLE GUIDE ONLY - REMOVE FROM PRODUCTION:
 .swatch{
   width:50px;
@@ -40,15 +47,4 @@
   margin:1em auto;
   
 }
-#ui-switch{
-  position:fixed;
-  right:10px;
-  top:10px;
-  padding:10px;
-  background: rgba(#efefef,0.5);
-  a {
-    display:block;
-    float:right;
-    clear:both;
-  }
-}
+

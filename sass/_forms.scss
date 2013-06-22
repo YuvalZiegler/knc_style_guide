@@ -39,7 +39,7 @@ form {
 
   fieldset {
     clear: both;
-    margin-bottom: 2em;
+  
 
     legend {
       @include sans-font;
@@ -160,7 +160,18 @@ form {
         border: $input_border_over_transparent;
       }
     }
-
+    .input-append{
+      position:relative;
+      i{
+         position: absolute;
+         top: 10px;
+         right: 4px;
+         background: $knc_light_gray;
+         width: 30px;
+         height: 29px;
+         line-height: 29px;
+      }
+    }
     .note {
       float: left;
       font-size: 0.8em;
@@ -266,6 +277,8 @@ form {
 
 
 }
+
+
 
 ///////////////////////////////////
 // DROP Kick

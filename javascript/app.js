@@ -78,4 +78,6 @@ $().ready(function(){
   var ReservationsSmall = new ReservationsView({el:$('.small_calendar_block'), model:new ReservationsModel({config:smallCalendarConfig})});
   Reservations.render();
   ReservationsSmall.render();
+
+  
 });

@@ -37,8 +37,7 @@
       }
 
       span{
-          margin-right:10px;
-          
+          margin-right:10px;     
       }
 
 
@@ -84,4 +83,29 @@
     padding:5px 10px;
 
   }
+}
+
+/* FULLCALENDAR */
+@import "externals/fullcalendar";
+
+/* MODAL */
+.modal {
+  padding:1em;
+  background-color: $knc_bright_gray;
+  //background: url(#{$asset_path}/stamp.png);
+  //background-position: -150px 150%;
+  //background-repeat: no-repeat;
+  border:5px solid $knc_marigold;
+  
+  h3{
+    padding-bottom:0.5em;
+    border-bottom: 1px solid $white;
+
+  }
+  p {
+     font-size:0.9em;
+     line-height:1.4em; 
+  }
+  
+
 }

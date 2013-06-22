@@ -1,455 +1,485 @@
 <!doctype html>
 %html{:lang => "en"} 
-%head 
-  %meta{:charset => "UTF-8"}/ 
-  %title Kid And Coe Style Guide
-  %link{:rel => "stylesheet", :href => "stylesheet/application.css"}
-%body 
-  #header    
-    .header.container.transparent
-      .logo
-        %img{:src => "images/logo.png", :alt => "logo"}
-      %ul.button_group.hidden-tablet 
-        %li
-          %a{:href => "#" } login / signup
-        %li  
-          %a{:href => "#" } contact us
-        %li  
-          %a{:href => "#" } +1.212.905.6065
-        %li  
-          %a{:href => "#" } list a property
+  %head 
+    %meta{:charset => "UTF-8"}/ 
+    %title Kid And Coe Style Guide
+    %link{:rel => "stylesheet", :href => "stylesheet/application.css"}
 
-    #nav-bar.nav-bar
-
-  #main
-    #grid-system.section.container
-      .block
-        %h1.thin Grid Systems
-        %h2 Fixed grid
-      .block
-        .span-1.debug span-1
-        .span-1.debug span-1
-        .span-1.debug span-1
-        .span-1.debug span-1
-        .span-1.debug span-1
-        .span-1.debug span-1
-        .span-1.debug span-1
-        .span-1.debug span-1
-        .span-1.debug span-1
-        .span-1.debug span-1
-        .span-1.debug span-1
-        .span-1.debug.last span-1
-      .block
-        .span-2.debug span-2
-        .span-2.debug span-2
-        .span-2.debug span-2
-        .span-2.debug span-2
-        .span-2.debug span-2
-        .span-2.debug.last span-2
-      .block
-        .span-3.debug span-3
-        .span-3.debug span-3
-        .span-3.debug span-3
-        .span-3.debug.last span-3
-      .block
-        .span-4.debug span-4
-        .span-4.debug span-4
-        .span-4.debug.last span-4
-      .block
-        .span-5.debug span-7
-        .span-7.debug.last span-5
-      .block
-        .span-6.debug span-6
-        .span-6.debug.last span-6
-      .block
-        .span-8.debug span-8
-        .span-4.debug.last span-4
-      .block
-        .span-9.debug span-9
-        .span-3.debug.last span-3
-      .block
-        .span-10.debug span-10
-        .span-2.debug.last span-2
-      .block
-        .span-11.debug span-11
-        .span-1.debug.last span 1
-      .block
-        .span-12.debug span-12
-
-      .block
-        %h5.span-12
-          12 column grid <em>.span-1 [...] .span-12</em> within a <em>.block</em> class
-        %ul 
+  %body#v2
+    #header    
+      .header.container.transparent
+        .logo
+          %img{:src => "images/logo.png", :alt => "logo"}
+        %ul.button_group.hidden-tablet 
           %li
-            Add <em>tablet-span-1 [...] tablet-span-6</em> for a 6 column tablet grid and  <em>phone-span-1</em> for a two column mobile grid
-          %li
-            Use <em>.push-[span:string]-[columns:int]</em> to push a column right
-          %li
-            Add <em>.center</em> to center a span
-          %li
-            Add <em>.last</em> to remove a spans right margin  
-      #fluid.block
-        %h2
-          Fluid Grid
-        %p a six column percentage based fluid grid as well as a 3 column tablet grid and a two column iphone grid
-        .block.f-span-6
-          .f-span-1.debug .f-span-1
-          .f-span-1.debug .f-span-1
-          .f-span-1.debug .f-span-1
-          .f-span-1.debug .f-span-1
-          .f-span-1.debug .f-span-1
-          .f-span-1.debug .f-span-1
-        .block.f-span-6
-          .f-span-2.debug .f-span-2
-          .f-span-2.debug .f-span-2
-          .f-span-2.debug .f-span-2
-        .block.f-span-6
-          .f-span-3.debug .f-span-3
-          .f-span-3.debug .f-span-3
-        .block.f-span-6
-          .f-span-4.debug .f-span-4
-          .f-span-2.debug .f-span-2
-        .block.f-span-6
-          .f-span-5.debug .f-span-5
-          .f-span-1.debug .f-span-1
-        .block.f-span-6
-          .f-span-6.debug .f-span-6
+            %a{:href => "#" } login / signup
+          %li  
+            %a{:href => "#" } contact us
+          %li  
+            %a{:href => "#" } +1.212.905.6065
+          %li  
+            %a{:href => "#" } list a property
 
-    #typography.section.container
-      .block
-        %h1.thin Typography
-      .block  
-        %h1.span-2
-          h1
-        %h1.thin.span-3
-          \.thin
-        %h1.serif.span-3
-          \.serif
-        %h1.serif.thin.span-4.last
-          \.serif.thin
-      .block  
-        %h2.span-2
-          h2
-        %h2.thin.span-3
-          \.thin
-        %h2.serif.span-3
-          \.serif
-        %h2.serif.thin.span-4.last
-          \.serif.thin
-      .block  
-        %h3.span-2
-          h3
-        %h3.thin.span-3
-          \.thin
-        %h3.serif.span-3
-          \.serif
-        %h3.serif.thin.span-4.last
-          \.serif.thin
-      .block  
-        %h4.span-2
-          h4
-        %h4.thin.span-3
-          \.thin
-        %h4.serif.span-3
-          \.serif
-        %h4.serif.thin.span-4.last
-          \.serif.thin
-      .block  
-        %h5.span-2
-          h5
-        %h5.thin.span-3
-          \.thin
-        %h5.serif.span-3
-          \.serif
-        %h5.serif.thin.span-4.last
-          \.serif.thin
-      .block  
-        %h6.span-2
-          h6
-        %h6.thin.span-3
-          \.thin
-        %h6.serif.span-3
-          \.serif
-        %h6.serif.thin.span-4.last
-          \.serif.thin
-      .block
-        .span-6
-          %h2.span-6
-            Paragraphs
-          %p.span-6
-            My money's in that office, right? If she start giving me some bullshit about it ain't there, and we got to go someplace else and get it, I'm gonna shoot you in the head then and there. Then I'm gonna shoot that bitch in the kneecaps, find out where my goddamn money is. 
-        .span-6
-          %h2.span-6
-            blockquote
-          %blockquote.span-6
-            "She gonna tell me too. Hey, look at me when I'm talking to you, motherfucker. You listen: we go in there, and that nigga Winston or anybody else is in there, you the first motherfucker to get shot. You understand?"
+      #nav-bar.nav-bar
 
-    // EXAMPLE 1
-    .container.bg_knc_dark_gray.fg_knc_bright_gray
-      .block.centered-text
-        %h6.thin Sample page header:
-    #example1.section.container.transparent
-      .block.centered-text
-        %h1.thin        
-          ADELPHI STREET
-        %h3             
-          4 BEDROOMS • 1 BATHROOMS • 2000 SQUARE FEET
-        %h6.serif.thin
-          %em
-            395 adelphi st, #2l
-        .separator
-        .span-8.center
-          %p.lead Lead paragraphs are usualy center aligned and are slightly larger than regular paragraphs
+    #main
+      #grid-system.section.container
+        .block
+          %h1.thin Grid Systems
+          %h2 Fixed grid
+        .block
+          .span-1.debug span-1
+          .span-1.debug span-1
+          .span-1.debug span-1
+          .span-1.debug span-1
+          .span-1.debug span-1
+          .span-1.debug span-1
+          .span-1.debug span-1
+          .span-1.debug span-1
+          .span-1.debug span-1
+          .span-1.debug span-1
+          .span-1.debug span-1
+          .span-1.debug.last span-1
+        .block
+          .span-2.debug span-2
+          .span-2.debug span-2
+          .span-2.debug span-2
+          .span-2.debug span-2
+          .span-2.debug span-2
+          .span-2.debug.last span-2
+        .block
+          .span-3.debug span-3
+          .span-3.debug span-3
+          .span-3.debug span-3
+          .span-3.debug.last span-3
+        .block
+          .span-4.debug span-4
+          .span-4.debug span-4
+          .span-4.debug.last span-4
+        .block
+          .span-5.debug span-7
+          .span-7.debug.last span-5
+        .block
+          .span-6.debug span-6
+          .span-6.debug.last span-6
+        .block
+          .span-8.debug span-8
+          .span-4.debug.last span-4
+        .block
+          .span-9.debug span-9
+          .span-3.debug.last span-3
+        .block
+          .span-10.debug span-10
+          .span-2.debug.last span-2
+        .block
+          .span-11.debug span-11
+          .span-1.debug.last span 1
+        .block
+          .span-12.debug span-12
+
+        .block
+          %h5.span-12
+            12 column grid <em>.span-1 [...] .span-12</em> within a <em>.block</em> class
+          %ul 
+            %li
+              Add <em>tablet-span-1 [...] tablet-span-6</em> for a 6 column tablet grid and  <em>phone-span-1</em> for a two column mobile grid
+            %li
+              Use <em>.push-[span:string]-[columns:int]</em> to push a column right
+            %li
+              Add <em>.center</em> to center a span
+            %li
+              Add <em>.last</em> to remove a spans right margin  
+        #fluid.block
+          %h2
+            Fluid Grid
+          %p a six column percentage based fluid grid as well as a 3 column tablet grid and a two column iphone grid
+          .block.f-span-6
+            .f-span-1.debug .f-span-1
+            .f-span-1.debug .f-span-1
+            .f-span-1.debug .f-span-1
+            .f-span-1.debug .f-span-1
+            .f-span-1.debug .f-span-1
+            .f-span-1.debug .f-span-1
+          .block.f-span-6
+            .f-span-2.debug .f-span-2
+            .f-span-2.debug .f-span-2
+            .f-span-2.debug .f-span-2
+          .block.f-span-6
+            .f-span-3.debug .f-span-3
+            .f-span-3.debug .f-span-3
+          .block.f-span-6
+            .f-span-4.debug .f-span-4
+            .f-span-2.debug .f-span-2
+          .block.f-span-6
+            .f-span-5.debug .f-span-5
+            .f-span-1.debug .f-span-1
+          .block.f-span-6
+            .f-span-6.debug .f-span-6
+
+      #typography.section.container
+        .block
+          %h1.thin Typography
+        .block  
+          %h1.span-2
+            h1
+          %h1.thin.span-3
+            \.thin
+          %h1.serif.span-3
+            \.serif
+          %h1.serif.thin.span-4.last
+            \.serif.thin
+        .block  
+          %h2.span-2
+            h2
+          %h2.thin.span-3
+            \.thin
+          %h2.serif.span-3
+            \.serif
+          %h2.serif.thin.span-4.last
+            \.serif.thin
+        .block  
+          %h3.span-2
+            h3
+          %h3.thin.span-3
+            \.thin
+          %h3.serif.span-3
+            \.serif
+          %h3.serif.thin.span-4.last
+            \.serif.thin
+        .block  
+          %h4.span-2
+            h4
+          %h4.thin.span-3
+            \.thin
+          %h4.serif.span-3
+            \.serif
+          %h4.serif.thin.span-4.last
+            \.serif.thin
+        .block  
+          %h5.span-2
+            h5
+          %h5.thin.span-3
+            \.thin
+          %h5.serif.span-3
+            \.serif
+          %h5.serif.thin.span-4.last
+            \.serif.thin
+        .block  
+          %h6.span-2
+            h6
+          %h6.thin.span-3
+            \.thin
+          %h6.serif.span-3
+            \.serif
+          %h6.serif.thin.span-4.last
+            \.serif.thin
+        .block
+          .span-6
+            %h2.span-6
+              Paragraphs
+            %p.span-6
+              My money's in that office, right? If she start giving me some bullshit about it ain't there, and we got to go someplace else and get it, I'm gonna shoot you in the head then and there. Then I'm gonna shoot that bitch in the kneecaps, find out where my goddamn money is. 
+          .span-6
+            %h2.span-6
+              blockquote
+            %blockquote.span-6
+              "She gonna tell me too. Hey, look at me when I'm talking to you, motherfucker. You listen: we go in there, and that nigga Winston or anybody else is in there, you the first motherfucker to get shot. You understand?"
+
+      // EXAMPLE 1
+      .container.bg_knc_dark_gray.fg_knc_bright_gray
+        .block.centered-text
+          %h6.thin Sample page header:
+      #example1.section.container.transparent
+        .block.centered-text
+          %h1.thin        
+            ADELPHI STREET
+          %h3             
+            4 BEDROOMS • 1 BATHROOMS • 2000 SQUARE FEET
+          %h6.serif.thin
+            %em
+              395 adelphi st, #2l
+          .separator
+          .span-8.center
+            %p.lead Lead paragraphs are usualy center aligned and are slightly larger than regular paragraphs
 
 
-    #colors.section.container
-      .block
-        %h1.thin
-          Colors
-        .span-12
-          %p
-            These classes contain color info only and can either be extended or inserted directly into the markup:
-          %ul
-            %li .fg_[color_name] for text color
-            %li .bg_[color_name] for background color
-            %li .br_[color_name] for border color
-      .block
-        .span-2.centered-text
-          .swatch.bg_knc_cream
-          .span-2 knc_cream
-        .span-2.centered-text
-          .swatch.bg_knc_marigold
-          .span-2 knc_marigold
-        .span-2.centered-text  
-          .swatch.bg_knc_dark_gray
-          .span-2 knc_dark_gray
-        .span-2.centered-text
-          .swatch.bg_knc_gray
-          .span-2 knc_gray
-        .span-2.centered-text  
-          .swatch.bg_knc_light_gray
-          .span-2 knc_light_gray
-        .span-2.centered-text  
-          .swatch.bg_knc_bright_gray
-          .span-2 knc_bright_gray
-    
-    #forms.section.container
-      .block
-        %h1.thin Forms
-      #buttons.block
-        %h2 Buttons 
-      .block
-        .span-8.tablet-span-4.phone-span-2.center
-          .span-2.phone-span-1
-            %a{href:"#", class:"button span-2"}
-              button
-          .span-2.phone-span-1
-            %a{href:"#", class:"button inverted span-2"}
-              inverted
-          .span-2.phone-span-1
-            %a{href:"#", class:"button green span-2"}
-              green
-          .span-2.phone-span-1
-            %a{href:"#", class:"button red span-2"}
-              red
-      .block
-        %h3 .short
-        .span-8.tablet-span-4.phone-span-2.center
-          .span-2.phone-span-1
-            %a{href:"#", class:"button short span-2"}
-              short
-          .span-2.phone-span-1
-            %a{href:"#", class:"button short inverted span-2"}
-              inverted
-          .span-2.phone-span-1
-            %a{href:"#", class:"button short green span-2"}
-              green
-          .span-2.phone-span-1
-            %a{href:"#", class:"button short red span-2 "}
-              red
-      .block
-        %hr
-      #inputs.block
-        %h2 inputs
-      .block
-        %h3 two panes fluid sample
-      .block
-        .f-span-6
-          %form.f-span-3.tablet-f-span-3
-            %fieldset.f-span-5.center
-              %legend Log In
-              .clear
-                %label.f-span-2 Email
-                .f-span-4
-                  %input.fluid-full{:placeholder => "Type something…", :type => "text"}
-                  %span.fluid-full.note Example block-level help text here.
-              .clear
-                %label.f-span-2 Password
-                .f-span-4
-                  %input.fluid-full.error{:placeholder => "Something Went Terribly Wrong", :type => "password"}
-                  %span.fluid-full.note Example block-level help text here.
-              .clear.fluid-full
-                .f-span-4.push-f-span-2.push-tablet-f-span-none 
-                  %button.button.fluid-full{:type => "submit"} Submit
-
-          %form.f-span-3.tablet-f-span-3
-            %fieldset.f-span-5.center
-              %legend Invite a Friend
-              .clear
-                %label.f-span-2 Friend's name
-                .f-span-4
-                  %input.fluid-full{:placeholder => "Type something…", :type => "text"}
-                  %span.fluid-full.note Example block-level help text here.
-              .clear
-                %label.f-span-2 Friend's email
-                .f-span-4
-                  %input.fluid-full{:placeholder => "Type something…", :type => "email"}
-                  %span.fluid-full.note Example block-level help text here.
-              .clear.fluid-full
-                .f-span-4.push-f-span-2.push-tablet-f-span-none 
-                  %button.button.fluid-full{:type => "submit"} Submit
-
-    .container.bg_knc_dark_gray.fg_knc_bright_gray
-      .block.centered-text
-        %h6.thin Forms inputs in transparent containers have a darker border
-    .section.container.transparent
-      .block
-        %form.f-span-3.tablet-f-span-3.center
-          %fieldset
-            %legend Invite a Friend
-            %p Invite your friends to host their property with Kid & Coe. Earn $25 in credit when they sign up.
-            .clear
-              %label.f-span-2.right name:
-              %input.f-span-3{:placeholder => "Type something…", :type => "text"}
-              %span.f-span-3.note Example block-level help text here.
-            .clear
-              %label.f-span-2.right email:
-              %input.f-span-3{:placeholder => "Type something…", :type => "email"}
-              %span.f-span-3.note Example block-level help text here.
-            .clear
-              %label.f-span-2.right{:for => "select-choice"} gender:
-              .f-span-3
-                %select#select-choice.f-span-3{:name => "selecta", :tabindex =>"9" }
-                  %option{:value => "male"} Male
-                  %option{:value => "female"} Female
-                  %option{:value => "robot"} Robot
-            .clear.f-span-6  
-              // needs to be in a div for positioning          
-              .f-span-3.push-f-span-2.push-tablet-f-span-none  
-                %input{ :name => "checkbox", :type => "checkbox", :value=>"yep", :id=>"checkbox", :data=>{ :label=>"Yes, I agree"}}
-            .clear.f-span-6
-              %button.button.f-span-3.push-f-span-2.push-tablet-f-span-none{:type => "submit"} Submit
-    
-    #components.section.container
-      .block
-        %h1.thin
-          Components
-    
-    .container.bg_knc_dark_gray.fg_knc_bright_gray
-      .block.centered-text
-        %h6.thin Tabs
-
-    #tabs.section.container.transparent
-      .tabs_panel
-        .tabs
-          %a.active{:href => "#availabilities", :title =>"Availability & Rates"}
-            %span.hidden-tablet Availability &amp; Rates
-            %span.visible-tablet.hidden-phone   Avail. &amp; Rates
-            %i.icon-calendar
-          %a{:href => "#pricing", :title =>"Deposit & Fees"}
-            %span.hidden-tablet Deposits &amp; Fees
-            %span.visible-tablet.hidden-phone   Fees
-            %i.icon-money
-          %a{:href => "#neighborhood_spots", :title =>"City Scout"}
-            %span City Scout
-            %i.icon-map-marker
-          %a{:href => "#amenities", :title =>"Property Details"}
-            %span.hidden-tablet Property Details
-            %span.visible-tablet.hidden-phone Details
-            %i.icon-key
-          %a{:href => "#nuts_and_bolts", :title =>"Property Guidelines"}
-            %span.hidden-tablet Property Guidelines
-            %span.visible-tablet.hidden-phone Guidelines
-
-            %i.icon-info-sign
-        .tabs_content.padded.container
-          #availabilities.content.block.active
-            .f-span-3
-              %h3
-                Manage your calendar
-              %p
-                As a host, you can specify when a property is available for booking. Guests are only able to book reservations during the periods you designate below. Each availability period can be set to a custom nightly rate and can also be changed at any time. Once reservations are made, those dates will be marked as unavailable on this calendar and details around the reservation will be listed below.
-            .f-span-3
-              .small_calendar_block
-                .legend
-                  %span.booked booked
-                  %span.available available
-                  %span.tentative tentative
-          #pricing.content.block
-            .f-span-6
-              %h3
-                Deposits &amp; Fees
-              %p
-                some more text
-          #neighborhood_spots.content.block
-            .f-span-6
-              %h3
-                City Scout
-              %p
-                some more text
-          #amenities.content.block
-            .f-span-6
-              %h3
-                Property Details
-              %p
-                some more text
-          #nuts_and_bolts.content.block
-            .f-span-6
-              %h3
-                Property Guidelines
-              %p
-                some more text
-        .info-bar
-          %i.icon-hand-right
-          %span Messaging goes here!
-
-    .container.bg_knc_dark_gray.fg_knc_bright_gray
-      .block.centered-text
-        %h6.thin
-          Calendar
-    .container.transparent.clearfix
-      .calendar_block.block.f-span-6
+      #colors.section.container
+        .block
+          %h1.thin
+            Colors
+          .span-12
+            %p
+              These classes contain color info only and can either be extended or inserted directly into the markup:
+            %ul
+              %li .fg_[color_name] for text color
+              %li .bg_[color_name] for background color
+              %li .br_[color_name] for border color
+        .block
+          .span-2.centered-text
+            .swatch.bg_knc_cream
+            .span-2 knc_cream
+          .span-2.centered-text
+            .swatch.bg_knc_marigold
+            .span-2 knc_marigold
+          .span-2.centered-text  
+            .swatch.bg_knc_dark_gray
+            .span-2 knc_dark_gray
+          .span-2.centered-text
+            .swatch.bg_knc_gray
+            .span-2 knc_gray
+          .span-2.centered-text  
+            .swatch.bg_knc_light_gray
+            .span-2 knc_light_gray
+          .span-2.centered-text  
+            .swatch.bg_knc_bright_gray
+            .span-2 knc_bright_gray
       
-    
-    .container.bg_knc_dark_gray.fg_knc_bright_gray
-      .block.centered-text
-        %h6.thin
-          Modal
-    
-    
-    .container.bg_knc_dark_gray.fg_knc_bright_gray
-      .block.centered-text
-        %h6.thin
-          Image Slider
-    
-    .container.bg_knc_dark_gray.fg_knc_bright_gray
-      .block.centered-text
-        %h6.thin
-          Content Blocks
+      #forms.section.container
+        .block
+          %h1.thin Forms
+        #buttons.block
+          %h2 Buttons 
+        .block
+          .span-8.tablet-span-4.phone-span-2.center
+            .span-2.phone-span-1
+              %a{href:"#", class:"button span-2"}
+                button
+            .span-2.phone-span-1
+              %a{href:"#", class:"button inverted span-2"}
+                inverted
+            .span-2.phone-span-1
+              %a{href:"#", class:"button green span-2"}
+                green
+            .span-2.phone-span-1
+              %a{href:"#", class:"button red span-2"}
+                red
+        .block
+          %h3 .short
+          .span-8.tablet-span-4.phone-span-2.center
+            .span-2.phone-span-1
+              %a{href:"#", class:"button short span-2"}
+                short
+            .span-2.phone-span-1
+              %a{href:"#", class:"button short inverted span-2"}
+                inverted
+            .span-2.phone-span-1
+              %a{href:"#", class:"button short green span-2"}
+                green
+            .span-2.phone-span-1
+              %a{href:"#", class:"button short red span-2 "}
+                red
+        .block
+          %hr
+        #inputs.block
+          %h2 inputs
+        .block
+          %h3 two panes fluid sample
+        .block
+          .f-span-6
+            %form.f-span-3.tablet-f-span-3
+              %fieldset.f-span-5.center
+                %legend Log In
+                .clear
+                  %label.f-span-2 Email
+                  .f-span-4
+                    %input.fluid-full{:placeholder => "Type something…", :type => "text"}
+                    %span.fluid-full.note Example block-level help text here.
+                .clear
+                  %label.f-span-2 Password
+                  .f-span-4
+                    %input.fluid-full.error{:placeholder => "Something Went Terribly Wrong", :type => "password"}
+                    %span.fluid-full.note Example block-level help text here.
+                .clear.fluid-full
+                  .f-span-4.push-f-span-2.push-tablet-f-span-none 
+                    %button.button.fluid-full{:type => "submit"} Submit
 
-  #footer
+            %form.f-span-3.tablet-f-span-3
+              %fieldset.f-span-5.center
+                %legend Invite a Friend
+                .clear
+                  %label.f-span-2 Friend's name
+                  .f-span-4
+                    %input.fluid-full{:placeholder => "Type something…", :type => "text"}
+                    %span.fluid-full.note Example block-level help text here.
+                .clear
+                  %label.f-span-2 Friend's email
+                  .f-span-4
+                    %input.fluid-full{:placeholder => "Type something…", :type => "email"}
+                    %span.fluid-full.note Example block-level help text here.
+                .clear.fluid-full
+                  .f-span-4.push-f-span-2.push-tablet-f-span-none 
+                    %button.button.fluid-full{:type => "submit"} Submit
 
-// LIB
-%script{:src=>"javascript/libs/jquery-2.0.2.min.js"}
-%script{:src=>"javascript/libs/jquery-ui-1.10.3.custom.js"}
-%script{:src=>"javascript/libs/lodash.min.js"}
-%script{:src=>"javascript/libs/backbone-min.js"}
-%script{:src=>"javascript/libs/prettyCheckable.js"}
-%script{:src=>"javascript/libs/jquery.dropkick-1.0.0.js"}
-%script{:src=>"javascript/libs/fullcalendar/fullcalendar.js"}
-// APP
-%script{:src=>"javascript/views/reservations.js"}
-%script{:src=>"javascript/app.js"}
+      .container.bg_knc_dark_gray.fg_knc_bright_gray
+        .block.centered-text
+          %h6.thin Forms inputs in transparent containers have a darker border
+      .section.container.transparent
+        .block
+          %form.f-span-3.tablet-f-span-3.center
+            %fieldset
+              %legend Invite a Friend
+              %p Invite your friends to host their property with Kid & Coe. Earn $25 in credit when they sign up.
+              .clear
+                %label.f-span-2.right name:
+                %input.f-span-3{:placeholder => "Type something…", :type => "text"}
+                %span.f-span-3.note Example block-level help text here.
+              .clear
+                %label.f-span-2.right email:
+                %input.f-span-3{:placeholder => "Type something…", :type => "email"}
+                %span.f-span-3.note Example block-level help text here.
+              .clear
+                %label.f-span-2.right{:for => "select-choice"} gender:
+                .f-span-3
+                  %select#select-choice.f-span-3{:name => "selecta", :tabindex =>"9" }
+                    %option{:value => "male"} Male
+                    %option{:value => "female"} Female
+                    %option{:value => "robot"} Robot
+              .clear.f-span-6  
+                // needs to be in a div for positioning          
+                .f-span-3.push-f-span-2.push-tablet-f-span-none  
+                  %input{ :name => "checkbox", :type => "checkbox", :value=>"yep", :id=>"checkbox", :data=>{ :label=>"Yes, I agree"}}
+              .clear.f-span-6
+                %button.button.f-span-3.push-f-span-2.push-tablet-f-span-none{:type => "submit"} Submit
+      
+      #components.section.container
+        .block
+          %h1.thin
+            Components
+      
+      .container.bg_knc_dark_gray.fg_knc_bright_gray
+        .block.centered-text
+          %h6.thin Tabs
+
+      #tabs.section.container.transparent
+        .tabs_panel
+          .tabs
+            %a.active{:href => "#availabilities", :title =>"Availability & Rates"}
+              %span.hidden-tablet Availability &amp; Rates
+              %span.visible-tablet.hidden-phone   Avail. &amp; Rates
+              %i.icon-calendar
+            %a{:href => "#pricing", :title =>"Deposit & Fees"}
+              %span.hidden-tablet Deposits &amp; Fees
+              %span.visible-tablet.hidden-phone   Fees
+              %i.icon-money
+            %a{:href => "#neighborhood_spots", :title =>"City Scout"}
+              %span City Scout
+              %i.icon-map-marker
+            %a{:href => "#amenities", :title =>"Property Details"}
+              %span.hidden-tablet Property Details
+              %span.visible-tablet.hidden-phone Details
+              %i.icon-key
+            %a{:href => "#nuts_and_bolts", :title =>"Property Guidelines"}
+              %span.hidden-tablet Property Guidelines
+              %span.visible-tablet.hidden-phone Guidelines
+
+              %i.icon-info-sign
+          .tabs_content.padded.container
+            #availabilities.content.block.active
+              .f-span-3
+                %h3
+                  Manage your calendar
+                %p
+                  As a host, you can specify when a property is available for booking. Guests are only able to book reservations during the periods you designate below. Each availability period can be set to a custom nightly rate and can also be changed at any time. Once reservations are made, those dates will be marked as unavailable on this calendar and details around the reservation will be listed below.
+              .f-span-3
+                .small_calendar_block
+                  .legend
+                    %span.booked booked
+                    %span.available available
+                    %span.tentative tentative
+            #pricing.content.block
+              .f-span-6
+                %h3
+                  Deposits &amp; Fees
+                %p
+                  some more text
+            #neighborhood_spots.content.block
+              .f-span-6
+                %h3
+                  City Scout
+                %p
+                  some more text
+            #amenities.content.block
+              .f-span-6
+                %h3
+                  Property Details
+                %p
+                  some more text
+            #nuts_and_bolts.content.block
+              .f-span-6
+                %h3
+                  Property Guidelines
+                %p
+                  some more text
+          .info-bar
+            %i.icon-hand-right
+            %span Messaging goes here!
+
+      .container.bg_knc_dark_gray.fg_knc_bright_gray
+        .block.centered-text
+          %h6.thin
+            Calendar
+      .container.transparent.clearfix
+        .calendar_block.block.f-span-6
+        
+      
+      .container.bg_knc_dark_gray.fg_knc_bright_gray
+        .block.centered-text
+          %h6.thin
+            Modal
+      .container.transparent
+        #modal-content-1.modal.container.f-span-2.center
+          .fullwidth.centered-text 
+            %h3.f-span-5.center book this property
+            %p.em
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            %form
+              %fieldset
+                .clear.input-append
+                  %label.hide Check In Date
+                  %input.fluid-full{:placeholder => "Check In", :type => "text"}
+                  %i.icon-calendar
+                .clear.input-append
+                  %label.hide Check Out Date
+                  %input.fluid-full{:placeholder => "Check Out", :type => "text"}
+                  %i.icon-calendar
+                .clear.input-append
+                  %label.hide Number Of Guests
+                  %input.fluid-full{:placeholder => "Guests", :type => "text"}
+                  %i.icon-group
+                %h1.thin.f-span-5.center
+                  $2,390
+                %p.em
+                  includes $90 cleaning fee
+                  %br
+                  does not include $900 security deposit
+                .clear.f-span-6
+                  %button.button.f-span-6{:type => "submit"} Submit request
+
+                  
+      .container.bg_knc_dark_gray.fg_knc_bright_gray
+        .block.centered-text
+          %h6.thin
+            Image Slider
+      
+      .container.bg_knc_dark_gray.fg_knc_bright_gray
+        .block.centered-text
+          %h6.thin
+            Content Blocks
+
+    #footer
+
+  // LIB
+  %script{:src=>"javascript/libs/jquery-2.0.2.min.js"}
+  %script{:src=>"javascript/libs/jquery-ui-1.10.3.custom.js"}
+  %script{:src=>"javascript/libs/lodash.min.js"}
+  %script{:src=>"javascript/libs/backbone-min.js"}
+  %script{:src=>"javascript/libs/prettyCheckable.js"}
+  // %script{:src=>"javascript/libs/jquery.avgrund.js"}
+  %script{:src=>"javascript/libs/jquery.dropkick-1.0.0.js"}
+  %script{:src=>"javascript/libs/fullcalendar/fullcalendar.js"}
+  // APP
+  %script{:src=>"javascript/views/reservations.js"}
+  %script{:src=>"javascript/app.js"}
 
 
 

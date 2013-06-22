@@ -8,11 +8,6 @@
 
 
 // layout color modifiers
-body{
-  @extend .bg_knc_light_gray;
-  @extend .fg_knc_dark_gray;
-}
-
 .container{
   background-color: white;
   &.transparent{

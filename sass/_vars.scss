@@ -53,6 +53,16 @@ $iphone_landscape: 480px;
 $tablet: 720px;
 $small_screen:920px;
 
+// TYPOGRAPHY
+$baseFontSize:16px;
+$baseEm:1em;
+$baseLineHeight:24px;
+$sansFontFamily:  'brandon-grotesque', 'Helvetica Neue', Arial, sans-serif;
+$serifFontFamily: 'adobe-caslon-pro', Georgia, serif;
+$headingsFontFamily: $sansFontFamily;
+$headingsFontWeight: bold;
+@include establish-baseline($baseFontSize);
+
 // Form
 $fieldHeight: 44px;
 

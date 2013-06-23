@@ -43,7 +43,7 @@
 
       
       @media screen and (max-width: $tablet){
-        @extend .tablet-f-span-1;
+        @extend %tablet-f-span-1;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;

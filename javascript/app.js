@@ -86,7 +86,7 @@ $().ready(function(){
       onSelect: function(date_text) {
         var date = new Date(date_text);
         date.setDate(date.getDate() + 1);
-        $('#end_date').datepicker('option','minDate',date);
+        $('#endDate').datepicker('option','minDate',date);
       }
     });
     

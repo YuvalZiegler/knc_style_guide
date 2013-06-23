@@ -436,11 +436,11 @@
               %fieldset
                 .clear.input-append
                   %label.hide Check In Date
-                  %input.fluid-full{:placeholder => "Check In", :type => "text"}
+                  %input.fluid-full{:placeholder => "Check In", :type => "text", :id=>"startDate"}
                   %i.icon-calendar
                 .clear.input-append
                   %label.hide Check Out Date
-                  %input.fluid-full{:placeholder => "Check Out", :type => "text"}
+                  %input.fluid-full{:placeholder => "Check Out", :type => "text", :id=>"endDate"}
                   %i.icon-calendar
                 .clear.input-append
                   %label.hide Number Of Guests
@@ -463,14 +463,28 @@
         .block
           %h2
             Info card
+          .f-span-4  
+            .info-card
+              .row
+                .key.strong
+                  Family
+                .value
+                  The Martins
+              .row
+                .key.strong
+                  Children
+                .value
+                  Henri Martin Ziegler the Third
+              .row
+                .key.strong
+                  Phone #
+                .value
+                  +1.646.593.01.66
       .container.bg_knc_dark_gray.fg_knc_bright_gray
         .block.centered-text
           %h6.thin
             Image Slider
-          .info-card
-            .row
-              .key
-              .value
+
       
       
 

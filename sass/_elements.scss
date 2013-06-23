@@ -87,14 +87,13 @@
 
 /* FULLCALENDAR */
 @import "externals/fullcalendar";
+/* DATE PICKER */
+@import "externals/jquery-ui-knc-theme/_jquery-ui-1.10.3.custom";
 
 /* MODAL */
 .modal {
   padding:1em;
   background-color: $knc_bright_gray;
-  //background: url(#{$asset_path}/stamp.png);
-  //background-position: -150px 150%;
-  //background-repeat: no-repeat;
   border:5px solid $knc_marigold;
   
   h3{
@@ -106,6 +105,49 @@
      font-size:0.9em;
      line-height:1.4em; 
   }
+}
+/* INFO CARD */
+.info-card{
+  background: $knc_medium_gray;
+  @extend %f-span-6;
+  @include sans-font;
+  padding:0;
+  border-radius:10px;
+  overflow:hidden;
+  text-overflow:ellipsis;
   
+  display:table;
+
+  .row{
+    display:table-row;
+    @extend %f-span-6;
+    border-bottom:1px solid white;
+    padding:0;
+  }
+  .key{
+    display:table-cell;
+    vertical-align:middle;
+    text-align:right;
+    background: $knc_medium_gray;
+    @extend %f-span-2;
+    @extend %tablet-f-span-2;
+    @extend %phone-span-2;
+    text-transform: uppercase;
+    padding:1em;
+    @media screen and (max-width: $iphone_landscape){
+        text-align:left;
+    }
+
+  }
+  .value{
+    display:table-cell;
+    vertical-align:middle;
+    background: $knc_light_gray;
+    @extend %f-span-4;
+    @extend %tablet-f-span-4;
+    @extend %phone-span-2;
+    padding:1em 0 1em 1em;
+
+  }
 
 }

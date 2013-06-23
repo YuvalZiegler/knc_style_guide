@@ -79,5 +79,24 @@ $().ready(function(){
   Reservations.render();
   ReservationsSmall.render();
 
+  // DATE PICKER 
+  $('#startDate').datepicker({
+      minDate: '1',
+      constrainInput: true,
+      onSelect: function(date_text) {
+        var date = new Date(date_text);
+        date.setDate(date.getDate() + 1);
+        $('#end_date').datepicker('option','minDate',date);
+      }
+    });
+    
+  $('#endDate').datepicker({
+      minDate: '2',
+      constrainInput: true
+    });
+    
+    $('form.search-widget input[name="utf8"]').remove();
+  
+
   
 });

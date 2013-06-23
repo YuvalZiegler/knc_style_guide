@@ -148,6 +148,7 @@
 @mixin fluidGrid($baseName, $columns){
   $column_width:  100 / $columns ;
   @for $i from 1 through $columns{
+   
     .#{$baseName}-#{$i}{
       float:left;
       width: percentage($column_width * $i /100);

@@ -95,7 +95,7 @@ $().ready(function(){
       constrainInput: true
     });
     
-    $('form.search-widget input[name="utf8"]').remove();
+    
   
 
   

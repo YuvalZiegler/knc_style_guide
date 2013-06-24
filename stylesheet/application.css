@@ -2681,6 +2681,42 @@ html {
   margin-right: 0;
   width: 58px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003262}}
+#v2 .info-card .key {
+  float: left;
+  width: 100%;
+  max-width: 128px;
+  margin-right: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003268}}
+#v2 .info-card .last.key {
+  margin-right: 0;
+  max-width: 128px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003274}}
+#v2 .info-card .center.key {
+  *zoom: 1;
+  max-width: 140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  float: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\000038}}
+#v2 .info-card .center.key:before, #v2 .info-card .center.key:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\0000315}}
+#v2 .info-card .center.key:after {
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003281}}
+#v2 .info-card .center.key > [class*=span]:last-child {
+  margin-right: 0;
+  width: 128px;
+}
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003288}}
 #v2 .span-2 {
   float: left;
@@ -3099,31 +3135,6 @@ html {
 #v2 .push-f-span-1 {
   margin-left: 16.66667%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003153}}
-#v2 .info-card .key {
-  float: left;
-  width: 33.33333%;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003160}}
-#v2 .info-card .center.key {
-  *zoom: 1;
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  float: none;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\000038}}
-#v2 .info-card .center.key:before, #v2 .info-card .center.key:after {
-  display: table;
-  content: "";
-  line-height: 0;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\0000315}}
-#v2 .info-card .center.key:after {
-  clear: both;
-}
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003176}}
 #v2 .f-span-2 {
   float: left;
@@ -3436,6 +3447,42 @@ html {
   #v2 .span-1.center > [class*=span]:last-child {
     margin-right: 0;
     width: 94.66667px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003262}}
+  #v2 .info-card .key {
+    float: left;
+    width: 100%;
+    max-width: 201.33333px;
+    margin-right: 10px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003268}}
+  #v2 .info-card .last.key {
+    margin-right: 0;
+    max-width: 201.33333px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003274}}
+  #v2 .info-card .center.key {
+    *zoom: 1;
+    max-width: 213.33333px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    float: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\000038}}
+  #v2 .info-card .center.key:before, #v2 .info-card .center.key:after {
+    display: table;
+    content: "";
+    line-height: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\0000315}}
+  #v2 .info-card .center.key:after {
+    clear: both;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003281}}
+  #v2 .info-card .center.key > [class*=span]:last-child {
+    margin-right: 0;
+    width: 201.33333px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003288}}
   #v2 .span-2 {
@@ -3892,31 +3939,6 @@ html {
   #v2 .push-f-span-1 {
     margin-left: 33.33333%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003153}}
-  #v2 .info-card .key {
-    float: left;
-    width: 66.66667%;
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003160}}
-  #v2 .info-card .center.key {
-    *zoom: 1;
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    float: none;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\000038}}
-  #v2 .info-card .center.key:before, #v2 .info-card .center.key:after {
-    display: table;
-    content: "";
-    line-height: 0;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\0000315}}
-  #v2 .info-card .center.key:after {
-    clear: both;
-  }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003176}}
   #v2 .f-span-2 {
     float: left;
@@ -4324,6 +4346,31 @@ html {
     margin-right: 0;
     width: 138px;
   }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003227}}
+  #v2 .info-card .key {
+    float: left;
+    width: 100%;
+    max-width: 300px;
+    margin-right: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003233}}
+  #v2 .info-card .center.key {
+    *zoom: 1;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\000038}}
+  #v2 .info-card .center.key:before, #v2 .info-card .center.key:after {
+    display: table;
+    content: "";
+    line-height: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\0000315}}
+  #v2 .info-card .center.key:after {
+    clear: both;
+  }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003244}}
   #v2 .span-2 {
     float: left;
@@ -4483,31 +4530,6 @@ html {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003194}}
   #v2 .push-f-span-1 {
     margin-left: 50%;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003153}}
-  #v2 .info-card .key {
-    float: left;
-    width: 100%;
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003160}}
-  #v2 .info-card .center.key {
-    *zoom: 1;
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    float: none;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\000038}}
-  #v2 .info-card .center.key:before, #v2 .info-card .center.key:after {
-    display: table;
-    content: "";
-    line-height: 0;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\0000315}}
-  #v2 .info-card .center.key:after {
-    clear: both;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003176}}
   #v2 .f-span-2 {
@@ -7043,36 +7065,38 @@ html {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_elements\.scss}line{font-family:\00003110}}
 #v2 .info-card {
-  background: #e3e2de;
   font-family: "brandon-grotesque", "Helvetica Neue", Arial, sans-serif;
   padding: 0;
-  border-radius: 10px;
   overflow: hidden;
   text-overflow: ellipsis;
   display: table;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_elements\.scss}line{font-family:\00003121}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_elements\.scss}line{font-family:\00003124}}
 #v2 .info-card .row {
   display: table-row;
   border-bottom: 1px solid white;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_elements\.scss}line{font-family:\00003127}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_elements\.scss}line{font-family:\00003130}}
 #v2 .info-card .key {
   display: table-cell;
   vertical-align: middle;
   text-align: right;
   background: #e3e2de;
   text-transform: uppercase;
-  padding: 1em;
+  padding: 0.8em 1em;
+  font-size: 0.85em;
+  line-height: 34px;
+  max-height: 56px;
+  margin-right: 0;
 }
 @media screen and (max-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_elements\.scss}line{font-family:\00003127}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_elements\.scss}line{font-family:\00003130}}
   #v2 .info-card .key {
     text-align: left;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_elements\.scss}line{font-family:\00003142}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_elements\.scss}line{font-family:\00003149}}
 #v2 .info-card .value {
   display: table-cell;
   vertical-align: middle;

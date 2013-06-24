@@ -2,6 +2,7 @@
 %html{:lang => "en"} 
   %head 
     %meta{:charset => "UTF-8"}/ 
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1" name="viewport">
     %title Kid And Coe Style Guide
     %link{:rel => "stylesheet", :href => "stylesheet/application.css"}
 
@@ -443,9 +444,13 @@
                   %input.fluid-full{:placeholder => "Check Out", :type => "text", :id=>"endDate"}
                   %i.icon-calendar
                 .clear.input-append
-                  %label.hide Number Of Guests
-                  %input.fluid-full{:placeholder => "Guests", :type => "text"}
+                  %label.hide Number Of Adults
+                  %input.fluid-full{:placeholder => "Adults", :type => "text"}
                   %i.icon-group
+                .clear.input-append
+                  %label.hide Number Of Kids
+                  %input.fluid-full{:placeholder => "Kids", :type => "text"}
+                  %i.icon-rocket
                 %h1.thin.f-span-5.center
                   $2,390
                 %p.em

@@ -8,14 +8,17 @@ images_dir = "images"
 javascripts_dir = "js"
 
 # You can select your preferred output style here (can be overridden via the command line):
-output_style = :expanded 
-sass_options = { :debug_info => true }
 
-# To enable relative paths to assets via compass helper functions. Uncomment:
+sass_options = { :debug_info => true }
+output_style = :nested
+# for production
+# output_style = :compressed
+
+
 relative_assets = true
 
 # To disable debugging comments that display the original location of your selectors. Uncomment:
-# line_comments = false
+line_comments = false
 
 
 # If you prefer the indented syntax, you might want to regenerate this

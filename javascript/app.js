@@ -72,7 +72,7 @@ $().ready(function(){
   }
 
   // CALENDAR
-  var smallCalendarConfig  = { events:dates, editable:false, selectable:false,  titleFormat: { month: 'MMM yyyy'}};
+  var smallCalendarConfig  = { events:dates, editable:true, selectable:true,  titleFormat: { month: 'MMM yyyy'}};
   var fullCalendarConfig   = { events:dates, editable:true, selectable:true  };
   var Reservations      = new ReservationsView({el:$('.calendar_block')      , model:new ReservationsModel({config:fullCalendarConfig})});
   var ReservationsSmall = new ReservationsView({el:$('.small_calendar_block'), model:new ReservationsModel({config:smallCalendarConfig})});
@@ -80,16 +80,21 @@ $().ready(function(){
   ReservationsSmall.render();
 
   // DATE PICKER 
+  // extend datepicker with offset functionality
+  $.extend($.datepicker,{_checkOffset:function(inst,offset,isFixed){return offset}});
+
+
   $('#startDate').datepicker({
       minDate: '1',
       constrainInput: true,
       onSelect: function(date_text) {
+
         var date = new Date(date_text);
         date.setDate(date.getDate() + 1);
         $('#endDate').datepicker('option','minDate',date);
       }
     });
-    
+   
   $('#endDate').datepicker({
       minDate: '2',
       constrainInput: true

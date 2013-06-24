@@ -259,7 +259,7 @@
     }
     @else {
       // Extend Only
-      .#{$baseName}-#{$i}{
+      %#{$baseName}-#{$i}{
         float:left;
         width:100%;
         max-width: (($column_width) * $i) - $column_margin_r - 2px;

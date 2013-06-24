@@ -140,7 +140,9 @@ form {
         @include placeholder(rgba($knc_gray,0));
         background: $knc_bright_gray; 
         border-color: $knc_gray; 
+        
       }
+
     }
 
     input[readonly="readonly"] {
@@ -161,16 +163,21 @@ form {
       }
     }
     .input-append{
+
       position:relative;
       i{
          position: absolute;
          top: 10px;
          right: 4px;
-         background: $knc_light_gray;
+         background: #efeeec;
          width: 30px;
          height: 29px;
          line-height: 29px;
+         @media screen and (max-width: $tablet) {
+           top:9px;
+         }
       }
+      
     }
     .note {
       float: left;

@@ -2645,42 +2645,6 @@ html {
 #v2 .push-span-12 {
   margin-left: 840px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003262}}
-#v2 .span-1 {
-  float: left;
-  width: 100%;
-  max-width: 58px;
-  margin-right: 10px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003268}}
-#v2 .span-1.last {
-  margin-right: 0;
-  max-width: 58px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003274}}
-#v2 .span-1.center {
-  *zoom: 1;
-  max-width: 70px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 10px;
-  float: none;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\000038}}
-#v2 .span-1.center:before, #v2 .span-1.center:after {
-  display: table;
-  content: "";
-  line-height: 0;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\0000315}}
-#v2 .span-1.center:after {
-  clear: both;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003281}}
-#v2 .span-1.center > [class*=span]:last-child {
-  margin-right: 0;
-  width: 58px;
-}
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003288}}
 #v2 .span-1 {
   float: left;
@@ -2716,42 +2680,6 @@ html {
 #v2 .span-1.center > [class*=span]:last-child {
   margin-right: 0;
   width: 58px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003262}}
-#v2 .span-2 {
-  float: left;
-  width: 100%;
-  max-width: 128px;
-  margin-right: 10px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003268}}
-#v2 .span-2.last {
-  margin-right: 0;
-  max-width: 128px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003274}}
-#v2 .span-2.center {
-  *zoom: 1;
-  max-width: 140px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 10px;
-  float: none;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\000038}}
-#v2 .span-2.center:before, #v2 .span-2.center:after {
-  display: table;
-  content: "";
-  line-height: 0;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\0000315}}
-#v2 .span-2.center:after {
-  clear: both;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003281}}
-#v2 .span-2.center > [class*=span]:last-child {
-  margin-right: 0;
-  width: 128px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003288}}
 #v2 .span-2 {
@@ -2789,42 +2717,6 @@ html {
   margin-right: 0;
   width: 128px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003262}}
-#v2 .span-3 {
-  float: left;
-  width: 100%;
-  max-width: 198px;
-  margin-right: 10px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003268}}
-#v2 .span-3.last {
-  margin-right: 0;
-  max-width: 198px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003274}}
-#v2 .span-3.center {
-  *zoom: 1;
-  max-width: 210px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 10px;
-  float: none;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\000038}}
-#v2 .span-3.center:before, #v2 .span-3.center:after {
-  display: table;
-  content: "";
-  line-height: 0;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\0000315}}
-#v2 .span-3.center:after {
-  clear: both;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003281}}
-#v2 .span-3.center > [class*=span]:last-child {
-  margin-right: 0;
-  width: 198px;
-}
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003288}}
 #v2 .span-3 {
   float: left;
@@ -2860,42 +2752,6 @@ html {
 #v2 .span-3.center > [class*=span]:last-child {
   margin-right: 0;
   width: 198px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003262}}
-#v2 .span-4 {
-  float: left;
-  width: 100%;
-  max-width: 268px;
-  margin-right: 10px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003268}}
-#v2 .span-4.last {
-  margin-right: 0;
-  max-width: 268px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003274}}
-#v2 .span-4.center {
-  *zoom: 1;
-  max-width: 280px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 10px;
-  float: none;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\000038}}
-#v2 .span-4.center:before, #v2 .span-4.center:after {
-  display: table;
-  content: "";
-  line-height: 0;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\0000315}}
-#v2 .span-4.center:after {
-  clear: both;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003281}}
-#v2 .span-4.center > [class*=span]:last-child {
-  margin-right: 0;
-  width: 268px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003288}}
 #v2 .span-4 {
@@ -2933,42 +2789,6 @@ html {
   margin-right: 0;
   width: 268px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003262}}
-#v2 .span-5 {
-  float: left;
-  width: 100%;
-  max-width: 338px;
-  margin-right: 10px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003268}}
-#v2 .span-5.last {
-  margin-right: 0;
-  max-width: 338px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003274}}
-#v2 .span-5.center {
-  *zoom: 1;
-  max-width: 350px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 10px;
-  float: none;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\000038}}
-#v2 .span-5.center:before, #v2 .span-5.center:after {
-  display: table;
-  content: "";
-  line-height: 0;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\0000315}}
-#v2 .span-5.center:after {
-  clear: both;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003281}}
-#v2 .span-5.center > [class*=span]:last-child {
-  margin-right: 0;
-  width: 338px;
-}
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003288}}
 #v2 .span-5 {
   float: left;
@@ -3004,42 +2824,6 @@ html {
 #v2 .span-5.center > [class*=span]:last-child {
   margin-right: 0;
   width: 338px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003262}}
-#v2 .span-6 {
-  float: left;
-  width: 100%;
-  max-width: 408px;
-  margin-right: 10px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003268}}
-#v2 .span-6.last {
-  margin-right: 0;
-  max-width: 408px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003274}}
-#v2 .span-6.center {
-  *zoom: 1;
-  max-width: 420px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 10px;
-  float: none;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\000038}}
-#v2 .span-6.center:before, #v2 .span-6.center:after {
-  display: table;
-  content: "";
-  line-height: 0;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\0000315}}
-#v2 .span-6.center:after {
-  clear: both;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003281}}
-#v2 .span-6.center > [class*=span]:last-child {
-  margin-right: 0;
-  width: 408px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003288}}
 #v2 .span-6 {
@@ -3077,42 +2861,6 @@ html {
   margin-right: 0;
   width: 408px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003262}}
-#v2 .span-7 {
-  float: left;
-  width: 100%;
-  max-width: 478px;
-  margin-right: 10px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003268}}
-#v2 .span-7.last {
-  margin-right: 0;
-  max-width: 478px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003274}}
-#v2 .span-7.center {
-  *zoom: 1;
-  max-width: 490px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 10px;
-  float: none;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\000038}}
-#v2 .span-7.center:before, #v2 .span-7.center:after {
-  display: table;
-  content: "";
-  line-height: 0;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\0000315}}
-#v2 .span-7.center:after {
-  clear: both;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003281}}
-#v2 .span-7.center > [class*=span]:last-child {
-  margin-right: 0;
-  width: 478px;
-}
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003288}}
 #v2 .span-7 {
   float: left;
@@ -3148,42 +2896,6 @@ html {
 #v2 .span-7.center > [class*=span]:last-child {
   margin-right: 0;
   width: 478px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003262}}
-#v2 .span-8 {
-  float: left;
-  width: 100%;
-  max-width: 548px;
-  margin-right: 10px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003268}}
-#v2 .span-8.last {
-  margin-right: 0;
-  max-width: 548px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003274}}
-#v2 .span-8.center {
-  *zoom: 1;
-  max-width: 560px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 10px;
-  float: none;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\000038}}
-#v2 .span-8.center:before, #v2 .span-8.center:after {
-  display: table;
-  content: "";
-  line-height: 0;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\0000315}}
-#v2 .span-8.center:after {
-  clear: both;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003281}}
-#v2 .span-8.center > [class*=span]:last-child {
-  margin-right: 0;
-  width: 548px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003288}}
 #v2 .span-8 {
@@ -3221,42 +2933,6 @@ html {
   margin-right: 0;
   width: 548px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003262}}
-#v2 .span-9 {
-  float: left;
-  width: 100%;
-  max-width: 618px;
-  margin-right: 10px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003268}}
-#v2 .span-9.last {
-  margin-right: 0;
-  max-width: 618px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003274}}
-#v2 .span-9.center {
-  *zoom: 1;
-  max-width: 630px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 10px;
-  float: none;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\000038}}
-#v2 .span-9.center:before, #v2 .span-9.center:after {
-  display: table;
-  content: "";
-  line-height: 0;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\0000315}}
-#v2 .span-9.center:after {
-  clear: both;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003281}}
-#v2 .span-9.center > [class*=span]:last-child {
-  margin-right: 0;
-  width: 618px;
-}
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003288}}
 #v2 .span-9 {
   float: left;
@@ -3293,42 +2969,6 @@ html {
   margin-right: 0;
   width: 618px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003262}}
-#v2 .span-10 {
-  float: left;
-  width: 100%;
-  max-width: 688px;
-  margin-right: 10px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003268}}
-#v2 .span-10.last {
-  margin-right: 0;
-  max-width: 688px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003274}}
-#v2 .span-10.center {
-  *zoom: 1;
-  max-width: 700px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 10px;
-  float: none;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\000038}}
-#v2 .span-10.center:before, #v2 .span-10.center:after {
-  display: table;
-  content: "";
-  line-height: 0;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\0000315}}
-#v2 .span-10.center:after {
-  clear: both;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003281}}
-#v2 .span-10.center > [class*=span]:last-child {
-  margin-right: 0;
-  width: 688px;
-}
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003288}}
 #v2 .span-10 {
   float: left;
@@ -3364,42 +3004,6 @@ html {
 #v2 .span-10.center > [class*=span]:last-child {
   margin-right: 0;
   width: 688px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003262}}
-#v2 .span-11 {
-  float: left;
-  width: 100%;
-  max-width: 758px;
-  margin-right: 10px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003268}}
-#v2 .span-11.last {
-  margin-right: 0;
-  max-width: 758px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003274}}
-#v2 .span-11.center {
-  *zoom: 1;
-  max-width: 770px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 10px;
-  float: none;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\000038}}
-#v2 .span-11.center:before, #v2 .span-11.center:after {
-  display: table;
-  content: "";
-  line-height: 0;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\0000315}}
-#v2 .span-11.center:after {
-  clear: both;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003281}}
-#v2 .span-11.center > [class*=span]:last-child {
-  margin-right: 0;
-  width: 758px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003288}}
 #v2 .span-11 {
@@ -3797,42 +3401,6 @@ html {
   #v2 .push-span-6 {
     margin-left: 640px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003262}}
-  #v2 .span-1 {
-    float: left;
-    width: 100%;
-    max-width: 94.66667px;
-    margin-right: 10px;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003268}}
-  #v2 .span-1.last {
-    margin-right: 0;
-    max-width: 94.66667px;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003274}}
-  #v2 .span-1.center {
-    *zoom: 1;
-    max-width: 106.66667px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 10px;
-    float: none;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\000038}}
-  #v2 .span-1.center:before, #v2 .span-1.center:after {
-    display: table;
-    content: "";
-    line-height: 0;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\0000315}}
-  #v2 .span-1.center:after {
-    clear: both;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003281}}
-  #v2 .span-1.center > [class*=span]:last-child {
-    margin-right: 0;
-    width: 94.66667px;
-  }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003288}}
   #v2 .span-1 {
     float: left;
@@ -3868,42 +3436,6 @@ html {
   #v2 .span-1.center > [class*=span]:last-child {
     margin-right: 0;
     width: 94.66667px;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003262}}
-  #v2 .span-2 {
-    float: left;
-    width: 100%;
-    max-width: 201.33333px;
-    margin-right: 10px;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003268}}
-  #v2 .span-2.last {
-    margin-right: 0;
-    max-width: 201.33333px;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003274}}
-  #v2 .span-2.center {
-    *zoom: 1;
-    max-width: 213.33333px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 10px;
-    float: none;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\000038}}
-  #v2 .span-2.center:before, #v2 .span-2.center:after {
-    display: table;
-    content: "";
-    line-height: 0;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\0000315}}
-  #v2 .span-2.center:after {
-    clear: both;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003281}}
-  #v2 .span-2.center > [class*=span]:last-child {
-    margin-right: 0;
-    width: 201.33333px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003288}}
   #v2 .span-2 {
@@ -3941,42 +3473,6 @@ html {
     margin-right: 0;
     width: 201.33333px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003262}}
-  #v2 .span-3 {
-    float: left;
-    width: 100%;
-    max-width: 308px;
-    margin-right: 10px;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003268}}
-  #v2 .span-3.last {
-    margin-right: 0;
-    max-width: 308px;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003274}}
-  #v2 .span-3.center {
-    *zoom: 1;
-    max-width: 320px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 10px;
-    float: none;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\000038}}
-  #v2 .span-3.center:before, #v2 .span-3.center:after {
-    display: table;
-    content: "";
-    line-height: 0;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\0000315}}
-  #v2 .span-3.center:after {
-    clear: both;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003281}}
-  #v2 .span-3.center > [class*=span]:last-child {
-    margin-right: 0;
-    width: 308px;
-  }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003288}}
   #v2 .span-3 {
     float: left;
@@ -4013,42 +3509,6 @@ html {
     margin-right: 0;
     width: 308px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003262}}
-  #v2 .span-4 {
-    float: left;
-    width: 100%;
-    max-width: 414.66667px;
-    margin-right: 10px;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003268}}
-  #v2 .span-4.last {
-    margin-right: 0;
-    max-width: 414.66667px;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003274}}
-  #v2 .span-4.center {
-    *zoom: 1;
-    max-width: 426.66667px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 10px;
-    float: none;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\000038}}
-  #v2 .span-4.center:before, #v2 .span-4.center:after {
-    display: table;
-    content: "";
-    line-height: 0;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\0000315}}
-  #v2 .span-4.center:after {
-    clear: both;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003281}}
-  #v2 .span-4.center > [class*=span]:last-child {
-    margin-right: 0;
-    width: 414.66667px;
-  }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003288}}
   #v2 .span-4 {
     float: left;
@@ -4084,42 +3544,6 @@ html {
   #v2 .span-4.center > [class*=span]:last-child {
     margin-right: 0;
     width: 414.66667px;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003262}}
-  #v2 .span-5 {
-    float: left;
-    width: 100%;
-    max-width: 521.33333px;
-    margin-right: 10px;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003268}}
-  #v2 .span-5.last {
-    margin-right: 0;
-    max-width: 521.33333px;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003274}}
-  #v2 .span-5.center {
-    *zoom: 1;
-    max-width: 533.33333px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 10px;
-    float: none;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\000038}}
-  #v2 .span-5.center:before, #v2 .span-5.center:after {
-    display: table;
-    content: "";
-    line-height: 0;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\0000315}}
-  #v2 .span-5.center:after {
-    clear: both;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003281}}
-  #v2 .span-5.center > [class*=span]:last-child {
-    margin-right: 0;
-    width: 521.33333px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003288}}
   #v2 .span-5 {
@@ -4230,42 +3654,6 @@ html {
   #v2 .push-tablet-span-6 {
     margin-left: 640px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003262}}
-  #v2 .tablet-span-1 {
-    float: left;
-    width: 100%;
-    max-width: 94.66667px;
-    margin-right: 10px;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003268}}
-  #v2 .tablet-span-1.last {
-    margin-right: 0;
-    max-width: 94.66667px;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003274}}
-  #v2 .tablet-span-1.center {
-    *zoom: 1;
-    max-width: 106.66667px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 10px;
-    float: none;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\000038}}
-  #v2 .tablet-span-1.center:before, #v2 .tablet-span-1.center:after {
-    display: table;
-    content: "";
-    line-height: 0;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\0000315}}
-  #v2 .tablet-span-1.center:after {
-    clear: both;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003281}}
-  #v2 .tablet-span-1.center > [class*=span]:last-child {
-    margin-right: 0;
-    width: 94.66667px;
-  }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003288}}
   #v2 .tablet-span-1 {
     float: left;
@@ -4301,42 +3689,6 @@ html {
   #v2 .tablet-span-1.center > [class*=span]:last-child {
     margin-right: 0;
     width: 94.66667px;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003262}}
-  #v2 .tablet-span-2 {
-    float: left;
-    width: 100%;
-    max-width: 201.33333px;
-    margin-right: 10px;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003268}}
-  #v2 .tablet-span-2.last {
-    margin-right: 0;
-    max-width: 201.33333px;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003274}}
-  #v2 .tablet-span-2.center {
-    *zoom: 1;
-    max-width: 213.33333px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 10px;
-    float: none;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\000038}}
-  #v2 .tablet-span-2.center:before, #v2 .tablet-span-2.center:after {
-    display: table;
-    content: "";
-    line-height: 0;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\0000315}}
-  #v2 .tablet-span-2.center:after {
-    clear: both;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003281}}
-  #v2 .tablet-span-2.center > [class*=span]:last-child {
-    margin-right: 0;
-    width: 201.33333px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003288}}
   #v2 .tablet-span-2 {
@@ -4374,42 +3726,6 @@ html {
     margin-right: 0;
     width: 201.33333px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003262}}
-  #v2 .tablet-span-3 {
-    float: left;
-    width: 100%;
-    max-width: 308px;
-    margin-right: 10px;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003268}}
-  #v2 .tablet-span-3.last {
-    margin-right: 0;
-    max-width: 308px;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003274}}
-  #v2 .tablet-span-3.center {
-    *zoom: 1;
-    max-width: 320px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 10px;
-    float: none;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\000038}}
-  #v2 .tablet-span-3.center:before, #v2 .tablet-span-3.center:after {
-    display: table;
-    content: "";
-    line-height: 0;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\0000315}}
-  #v2 .tablet-span-3.center:after {
-    clear: both;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003281}}
-  #v2 .tablet-span-3.center > [class*=span]:last-child {
-    margin-right: 0;
-    width: 308px;
-  }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003288}}
   #v2 .tablet-span-3 {
     float: left;
@@ -4446,42 +3762,6 @@ html {
     margin-right: 0;
     width: 308px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003262}}
-  #v2 .tablet-span-4 {
-    float: left;
-    width: 100%;
-    max-width: 414.66667px;
-    margin-right: 10px;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003268}}
-  #v2 .tablet-span-4.last {
-    margin-right: 0;
-    max-width: 414.66667px;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003274}}
-  #v2 .tablet-span-4.center {
-    *zoom: 1;
-    max-width: 426.66667px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 10px;
-    float: none;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\000038}}
-  #v2 .tablet-span-4.center:before, #v2 .tablet-span-4.center:after {
-    display: table;
-    content: "";
-    line-height: 0;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\0000315}}
-  #v2 .tablet-span-4.center:after {
-    clear: both;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003281}}
-  #v2 .tablet-span-4.center > [class*=span]:last-child {
-    margin-right: 0;
-    width: 414.66667px;
-  }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003288}}
   #v2 .tablet-span-4 {
     float: left;
@@ -4517,42 +3797,6 @@ html {
   #v2 .tablet-span-4.center > [class*=span]:last-child {
     margin-right: 0;
     width: 414.66667px;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003262}}
-  #v2 .tablet-span-5 {
-    float: left;
-    width: 100%;
-    max-width: 521.33333px;
-    margin-right: 10px;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003268}}
-  #v2 .tablet-span-5.last {
-    margin-right: 0;
-    max-width: 521.33333px;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003274}}
-  #v2 .tablet-span-5.center {
-    *zoom: 1;
-    max-width: 533.33333px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 10px;
-    float: none;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\000038}}
-  #v2 .tablet-span-5.center:before, #v2 .tablet-span-5.center:after {
-    display: table;
-    content: "";
-    line-height: 0;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\0000315}}
-  #v2 .tablet-span-5.center:after {
-    clear: both;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003281}}
-  #v2 .tablet-span-5.center > [class*=span]:last-child {
-    margin-right: 0;
-    width: 521.33333px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003288}}
   #v2 .tablet-span-5 {
@@ -5044,42 +4288,6 @@ html {
   #v2 .push-span-2 {
     margin-left: 300px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003262}}
-  #v2 .span-1 {
-    float: left;
-    width: 100%;
-    max-width: 138px;
-    margin-right: 10px;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003268}}
-  #v2 .span-1.last {
-    margin-right: 0;
-    max-width: 138px;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003274}}
-  #v2 .span-1.center {
-    *zoom: 1;
-    max-width: 150px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 10px;
-    float: none;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\000038}}
-  #v2 .span-1.center:before, #v2 .span-1.center:after {
-    display: table;
-    content: "";
-    line-height: 0;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\0000315}}
-  #v2 .span-1.center:after {
-    clear: both;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003281}}
-  #v2 .span-1.center > [class*=span]:last-child {
-    margin-right: 0;
-    width: 138px;
-  }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003288}}
   #v2 .span-1 {
     float: left;
@@ -5156,42 +4364,6 @@ html {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003220}}
   #v2 .push-phone-span-2 {
     margin-left: 300px;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003262}}
-  #v2 .phone-span-1 {
-    float: left;
-    width: 100%;
-    max-width: 143px;
-    margin-right: 5px;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003268}}
-  #v2 .phone-span-1.last {
-    margin-right: 0;
-    max-width: 143px;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003274}}
-  #v2 .phone-span-1.center {
-    *zoom: 1;
-    max-width: 150px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 5px;
-    float: none;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\000038}}
-  #v2 .phone-span-1.center:before, #v2 .phone-span-1.center:after {
-    display: table;
-    content: "";
-    line-height: 0;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\0000315}}
-  #v2 .phone-span-1.center:after {
-    clear: both;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003281}}
-  #v2 .phone-span-1.center > [class*=span]:last-child {
-    margin-right: 0;
-    width: 143px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003288}}
   #v2 .phone-span-1 {
@@ -6564,36 +5736,36 @@ html {
     font-size: 0.8em;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/_fullcalendar\.scss}line{font-family:\00003601}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/_fullcalendar\.scss}line{font-family:\00003600}}
 #v2 .fc-view-month tbody {
   background: #efeeec;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/_fullcalendar\.scss}line{font-family:\00003604}}
-.transparent #v2 .fc-view-month tbody {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/_fullcalendar\.scss}line{font-family:\00003605}}
+#v2 .transparent .fc-view-month tbody {
   background: #f8f8f8;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/_fullcalendar\.scss}line{font-family:\00003609}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/_fullcalendar\.scss}line{font-family:\00003608}}
 #v2 .fc-content thead .fc-widget-header {
   padding-top: 16px;
   padding-bottom: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/_fullcalendar\.scss}line{font-family:\00003616}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/_fullcalendar\.scss}line{font-family:\00003615}}
 #v2 .fc-event.tentative {
   background-color: #4e4a47;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/_fullcalendar\.scss}line{font-family:\00003619}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/_fullcalendar\.scss}line{font-family:\00003618}}
 #v2 .fc-event.available {
   background-color: #7db14c;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/_fullcalendar\.scss}line{font-family:\00003622}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/_fullcalendar\.scss}line{font-family:\00003621}}
 #v2 .fc-event.booked {
   background-color: #fbc90d;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/_fullcalendar\.scss}line{font-family:\00003628}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/_fullcalendar\.scss}line{font-family:\00003627}}
 #v2 .legend {
   margin: 10px 0 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/_fullcalendar\.scss}line{font-family:\00003630}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/_fullcalendar\.scss}line{font-family:\00003629}}
 #v2 .legend span {
   margin-right: 10px;
   display: block;
@@ -6761,15 +5933,18 @@ html {
   width: 17em;
   padding: 0;
   display: none;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003167}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003168}}
 #v2 .ui-datepicker .ui-datepicker-header {
   background: #fbc90d;
   color: white;
   position: relative;
   padding: .2em 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003174}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003175}}
 #v2 .ui-datepicker .ui-datepicker-prev,
 #v2 .ui-datepicker .ui-datepicker-next {
   position: absolute;
@@ -6777,15 +5952,15 @@ html {
   width: 1.8em;
   height: 1.8em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003185}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003186}}
 #v2 .ui-datepicker .ui-datepicker-prev {
   left: 2px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003188}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003189}}
 #v2 .ui-datepicker .ui-datepicker-next {
   right: 2px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003198}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003199}}
 #v2 .ui-datepicker .ui-datepicker-prev span,
 #v2 .ui-datepicker .ui-datepicker-next span {
   display: block;
@@ -6795,7 +5970,7 @@ html {
   top: 50%;
   margin-top: -8px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003206}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003207}}
 #v2 .ui-datepicker .ui-datepicker-title {
   font-family: "brandon-grotesque", "Helvetica Neue", Arial, sans-serif;
   font-weight: 200;
@@ -6804,45 +5979,45 @@ html {
   line-height: 1.8em;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003215}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003216}}
 #v2 .ui-datepicker .ui-datepicker-title select {
   font-size: 1em;
   margin: 1px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003220}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003221}}
 #v2 .ui-datepicker select.ui-datepicker-month-year {
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003224}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003225}}
 #v2 .ui-datepicker select.ui-datepicker-month,
 #v2 .ui-datepicker select.ui-datepicker-year {
   width: 49%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003227}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003228}}
 #v2 .ui-datepicker table {
   width: 100%;
   font-size: .9em;
   border-collapse: collapse;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003233}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003234}}
 #v2 .ui-datepicker th {
   padding: .7em .3em;
   text-align: center;
   font-weight: bold;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003239}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003240}}
 #v2 .ui-datepicker td {
   padding: 1px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003244}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003245}}
 #v2 .ui-datepicker td span,
 #v2 .ui-datepicker td a {
   display: block;
   padding: .2em;
-  text-align: right;
+  text-align: center;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003250}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003251}}
 #v2 .ui-datepicker .ui-datepicker-buttonpane {
   background-image: none;
   margin: .7em 0 0 0;
@@ -6851,7 +6026,7 @@ html {
   border-right: 0;
   border-bottom: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003258}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003259}}
 #v2 .ui-datepicker .ui-datepicker-buttonpane button {
   float: right;
   margin: .5em .2em .4em;
@@ -6860,102 +6035,102 @@ html {
   width: auto;
   overflow: visible;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003266}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003267}}
 #v2 .ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current {
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003271}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003272}}
 #v2 .ui-datepicker.ui-datepicker-multi {
   width: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003274}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003275}}
 #v2 .ui-datepicker-multi .ui-datepicker-group {
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003277}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003278}}
 #v2 .ui-datepicker-multi .ui-datepicker-group table {
   width: 95%;
   margin: 0 auto .4em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003281}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003282}}
 #v2 .ui-datepicker-multi-2 .ui-datepicker-group {
   width: 50%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003284}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003285}}
 #v2 .ui-datepicker-multi-3 .ui-datepicker-group {
   width: 33.3%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003287}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003288}}
 #v2 .ui-datepicker-multi-4 .ui-datepicker-group {
   width: 25%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003291}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003292}}
 #v2 .ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header,
 #v2 .ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header {
   border-left-width: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003294}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003295}}
 #v2 .ui-datepicker-multi .ui-datepicker-buttonpane {
   clear: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003297}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003298}}
 #v2 .ui-datepicker-row-break {
   clear: both;
   width: 100%;
   font-size: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003304}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003305}}
 #v2 .ui-datepicker-rtl {
   direction: rtl;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003307}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003308}}
 #v2 .ui-datepicker-rtl .ui-datepicker-prev {
   right: 2px;
   left: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003312}}
 #v2 .ui-datepicker-rtl .ui-datepicker-next {
   left: 2px;
   right: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003316}}
 #v2 .ui-datepicker-rtl .ui-datepicker-prev:hover {
   right: 1px;
   left: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003320}}
 #v2 .ui-datepicker-rtl .ui-datepicker-next:hover {
   left: 1px;
   right: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003324}}
 #v2 .ui-datepicker-rtl .ui-datepicker-buttonpane {
   clear: right;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003327}}
 #v2 .ui-datepicker-rtl .ui-datepicker-buttonpane button {
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003331}}
 #v2 .ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current,
 #v2 .ui-datepicker-rtl .ui-datepicker-group {
   float: right;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003335}}
 #v2 .ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header,
 #v2 .ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header {
   border-right-width: 0;
   border-left-width: 1px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003342}}
 #v2 .ui-widget {
   font-family: inherit;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003346}}
 #v2 .ui-widget .ui-widget {
   font-size: 1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003352}}
 #v2 .ui-widget input,
 #v2 .ui-widget select,
 #v2 .ui-widget textarea,
@@ -6963,40 +6138,40 @@ html {
   font-family: inherit;
   font-size: 1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003356}}
 #v2 .ui-widget-content {
   background: #efeeec;
   color: #222222;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003361}}
 #v2 .ui-widget-content a {
   color: #222222;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003364}}
 #v2 .ui-widget-header {
   background: #cccccc;
   color: #222222;
   font-weight: bold;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003370}}
 #v2 .ui-widget-header a {
   color: #222222;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003378}}
 #v2 .ui-state-default,
 #v2 .ui-widget-content .ui-state-default,
 #v2 .ui-widget-header .ui-state-default {
   font-weight: normal;
   color: #555555;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003385}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003386}}
 #v2 .ui-state-default a,
 #v2 .ui-state-default a:link,
 #v2 .ui-state-default a:visited {
   color: #555555;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003395}}
 #v2 .ui-state-hover,
 #v2 .ui-widget-content .ui-state-hover,
 #v2 .ui-widget-header .ui-state-hover,
@@ -7004,9 +6179,9 @@ html {
 #v2 .ui-widget-content .ui-state-focus,
 #v2 .ui-widget-header .ui-state-focus {
   font-weight: normal;
-  color: #212121;
+  background: #fbc90d;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003403}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003404}}
 #v2 .ui-state-hover a,
 #v2 .ui-state-hover a:hover,
 #v2 .ui-state-hover a:link,
@@ -7014,7 +6189,7 @@ html {
   color: #212121;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003409}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003410}}
 #v2 .ui-state-active,
 #v2 .ui-widget-content .ui-state-active,
 #v2 .ui-widget-header .ui-state-active {
@@ -7022,52 +6197,52 @@ html {
   font-weight: normal;
   color: #212121;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003417}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003418}}
 #v2 .ui-state-active a,
 #v2 .ui-state-active a:link,
 #v2 .ui-state-active a:visited {
   color: #212121;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003426}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003427}}
 #v2 .ui-state-highlight,
 #v2 .ui-widget-content .ui-state-highlight,
 #v2 .ui-widget-header .ui-state-highlight {
   background: #fbf9ee;
   color: #363636;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003433}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003434}}
 #v2 .ui-state-highlight a,
 #v2 .ui-widget-content .ui-state-highlight a,
 #v2 .ui-widget-header .ui-state-highlight a {
   color: #363636;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003438}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003439}}
 #v2 .ui-state-error,
 #v2 .ui-widget-content .ui-state-error,
 #v2 .ui-widget-header .ui-state-error {
   background: #fef1ec;
   color: #cd0a0a;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003445}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003446}}
 #v2 .ui-state-error a,
 #v2 .ui-widget-content .ui-state-error a,
 #v2 .ui-widget-header .ui-state-error a {
   color: #cd0a0a;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003450}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003451}}
 #v2 .ui-state-error-text,
 #v2 .ui-widget-content .ui-state-error-text,
 #v2 .ui-widget-header .ui-state-error-text {
   color: #cd0a0a;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003455}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003456}}
 #v2 .ui-priority-primary,
 #v2 .ui-widget-content .ui-priority-primary,
 #v2 .ui-widget-header .ui-priority-primary {
   font-weight: bold;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003460}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003461}}
 #v2 .ui-priority-secondary,
 #v2 .ui-widget-content .ui-priority-secondary,
 #v2 .ui-widget-header .ui-priority-secondary {
@@ -7075,7 +6250,7 @@ html {
   filter: Alpha(Opacity=70);
   font-weight: normal;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003467}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003468}}
 #v2 .ui-state-disabled,
 #v2 .ui-widget-content .ui-state-disabled,
 #v2 .ui-widget-header .ui-state-disabled {
@@ -7083,770 +6258,770 @@ html {
   filter: Alpha(Opacity=35);
   background-image: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003472}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003473}}
 #v2 .ui-state-disabled .ui-icon {
   filter: Alpha(Opacity=35);
   /* For IE8 - See #6059 */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003480}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003481}}
 #v2 .ui-icon {
   width: 16px;
   height: 16px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003485}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003486}}
 #v2 .ui-icon,
 #v2 .ui-widget-content .ui-icon {
   background-image: url(../images/ui/ui-icons_222222_256x240.png);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003488}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003489}}
 #v2 .ui-widget-header .ui-icon {
   background-image: url(../images/ui/ui-icons_222222_256x240.png);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003491}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003492}}
 #v2 .ui-state-default .ui-icon {
   background-image: url(../images/ui/ui-icons_888888_256x240.png);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003495}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003496}}
 #v2 .ui-state-hover .ui-icon,
 #v2 .ui-state-focus .ui-icon {
   background-image: url(../images/ui/ui-icons_454545_256x240.png);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003498}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003499}}
 #v2 .ui-state-active .ui-icon {
   background-image: url(../images/ui/ui-icons_454545_256x240.png);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003501}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003502}}
 #v2 .ui-state-highlight .ui-icon {
   background-image: url(../images/ui/ui-icons_2e83ff_256x240.png);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003505}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003506}}
 #v2 .ui-state-error .ui-icon,
 #v2 .ui-state-error-text .ui-icon {
   background-image: url(../images/ui/ui-icons_cd0a0a_256x240.png);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003510}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003511}}
 #v2 .ui-icon-blank {
   background-position: 16px 16px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003511}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003512}}
 #v2 .ui-icon-carat-1-n {
   background-position: 0 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003512}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003513}}
 #v2 .ui-icon-carat-1-ne {
   background-position: -16px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003513}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003514}}
 #v2 .ui-icon-carat-1-e {
   background-position: -32px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003514}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003515}}
 #v2 .ui-icon-carat-1-se {
   background-position: -48px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003515}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003516}}
 #v2 .ui-icon-carat-1-s {
   background-position: -64px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003516}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003517}}
 #v2 .ui-icon-carat-1-sw {
   background-position: -80px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003517}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003518}}
 #v2 .ui-icon-carat-1-w {
   background-position: -96px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003518}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003519}}
 #v2 .ui-icon-carat-1-nw {
   background-position: -112px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003519}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003520}}
 #v2 .ui-icon-carat-2-n-s {
   background-position: -128px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003520}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003521}}
 #v2 .ui-icon-carat-2-e-w {
   background-position: -144px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003521}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003522}}
 #v2 .ui-icon-triangle-1-n {
   background-position: 0 -16px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003522}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003523}}
 #v2 .ui-icon-triangle-1-ne {
   background-position: -16px -16px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003523}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003524}}
 #v2 .ui-icon-triangle-1-e {
   background-position: -32px -16px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003524}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003525}}
 #v2 .ui-icon-triangle-1-se {
   background-position: -48px -16px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003525}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003526}}
 #v2 .ui-icon-triangle-1-s {
   background-position: -64px -16px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003526}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003527}}
 #v2 .ui-icon-triangle-1-sw {
   background-position: -80px -16px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003527}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003528}}
 #v2 .ui-icon-triangle-1-w {
   background-position: -96px -16px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003528}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003529}}
 #v2 .ui-icon-triangle-1-nw {
   background-position: -112px -16px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003529}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003530}}
 #v2 .ui-icon-triangle-2-n-s {
   background-position: -128px -16px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003530}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003531}}
 #v2 .ui-icon-triangle-2-e-w {
   background-position: -144px -16px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003531}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003532}}
 #v2 .ui-icon-arrow-1-n {
   background-position: 0 -32px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003532}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003533}}
 #v2 .ui-icon-arrow-1-ne {
   background-position: -16px -32px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003533}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003534}}
 #v2 .ui-icon-arrow-1-e {
   background-position: -32px -32px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003534}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003535}}
 #v2 .ui-icon-arrow-1-se {
   background-position: -48px -32px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003535}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003536}}
 #v2 .ui-icon-arrow-1-s {
   background-position: -64px -32px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003536}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003537}}
 #v2 .ui-icon-arrow-1-sw {
   background-position: -80px -32px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003537}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003538}}
 #v2 .ui-icon-arrow-1-w {
   background-position: -96px -32px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003538}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003539}}
 #v2 .ui-icon-arrow-1-nw {
   background-position: -112px -32px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003539}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003540}}
 #v2 .ui-icon-arrow-2-n-s {
   background-position: -128px -32px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003540}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003541}}
 #v2 .ui-icon-arrow-2-ne-sw {
   background-position: -144px -32px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003541}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003542}}
 #v2 .ui-icon-arrow-2-e-w {
   background-position: -160px -32px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003542}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003543}}
 #v2 .ui-icon-arrow-2-se-nw {
   background-position: -176px -32px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003543}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003544}}
 #v2 .ui-icon-arrowstop-1-n {
   background-position: -192px -32px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003544}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003545}}
 #v2 .ui-icon-arrowstop-1-e {
   background-position: -208px -32px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003545}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003546}}
 #v2 .ui-icon-arrowstop-1-s {
   background-position: -224px -32px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003546}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003547}}
 #v2 .ui-icon-arrowstop-1-w {
   background-position: -240px -32px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003547}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003548}}
 #v2 .ui-icon-arrowthick-1-n {
   background-position: 0 -48px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003548}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003549}}
 #v2 .ui-icon-arrowthick-1-ne {
   background-position: -16px -48px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003549}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003550}}
 #v2 .ui-icon-arrowthick-1-e {
   background-position: -32px -48px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003550}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003551}}
 #v2 .ui-icon-arrowthick-1-se {
   background-position: -48px -48px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003551}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003552}}
 #v2 .ui-icon-arrowthick-1-s {
   background-position: -64px -48px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003552}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003553}}
 #v2 .ui-icon-arrowthick-1-sw {
   background-position: -80px -48px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003553}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003554}}
 #v2 .ui-icon-arrowthick-1-w {
   background-position: -96px -48px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003554}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003555}}
 #v2 .ui-icon-arrowthick-1-nw {
   background-position: -112px -48px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003555}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003556}}
 #v2 .ui-icon-arrowthick-2-n-s {
   background-position: -128px -48px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003556}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003557}}
 #v2 .ui-icon-arrowthick-2-ne-sw {
   background-position: -144px -48px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003557}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003558}}
 #v2 .ui-icon-arrowthick-2-e-w {
   background-position: -160px -48px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003558}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003559}}
 #v2 .ui-icon-arrowthick-2-se-nw {
   background-position: -176px -48px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003559}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003560}}
 #v2 .ui-icon-arrowthickstop-1-n {
   background-position: -192px -48px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003560}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003561}}
 #v2 .ui-icon-arrowthickstop-1-e {
   background-position: -208px -48px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003561}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003562}}
 #v2 .ui-icon-arrowthickstop-1-s {
   background-position: -224px -48px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003562}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003563}}
 #v2 .ui-icon-arrowthickstop-1-w {
   background-position: -240px -48px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003563}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003564}}
 #v2 .ui-icon-arrowreturnthick-1-w {
   background-position: 0 -64px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003564}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003565}}
 #v2 .ui-icon-arrowreturnthick-1-n {
   background-position: -16px -64px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003565}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003566}}
 #v2 .ui-icon-arrowreturnthick-1-e {
   background-position: -32px -64px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003566}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003567}}
 #v2 .ui-icon-arrowreturnthick-1-s {
   background-position: -48px -64px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003567}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003568}}
 #v2 .ui-icon-arrowreturn-1-w {
   background-position: -64px -64px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003568}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003569}}
 #v2 .ui-icon-arrowreturn-1-n {
   background-position: -80px -64px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003569}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003570}}
 #v2 .ui-icon-arrowreturn-1-e {
   background-position: -96px -64px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003570}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003571}}
 #v2 .ui-icon-arrowreturn-1-s {
   background-position: -112px -64px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003571}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003572}}
 #v2 .ui-icon-arrowrefresh-1-w {
   background-position: -128px -64px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003572}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003573}}
 #v2 .ui-icon-arrowrefresh-1-n {
   background-position: -144px -64px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003573}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003574}}
 #v2 .ui-icon-arrowrefresh-1-e {
   background-position: -160px -64px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003574}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003575}}
 #v2 .ui-icon-arrowrefresh-1-s {
   background-position: -176px -64px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003575}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003576}}
 #v2 .ui-icon-arrow-4 {
   background-position: 0 -80px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003576}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003577}}
 #v2 .ui-icon-arrow-4-diag {
   background-position: -16px -80px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003577}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003578}}
 #v2 .ui-icon-extlink {
   background-position: -32px -80px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003578}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003579}}
 #v2 .ui-icon-newwin {
   background-position: -48px -80px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003579}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003580}}
 #v2 .ui-icon-refresh {
   background-position: -64px -80px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003580}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003581}}
 #v2 .ui-icon-shuffle {
   background-position: -80px -80px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003581}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003582}}
 #v2 .ui-icon-transfer-e-w {
   background-position: -96px -80px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003582}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003583}}
 #v2 .ui-icon-transferthick-e-w {
   background-position: -112px -80px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003583}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003584}}
 #v2 .ui-icon-folder-collapsed {
   background-position: 0 -96px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003584}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003585}}
 #v2 .ui-icon-folder-open {
   background-position: -16px -96px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003585}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003586}}
 #v2 .ui-icon-document {
   background-position: -32px -96px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003586}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003587}}
 #v2 .ui-icon-document-b {
   background-position: -48px -96px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003587}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003588}}
 #v2 .ui-icon-note {
   background-position: -64px -96px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003588}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003589}}
 #v2 .ui-icon-mail-closed {
   background-position: -80px -96px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003589}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003590}}
 #v2 .ui-icon-mail-open {
   background-position: -96px -96px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003590}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003591}}
 #v2 .ui-icon-suitcase {
   background-position: -112px -96px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003591}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003592}}
 #v2 .ui-icon-comment {
   background-position: -128px -96px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003592}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003593}}
 #v2 .ui-icon-person {
   background-position: -144px -96px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003593}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003594}}
 #v2 .ui-icon-print {
   background-position: -160px -96px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003594}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003595}}
 #v2 .ui-icon-trash {
   background-position: -176px -96px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003595}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003596}}
 #v2 .ui-icon-locked {
   background-position: -192px -96px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003596}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003597}}
 #v2 .ui-icon-unlocked {
   background-position: -208px -96px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003597}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003598}}
 #v2 .ui-icon-bookmark {
   background-position: -224px -96px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003598}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003599}}
 #v2 .ui-icon-tag {
   background-position: -240px -96px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003599}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003600}}
 #v2 .ui-icon-home {
   background-position: 0 -112px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003600}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003601}}
 #v2 .ui-icon-flag {
   background-position: -16px -112px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003601}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003602}}
 #v2 .ui-icon-calendar {
   background-position: -32px -112px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003602}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003603}}
 #v2 .ui-icon-cart {
   background-position: -48px -112px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003603}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003604}}
 #v2 .ui-icon-pencil {
   background-position: -64px -112px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003604}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003605}}
 #v2 .ui-icon-clock {
   background-position: -80px -112px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003605}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003606}}
 #v2 .ui-icon-disk {
   background-position: -96px -112px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003606}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003607}}
 #v2 .ui-icon-calculator {
   background-position: -112px -112px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003607}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003608}}
 #v2 .ui-icon-zoomin {
   background-position: -128px -112px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003608}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003609}}
 #v2 .ui-icon-zoomout {
   background-position: -144px -112px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003609}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003610}}
 #v2 .ui-icon-search {
   background-position: -160px -112px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003610}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003611}}
 #v2 .ui-icon-wrench {
   background-position: -176px -112px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003611}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003612}}
 #v2 .ui-icon-gear {
   background-position: -192px -112px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003612}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003613}}
 #v2 .ui-icon-heart {
   background-position: -208px -112px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003613}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003614}}
 #v2 .ui-icon-star {
   background-position: -224px -112px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003614}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003615}}
 #v2 .ui-icon-link {
   background-position: -240px -112px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003615}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003616}}
 #v2 .ui-icon-cancel {
   background-position: 0 -128px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003616}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003617}}
 #v2 .ui-icon-plus {
   background-position: -16px -128px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003617}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003618}}
 #v2 .ui-icon-plusthick {
   background-position: -32px -128px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003618}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003619}}
 #v2 .ui-icon-minus {
   background-position: -48px -128px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003619}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003620}}
 #v2 .ui-icon-minusthick {
   background-position: -64px -128px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003620}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003621}}
 #v2 .ui-icon-close {
   background-position: -80px -128px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003621}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003622}}
 #v2 .ui-icon-closethick {
   background-position: -96px -128px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003622}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003623}}
 #v2 .ui-icon-key {
   background-position: -112px -128px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003623}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003624}}
 #v2 .ui-icon-lightbulb {
   background-position: -128px -128px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003624}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003625}}
 #v2 .ui-icon-scissors {
   background-position: -144px -128px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003625}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003626}}
 #v2 .ui-icon-clipboard {
   background-position: -160px -128px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003626}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003627}}
 #v2 .ui-icon-copy {
   background-position: -176px -128px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003627}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003628}}
 #v2 .ui-icon-contact {
   background-position: -192px -128px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003628}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003629}}
 #v2 .ui-icon-image {
   background-position: -208px -128px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003629}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003630}}
 #v2 .ui-icon-video {
   background-position: -224px -128px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003630}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003631}}
 #v2 .ui-icon-script {
   background-position: -240px -128px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003631}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003632}}
 #v2 .ui-icon-alert {
   background-position: 0 -144px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003632}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003633}}
 #v2 .ui-icon-info {
   background-position: -16px -144px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003633}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003634}}
 #v2 .ui-icon-notice {
   background-position: -32px -144px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003634}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003635}}
 #v2 .ui-icon-help {
   background-position: -48px -144px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003635}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003636}}
 #v2 .ui-icon-check {
   background-position: -64px -144px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003636}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003637}}
 #v2 .ui-icon-bullet {
   background-position: -80px -144px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003637}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003638}}
 #v2 .ui-icon-radio-on {
   background-position: -96px -144px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003638}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003639}}
 #v2 .ui-icon-radio-off {
   background-position: -112px -144px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003639}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003640}}
 #v2 .ui-icon-pin-w {
   background-position: -128px -144px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003640}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003641}}
 #v2 .ui-icon-pin-s {
   background-position: -144px -144px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003641}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003642}}
 #v2 .ui-icon-play {
   background-position: 0 -160px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003642}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003643}}
 #v2 .ui-icon-pause {
   background-position: -16px -160px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003643}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003644}}
 #v2 .ui-icon-seek-next {
   background-position: -32px -160px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003644}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003645}}
 #v2 .ui-icon-seek-prev {
   background-position: -48px -160px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003645}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003646}}
 #v2 .ui-icon-seek-end {
   background-position: -64px -160px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003646}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003647}}
 #v2 .ui-icon-seek-start {
   background-position: -80px -160px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003648}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003649}}
 #v2 .ui-icon-seek-first {
   background-position: -80px -160px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003649}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003650}}
 #v2 .ui-icon-stop {
   background-position: -96px -160px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003650}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003651}}
 #v2 .ui-icon-eject {
   background-position: -112px -160px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003651}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003652}}
 #v2 .ui-icon-volume-off {
   background-position: -128px -160px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003652}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003653}}
 #v2 .ui-icon-volume-on {
   background-position: -144px -160px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003653}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003654}}
 #v2 .ui-icon-power {
   background-position: 0 -176px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003654}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003655}}
 #v2 .ui-icon-signal-diag {
   background-position: -16px -176px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003655}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003656}}
 #v2 .ui-icon-signal {
   background-position: -32px -176px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003656}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003657}}
 #v2 .ui-icon-battery-0 {
   background-position: -48px -176px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003657}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003658}}
 #v2 .ui-icon-battery-1 {
   background-position: -64px -176px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003658}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003659}}
 #v2 .ui-icon-battery-2 {
   background-position: -80px -176px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003659}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003660}}
 #v2 .ui-icon-battery-3 {
   background-position: -96px -176px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003660}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003661}}
 #v2 .ui-icon-circle-plus {
   background-position: 0 -192px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003661}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003662}}
 #v2 .ui-icon-circle-minus {
   background-position: -16px -192px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003662}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003663}}
 #v2 .ui-icon-circle-close {
   background-position: -32px -192px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003663}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003664}}
 #v2 .ui-icon-circle-triangle-e {
   background-position: -48px -192px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003664}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003665}}
 #v2 .ui-icon-circle-triangle-s {
   background-position: -64px -192px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003665}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003666}}
 #v2 .ui-icon-circle-triangle-w {
   background-position: -80px -192px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003666}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003667}}
 #v2 .ui-icon-circle-triangle-n {
   background-position: -96px -192px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003667}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003668}}
 #v2 .ui-icon-circle-arrow-e {
   background-position: -112px -192px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003668}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003669}}
 #v2 .ui-icon-circle-arrow-s {
   background-position: -128px -192px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003669}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003670}}
 #v2 .ui-icon-circle-arrow-w {
   background-position: -144px -192px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003670}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003671}}
 #v2 .ui-icon-circle-arrow-n {
   background-position: -160px -192px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003671}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003672}}
 #v2 .ui-icon-circle-zoomin {
   background-position: -176px -192px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003672}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003673}}
 #v2 .ui-icon-circle-zoomout {
   background-position: -192px -192px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003673}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003674}}
 #v2 .ui-icon-circle-check {
   background-position: -208px -192px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003674}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003675}}
 #v2 .ui-icon-circlesmall-plus {
   background-position: 0 -208px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003675}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003676}}
 #v2 .ui-icon-circlesmall-minus {
   background-position: -16px -208px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003676}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003677}}
 #v2 .ui-icon-circlesmall-close {
   background-position: -32px -208px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003677}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003678}}
 #v2 .ui-icon-squaresmall-plus {
   background-position: -48px -208px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003678}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003679}}
 #v2 .ui-icon-squaresmall-minus {
   background-position: -64px -208px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003679}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003680}}
 #v2 .ui-icon-squaresmall-close {
   background-position: -80px -208px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003680}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003681}}
 #v2 .ui-icon-grip-dotted-vertical {
   background-position: 0 -224px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003681}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003682}}
 #v2 .ui-icon-grip-dotted-horizontal {
   background-position: -16px -224px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003682}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003683}}
 #v2 .ui-icon-grip-solid-vertical {
   background-position: -32px -224px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003683}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003684}}
 #v2 .ui-icon-grip-solid-horizontal {
   background-position: -48px -224px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003684}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003685}}
 #v2 .ui-icon-gripsmall-diagonal-se {
   background-position: -64px -224px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003685}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003686}}
 #v2 .ui-icon-grip-diagonal-se {
   background-position: -80px -224px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003693}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003694}}
 #v2 .ui-widget-overlay {
   background: #aaaaaa;
   opacity: .3;
   filter: Alpha(Opacity=30);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003698}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003699}}
 #v2 .ui-widget-shadow {
   margin: -8px 0 0 -8px;
   padding: 8px;
   background: #aaaaaa;
   opacity: .3;
   filter: Alpha(Opacity=30);
-  border-radius: 8px;
+  border-radius: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003708}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003709}}
 #v2 .ui-datepicker-calendar thead {
   font-family: "brandon-grotesque", "Helvetica Neue", Arial, sans-serif;
   background: #4e4a47;
   color: white;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003714}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/externals\/jquery-ui-knc-theme\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003715}}
 #v2 .ui-datepicker-calendar thead span {
   font-weight: 200;
 }
@@ -8213,16 +7388,16 @@ html {
 #v2 form fieldset input[type="text"]:focus::-webkit-input-placeholder, #v2 form fieldset input[type="email"]:focus::-webkit-input-placeholder, #v2 form fieldset input[type="password"]:focus::-webkit-input-placeholder, #v2 form fieldset textarea:focus::-webkit-input-placeholder, #v2 form fieldset select:focus::-webkit-input-placeholder {
   color: rgba(118, 111, 105, 0);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003146}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003148}}
 #v2 form fieldset input[readonly="readonly"] {
   background: #eaeaea;
   color: #777;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003151}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003153}}
 #v2 form fieldset textarea {
   height: 60px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003153}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003155}}
 #v2 form fieldset select {
   line-height: 1em;
   height: 34px;
@@ -8230,15 +7405,15 @@ html {
   border: 4px #efeeec solid;
   padding-top: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003159}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003161}}
 .transparent #v2 form fieldset select {
   border: 4px #e3e2de solid;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003163}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003165}}
 #v2 form fieldset .input-append {
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003165}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003168}}
 #v2 form fieldset .input-append i {
   position: absolute;
   top: 10px;
@@ -8248,7 +7423,13 @@ html {
   height: 29px;
   line-height: 29px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003175}}
+@media screen and (max-width: 720px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003168}}
+  #v2 form fieldset .input-append i {
+    top: 9px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003182}}
 #v2 form fieldset .note {
   float: left;
   font-size: 0.8em;
@@ -8256,29 +7437,29 @@ html {
   line-height: 1.4em;
   padding: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003184}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003191}}
 #v2 form fieldset .checkbox label {
   display: inline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003187}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003194}}
 #v2 form fieldset .chzn-container {
   margin-top: 0.4em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003189}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003196}}
 #v2 form fieldset .chzn-container-active .chzn-single {
   border-color: #4e4a47;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003192}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003199}}
 #v2 form fieldset .field_with_errors input[type="text"], #v2 form fieldset .field_with_errors input[type="email"], #v2 form fieldset .field_with_errors input[type="password"], #v2 form fieldset .field_with_errors textarea {
   background-color: #766f69;
   border-color: #b61d29;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003196}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003203}}
 #v2 form fieldset .field_with_errors span.error {
   margin-left: 0.5em;
   color: #b61d29;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003201}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003208}}
 #v2 form #error-explanation {
   background-color: #fddfde;
   border: 1px solid #fbc7c6;
@@ -8291,19 +7472,19 @@ html {
   -o-border-radius: 5px;
   border-radius: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003210}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003217}}
 #v2 form #error-explanation ul {
   list-style-type: disc;
   margin: 0.5em 0 0 2em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003226}}
 #v2 form .prettycheckbox,
 #v2 form .prettyradio {
   display: inline-block;
   padding: 0;
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003233}}
 #v2 form .prettycheckbox a,
 #v2 form .prettyradio a {
   width: 30px;
@@ -8315,40 +7496,40 @@ html {
   cursor: pointer;
   margin: 0 5px 0 -9px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003238}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003245}}
 #v2 form .prettyradio a {
   background-position: 0 -120px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003241}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003248}}
 #v2 form .prettycheckbox a:focus,
 #v2 form .prettyradio a:focus {
   outline: 0 none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003243}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003250}}
 #v2 form .prettycheckbox a:focus {
   background-position: 0 -30px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003244}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003251}}
 #v2 form .prettyradio a:focus {
   background-position: 0 -150px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003246}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003253}}
 #v2 form .prettycheckbox a.checked {
   background-position: 0 -60px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003247}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003254}}
 #v2 form .prettyradio a.checked {
   background-position: 0 -180px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003249}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003256}}
 #v2 form .prettycheckbox a.checked:focus {
   background-position: 0 -90px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003250}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003257}}
 #v2 form .prettyradio a.checked:focus {
   background-position: 0 -210px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003253}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003260}}
 #v2 form .prettycheckbox label,
 #v2 form .prettyradio label {
   display: block;
@@ -8358,18 +7539,18 @@ html {
   line-height: 1.4em;
   padding-top: 6px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003266}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003273}}
 #v2 form .prettycheckbox.disabled a,
 #v2 form .prettyradio.disabled a,
 #v2 form .prettycheckbox.disabled label,
 #v2 form .prettyradio.disabled label {
   cursor: not-allowed;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003270}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003277}}
 #v2 form .prettycheckbox.disabled a {
   background-position: 0 -240px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003274}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003281}}
 #v2 form .prettyradio.disabled a {
   background-position: 0 -270px;
 }
@@ -8526,7 +7707,7 @@ html {
   top: -99999em;
   visibility: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003287}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003294}}
 #v2 .ui-datepicker {
   font-family: "adobe-caslon-pro", Georgia, serif;
 }

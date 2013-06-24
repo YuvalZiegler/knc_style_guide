@@ -597,14 +597,13 @@ table.fc-border-separate {
 
 }
 .fc-view-month{ 
-
 	tbody{
-
 		background:$knc_light_gray;
-		.transparent &{
-			background:$knc_bright_gray;
-		}
 	}
+
+}
+.transparent .fc-view-month tbody{
+	background:$knc_bright_gray;
 }
 .fc-content thead .fc-widget-header{
 	padding-top: 16px;

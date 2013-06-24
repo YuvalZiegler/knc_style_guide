@@ -437,26 +437,29 @@
               %fieldset
                 .clear.input-append
                   %label.hide Check In Date
-                  %input.fluid-full{:placeholder => "Check In", :type => "text", :id=>"startDate"}
+                  %input.f-span-6{:placeholder => "Check In", :type => "text", :id=>"startDate"}
                   %i.icon-calendar
                 .clear.input-append
                   %label.hide Check Out Date
-                  %input.fluid-full{:placeholder => "Check Out", :type => "text", :id=>"endDate"}
+                  %input.f-span-6{:placeholder => "Check Out", :type => "text", :id=>"endDate"}
                   %i.icon-calendar
-                .clear.input-append
-                  %label.hide Number Of Adults
-                  %input.fluid-full{:placeholder => "Adults", :type => "text"}
-                  %i.icon-group
-                .clear.input-append
-                  %label.hide Number Of Kids
-                  %input.fluid-full{:placeholder => "Kids", :type => "text"}
-                  %i.icon-rocket
-                %h1.thin.f-span-5.center
-                  $2,390
-                %p.em
-                  includes $90 cleaning fee
-                  %br
-                  does not include $900 security deposit
+                .clear
+                  .input-append.f-span-3.tablet-f-span-3
+                    %label.hide Number Of Adults
+                    %input.f-span-6{:placeholder => "Adults", :type => "text"}
+                    %i.icon-user
+                  .input-append.f-span-3.tablet-f-span-3
+                    %label.hide Number Of Kids
+                    %input.f-span-6{:placeholder => "Kids", :type => "text"}
+                    %i.icon-rocket
+
+                .clear.summery
+                  %h1.thin.f-span-5.center
+                    $2,390
+                  %p.em
+                    includes $90 cleaning fee
+                    %br
+                    does not include $900 security deposit
                 .clear.f-span-6
                   %button.button.f-span-6{:type => "submit"} Submit request
 

@@ -130,20 +130,22 @@
   .key{
     display:table-cell;
     vertical-align:middle;
-    text-align:right;
+//  text-align:right;
     background: $knc_medium_gray;
     @extend %span-2;
     @extend %tablet-f-span-2;
     @extend %phone-span-2;
     text-transform: uppercase;
-    padding: 0.8em 1em;
+    padding: 0.9em 1em;
     font-size: 0.85em;
     line-height: 34px;
     max-height: 56px;
     margin-right:0;
-    @media screen and (max-width: $iphone_landscape){
-        text-align:left;
-    }
+
+
+//    @media screen and (max-width: $iphone_landscape){
+//        text-align:left;
+//    }
 
   }
   .value{

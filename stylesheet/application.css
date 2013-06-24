@@ -63,26 +63,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-@font-face {
-  font-family: "brandon-grotesque";
-  src: url('fonts/../../fonts/Brandon_bld.eot');
-  src: url('fonts/../../fonts/Brandon_bld.eot?#iefix') format('eot'), url('fonts/../../fonts/Brandon_bld.woff') format('woff'), url('fonts/../../fonts/Brandon_bld.ttf') format('truetype'), url('fonts/../../fonts/Brandon_bld.svg') format('svg');
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: "brandon-grotesque";
-  src: url('fonts/../../fonts/Brandon_thin.eot');
-  src: url('fonts/../../fonts/Brandon_thin.eot?#iefix') format('eot'), url('fonts/../../fonts/Brandon_thin.woff') format('woff'), url('fonts/../../fonts/Brandon_thin.ttf') format('truetype'), url('fonts/../../fonts/Brandon_thin.svg') format('svg');
-  font-weight: 200;
-}
-
-@font-face {
-  font-family: "adobe-caslon-pro";
-  src: url('fonts/../../fonts/caslon540-webfont.eot');
-  src: url('fonts/../../fonts/caslon540-webfont.eot?#iefix') format('eot'), url('fonts/../../fonts/caslon540-webfont.woff') format('woff'), url('fonts/../../fonts/caslon540-webfont.ttf') format('truetype'), url('fonts/../../fonts/caslon540-webfont.svg') format('svg');
-}
-
 /*
  *  Font Awesome 3.2.1
  *  the iconic font designed for Bootstrap
@@ -112,8 +92,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url("font/fontawesome-webfont.eot?v=3.2.1");
-  src: url("font/fontawesome-webfont.eot?#iefix&v=3.2.1") format("embedded-opentype"), url("font/fontawesome-webfont.woff?v=3.2.1") format("woff"), url("font/fontawesome-webfont.ttf?v=3.2.1") format("truetype"), url("font/fontawesome-webfont.svg#fontawesomeregular?v=3.2.1") format("svg");
+  src: url("../font/fontawesome-webfont.eot?v=3.2.1");
+  src: url("../font/fontawesome-webfont.eot?#iefix&v=3.2.1") format("embedded-opentype"), url("../font/fontawesome-webfont.woff?v=3.2.1") format("woff"), url("../font/fontawesome-webfont.ttf?v=3.2.1") format("truetype"), url("../font/fontawesome-webfont.svg#fontawesomeregular?v=3.2.1") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -4567,7 +4547,7 @@ html {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003176}}
   #v2 .phone-f-span-1 {
     float: left;
-    width: 33.33333%;
+    width: 50%;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -4595,12 +4575,12 @@ html {
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003194}}
   #v2 .push-phone-f-span-1 {
-    margin-left: 33.33333%;
+    margin-left: 50%;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003176}}
   #v2 .phone-f-span-2 {
     float: left;
-    width: 66.66667%;
+    width: 100%;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -4628,39 +4608,6 @@ html {
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003194}}
   #v2 .push-phone-f-span-2 {
-    margin-left: 66.66667%;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003176}}
-  #v2 .phone-f-span-3 {
-    float: left;
-    width: 100%;
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003183}}
-  #v2 .phone-f-span-3.center {
-    *zoom: 1;
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    float: none;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\000038}}
-  #v2 .phone-f-span-3.center:before, #v2 .phone-f-span-3.center:after {
-    display: table;
-    content: "";
-    line-height: 0;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\0000315}}
-  #v2 .phone-f-span-3.center:after {
-    clear: both;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003191}}
-  #v2 .push-phone-f-span-none {
-    margin-left: 0 !important;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_mixins\.scss}line{font-family:\00003194}}
-  #v2 .push-phone-f-span-3 {
     margin-left: 100%;
   }
 }
@@ -7580,15 +7527,15 @@ html {
 #v2 .f-span-3.input-append, #v2 .tablet-f-span-3.input-append {
   padding-left: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003295}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003297}}
 #v2 .f-span-3.input-append i, #v2 .tablet-f-span-3.input-append i {
   right: 9px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003298}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003301}}
 #v2 .f-span-3.input-append:last-of-type, #v2 .tablet-f-span-3.input-append:last-of-type {
   padding-right: 0px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003300}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003303}}
 #v2 .f-span-3.input-append:last-of-type i, #v2 .tablet-f-span-3.input-append:last-of-type i {
   right: 4px;
 }
@@ -7745,7 +7692,7 @@ html {
   top: -99999em;
   visibility: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/YZ\/Desktop\/KidAndCoe-styleGuide\/sass\/_forms\.scss}line{font-family:\00003315}}
 #v2 .ui-datepicker {
   font-family: "adobe-caslon-pro", Georgia, serif;
 }

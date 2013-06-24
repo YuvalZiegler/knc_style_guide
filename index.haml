@@ -2,9 +2,12 @@
 %html{:lang => "en"} 
   %head 
     %meta{:charset => "UTF-8"}/ 
-    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1" name="viewport">
+    %meta{:content=>"width=device-width, initial-scale=1.0, maximum-scale=1", :name=>"viewport"}
     %title Kid And Coe Style Guide
     %link{:rel => "stylesheet", :href => "stylesheet/application.css"}
+    %script{:src => "//use.typekit.net/obz0bcw.js", :type => "text/javascript"}
+    :javascript
+      try{Typekit.load();}catch(e){}
 
   %body#v2
     #header    
@@ -444,11 +447,11 @@
                   %input.f-span-6{:placeholder => "Check Out", :type => "text", :id=>"endDate"}
                   %i.icon-calendar
                 .clear
-                  .input-append.f-span-3.tablet-f-span-3
+                  .input-append.f-span-3.tablet-f-span-3.phone-f-span-1
                     %label.hide Number Of Adults
                     %input.f-span-6{:placeholder => "Adults", :type => "text"}
                     %i.icon-user
-                  .input-append.f-span-3.tablet-f-span-3
+                  .input-append.f-span-3.tablet-f-span-3.phone-f-span-1
                     %label.hide Number Of Kids
                     %input.f-span-6{:placeholder => "Kids", :type => "text"}
                     %i.icon-rocket

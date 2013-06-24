@@ -57,7 +57,7 @@
   @include fixedGrid(span, 2, $iphone, 10px);
   @include fixedGrid(phone-span, 2, $iphone, 10px, 5px);
   @include fluidGrid(f-span, 2);
-  @include fluidGrid(phone-f-span, 3);
+  @include fluidGrid(phone-f-span, 2);
 }
 
 

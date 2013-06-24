@@ -291,16 +291,21 @@ form {
 }
 // position adjustments
 .f-span-3.input-append, .tablet-f-span-3.input-append {
+      
       padding-left:0;
+      
       i{
         right:9px;
       }
+      
       &:last-of-type{
         padding-right:0px;
         i{
           right:4px;
+
         }
       }
+
 }
 
 ///////////////////////////////////

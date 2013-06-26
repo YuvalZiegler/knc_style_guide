@@ -1,0 +1,32 @@
+/*	--------------------------------------------------
+	Reveal Modals
+	-------------------------------------------------- */
+		
+	.reveal-modal-bg { 
+		position: fixed; 
+		height: 100%;
+		width: 100%;
+		background: #000;
+		background: rgba(0,0,0,.8);
+		z-index: 100;
+		display: none;
+		top: 0;
+		left: 0; 
+		}
+	
+	.reveal-modal {
+		visibility: hidden;
+		top: 100px;
+		position: absolute;
+		z-index: 101;
+       // left:25%;
+      @media screen and (max-width:$knc_tablet) {
+        left:0%;
+        top: 0;
+      }
+
+	}
+		
+
+	
+

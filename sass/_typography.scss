@@ -14,7 +14,7 @@ p {
 .lead {
   margin-bottom: $knc_baseLineHeight;
   font-size: $knc_baseFontSize * 1.2;
-  font-weight: 200;
+  font-weight: 300;
   line-height: $knc_baseLineHeight * 1.2;
 }
 
@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizelegibility; // Fix the character spacing for headings
   text-transform:uppercase;
   &.thin{
-    font-weight:200;
+    font-weight:300;
   }
   &.serif{
     font-family: $knc_serifFontFamily;
@@ -57,6 +57,9 @@ h1, h2, h3, h4, h5, h6 {
 h1 { 
   font-size: $knc_baseEm * 3.3;
   line-height: $knc_baseEm * 1.15;
+  &.thin{
+    font-weight:100;
+  }
 }
 h2 { 
   font-size: $knc_baseEm * 1.33;
@@ -222,12 +225,12 @@ blockquote:after {
 }
 
 // Addresses
-address {
-
+address, .location {
+  @include serif-font;
   text-transform: lowercase;
   display: block;
   margin-bottom: $knc_baseLineHeight;
-  font-weight: 200;
+  font-weight: 300;
   font-style: italic;
   line-height: $knc_baseLineHeight;
 }

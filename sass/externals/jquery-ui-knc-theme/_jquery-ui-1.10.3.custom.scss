@@ -207,7 +207,7 @@
 .ui-datepicker .ui-datepicker-title {
 
 	@include sans-font;
-	font-weight:200;
+	font-weight:300;
 	text-transform: uppercase;
 	margin: 0 2.3em;
 	line-height: 1.8em;
@@ -713,7 +713,7 @@
 		color: $knc_white;
 		text-transform:uppercase;
 		span{
-			font-weight:200;			
+			font-weight:300;
 		}
 	}
 }

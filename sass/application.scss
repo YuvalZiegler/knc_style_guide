@@ -3,10 +3,6 @@
 @import "compass/css3";
 @import "compass/utilities/general/clearfix";
 @import "compass/typography/vertical_rhythm";
-// FOR DEV: ONLY LOCAL FONTS
-// @include font-face("brandon-grotesque", font-files("../../font/Brandon_bld.woff","../../font/Brandon_bld.ttf","../../font/Brandon_bld.svg" ), "../../font/Brandon_bld.eot", 700 );
-// @include font-face("brandon-grotesque", font-files("../../font/Brandon_thin.woff","../../font/Brandon_thin.ttf","../../font/Brandon_thin.svg" ), "../../font/Brandon_thin.eot", 200 );
-// @include font-face("adobe-caslon-pro", font-files("../../font/caslon540-webfont.woff","../../font/caslon540-webfont.ttf","../../font/caslon540-webfont.svg" ), "../../font/caslon540-webfont.eot" );
 ////////////////////////////////////////////////////
 @import "externals/font_awesome/font-awesome";
 // PARTIALS IMPORTS
@@ -14,9 +10,9 @@
 @import "mixins";
 /* GRID */
 @import "grid";
+
 /* TYPOGRAPHY */
 @import "typography";
-
 /* COLORS */
 @import "colors";
 /* BLOCKS */

@@ -91,6 +91,7 @@
 @import "externals/jquery-ui-knc-theme/_jquery-ui-1.10.3.custom";
 
 /* MODAL */
+@import "externals/reveal";
 .modal {
   position:relative;
   padding:1em;
@@ -105,7 +106,6 @@
     padding-top:0.5em;
     padding-bottom:0.5em;
     border-bottom: 1px solid $knc_white;
-
 
   }
   p {

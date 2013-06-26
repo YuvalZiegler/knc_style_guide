@@ -199,9 +199,8 @@
             ADELPHI STREET
           %h3
             4 BEDROOMS • 1 BATHROOMS • 2000 SQUARE FEET
-          %h3
-            %address
-              395 adelphi st, #2l
+          %h4.location
+            Chelsea, New York
           .separator
           .span-8.center
             %p.lead Lead paragraphs are usualy center aligned and are slightly larger than regular paragraphs
@@ -431,44 +430,47 @@
           %h6.thin
             Modal
       .knc_container.transparent
-        #modal-content-1.modal.knc_container.f-span-3.center
-          .close
-            %a{:href=>"#close"}
-              %i.icon-remove-sign.icon-large
-          .f-span-5.center.centered-text
-            %h3.f-span-4.center book this property
-            %p.em
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            %form
-              %fieldset
-                .clear
-                  .input-append.f-span-3.tablet-f-span-3.phone-f-span-1
-                    %label.hide Check In Date
-                    %input.f-span-6{:placeholder => "Check In", :type => "text", :id=>"startDate"}
-                    %i.icon-calendar
-                  .input-append.f-span-3.tablet-f-span-3.phone-f-span-1
-                    %label.hide Check Out Date
-                    %input.f-span-6{:placeholder => "Check Out", :type => "text", :id=>"endDate"}
-                    %i.icon-calendar
-                .clear
-                  .input-append.f-span-3.tablet-f-span-3.phone-f-span-1
-                    %label.hide Number Of Adults
-                    %input.f-span-6{:placeholder => "Adults", :type => "text"}
-                    %i.icon-user
-                  .input-append.f-span-3.tablet-f-span-3.phone-f-span-1
-                    %label.hide Number Of Kids
-                    %input.f-span-6{:placeholder => "Kids", :type => "text"}
-                    %i.icon-rocket
+        .f-span-2.center
+          %a.knc_button.fluid-full{"data-reveal-id" => "modal-content-1", :href => "#"} Reserve Property
+        #modal-content-1.reveal-modal.knc_container.transparent
+          .modal.f-span-3.center
+            .close.close-reveal-modal
+              %a{:href=>"#close"}
+                %i.icon-remove-sign.icon-large
+            .f-span-5.center.centered-text
+              %h3.f-span-4.center book this property
+              %p.em
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              %form.f-span-6
+                %fieldset
+                  .f-span-3.tablet-f-span-3.clear-padding
+                    .input-append.f-span-6.tablet-f-span-6.phone-f-span-2
+                      %label.hide Check In Date
+                      %input.f-span-6{:placeholder => "Check In", :type => "text", :id=>"startDate"}
+                      %i.icon-calendar
+                    .input-append.f-span-6.tablet-f-span-6.phone-f-span-2
+                      %label.hide Check Out Date
+                      %input.f-span-6{:placeholder => "Check Out", :type => "text", :id=>"endDate"}
+                      %i.icon-calendar
+                  .f-span-3.tablet-f-span-3.clear-padding
+                    .input-append.f-span-6.tablet-f-span-6.phone-f-span-2
+                      %label.hide Number Of Adults
+                      %input.f-span-6{:placeholder => "Adults", :type => "text"}
+                      %i.icon-user
+                    .input-append.f-span-6.tablet-f-span-6.phone-f-span-2
+                      %label.hide Number Of Kids
+                      %input.f-span-6{:placeholder => "Kids", :type => "text"}
+                      %i.icon-rocket
 
-                .clear.summery
-                  %h1.thin.f-span-5.center
-                    $2,390
-                  %p.em
-                    includes $90 cleaning fee
-                    %br
-                    does not include $900 security deposit
-                .clear.f-span-4.tablet-f-span-3.center
-                  %button.knc_button.f-span-6{:type => "submit"} Submit request
+                  .clear.summery
+                    %h1.thin.f-span-5.center
+                      $2,390
+                    %p.em
+                      includes $90 cleaning fee
+                      %br
+                      does not include $900 security deposit
+                  .clear.f-span-4.tablet-f-span-3.center
+                    %button.knc_button.f-span-6{:type => "submit"} Submit request
 
       .knc_container.bg_knc_dark_gray.fg_knc_bright_gray
         .knc_block.centered-text
@@ -511,6 +513,7 @@
   %script{:src=>"javascript/libs/lodash.min.js"}
   %script{:src=>"javascript/libs/backbone-min.js"}
   %script{:src=>"javascript/libs/prettyCheckable.js"}
+  %script{:src=>"javascript/libs/jquery.reveal.js"}
   
   %script{:src=>"javascript/libs/jquery.dropkick-1.0.0.js"}
   %script{:src=>"javascript/libs/fullcalendar/fullcalendar.js"}

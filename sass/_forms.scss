@@ -11,7 +11,6 @@
   border: none;
   text-transform: uppercase;
   text-align: center;
-  width:100% default;
   letter-spacing: 2px;
   text-decoration: none !important;
   color: white !important;
@@ -42,12 +41,12 @@ form {
 
     legend {
       @include sans-font;
-      
+
       text-transform: uppercase;
       width:100%;
       font-weight: 700;
       font-size: 1.1em;
-      padding-bottom: 0.5em;
+      padding: 1em 0 0.5em;
       margin-bottom: 0.5em;
       border-bottom: $knc_light_border;
 
@@ -283,40 +282,26 @@ form {
 .input-append{
 
   position:relative;
+
   i{
-     position: absolute;
-     top: 9px;
-     right: 4px;
-     background: $knc_medium_gray;
-     width: 30px;
-     height: 30px;
-     line-height: 29px;
-     
+    position: absolute;
+    top: 9px;
+    background: #e3e2de;
+    width: 30px;
+    height: 30px;
+    line-height: 29px;
+    margin-right: $knc_column_margin_r;
+    right: 4px;
+
+
      @media screen and (max-width: $knc_tablet) {
        top:9px;
-      
+       margin-right:4px;
      }
   }
   
 }
-// position adjustments
-.f-span-3.input-append, .tablet-f-span-3.input-append {
-      
-      padding-left:0;
-      
-      i{
-        right:11px;
-      }
-      
-      &:last-of-type{
-        padding-right:0px;
-        i{
-          right:4px;
 
-        }
-      }
-
-}
 ///////////////////////////////////
 // DROP Kick
 @import "externals/dropkick";

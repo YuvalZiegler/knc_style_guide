@@ -14,7 +14,9 @@
   letter-spacing: 2px;
   text-decoration: none !important;
   color: white !important;
-  
+
+  -webkit-font-smoothing:antialiased;
+
   @include knc_button($knc_marigold , #fff);
 
   &.inverted{

@@ -132,6 +132,7 @@
 
   background: $background;
   color: $color;
+
   @include single-transition(background, 0.2s, ease, 0);
   &:hover {
     @include single-transition(background, 0.2s, ease, 0);

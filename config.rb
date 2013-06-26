@@ -8,8 +8,9 @@ images_dir = "images"
 javascripts_dir = "js"
 
 # You can select your preferred output style here (can be overridden via the command line):
+sass_options = { :sourcemap => true  }
 
-sass_options = { :debug_info => true }
+
 output_style = :nested
 # for production
 # output_style = :compressed

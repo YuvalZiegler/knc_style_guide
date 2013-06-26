@@ -167,7 +167,7 @@
 }
 .ui-datepicker .ui-datepicker-header {
 	background: $knc_marigold;
-	color: $white;
+	color: $knc_white;
 	position: relative;
 	padding: .2em 0;
 }
@@ -710,7 +710,7 @@
 		@include sans_font;
 		
 		background:$knc_dark_gray;
-		color:$white;
+		color: $knc_white;
 		text-transform:uppercase;
 		span{
 			font-weight:200;			

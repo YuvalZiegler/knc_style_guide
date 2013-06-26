@@ -23,16 +23,16 @@
       padding:5px 10px;
       text-decoration:none;
       @include transition((background, color) 0.5s);
-      background:darken($white,3%); //$knc_bright_gray;
+      background:darken($knc_white,3%); //$knc_bright_gray;
       @include box-shadow(0 -2px 4px rgba(black,0.05) inset);
       &:hover{
           @include transition((background, color) 0.5s);
-          background:$white;
+          background: $knc_white;
 
       }
       &.active{
         
-        background:$white;
+        background: $knc_white;
         @include box-shadow(none);
       }
 
@@ -42,7 +42,7 @@
 
 
       
-      @media screen and (max-width: $tablet){
+      @media screen and (max-width: $knc_tablet){
         @extend %tablet-f-span-1;
         white-space: nowrap;
         overflow: hidden;
@@ -52,7 +52,7 @@
         
       }
 
-      @media screen and (max-width: $iphone_landscape){
+      @media screen and (max-width: $knc_iphone_landscape){
         width:auto;
         span{display:none;}
         i{
@@ -79,7 +79,7 @@
   }
 
   .info-bar{
-    background:$block_gray;
+    background: $knc_block_gray;
     padding:5px 10px;
 
   }
@@ -92,6 +92,7 @@
 
 /* MODAL */
 .modal {
+  position:relative;
   padding:1em;
   margin: 1em auto;
   background-color: $knc_bright_gray;
@@ -101,13 +102,23 @@
   padding-bottom:0.5em;
  }
   h3{
+    padding-top:0.5em;
     padding-bottom:0.5em;
-    border-bottom: 1px solid $white;
+    border-bottom: 1px solid $knc_white;
+
 
   }
   p {
      font-size:0.9em;
      line-height:1.4em; 
+  }
+  .close{
+    position:absolute;
+    right:10px;
+    top:10px;
+    & a{
+      text-decoration:none;
+    }
   }
 
 }
@@ -148,6 +159,7 @@
     display:table-cell;
     vertical-align:middle;
     background: $knc_light_gray;
+    
     @extend %f-span-4;
     @extend %tablet-f-span-4;
     @extend %phone-span-2;
@@ -155,4 +167,13 @@
 
   }
 
+
 }
+
+.swatch{
+  width:20px;
+  height:20px;
+  margin:1em auto;
+
+}
+

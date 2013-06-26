@@ -30,7 +30,11 @@
 }
 
 .debug{
-  border-bottom:1px solid rgba(black,0.05);
+  //border-bottom:1px solid $knc_gray;
+  @include background(
+    linear-gradient(left, #eee, #ddd)
+  );
+
 }
 
 //
@@ -63,7 +67,7 @@
 .visible-desktop   { display: inherit !important; }
 
 // Tablets & small desktops only
-@media (max-width: $tablet) {
+@media (max-width: $knc_tablet) {
   // Hide everything else
   .hidden-desktop    { display: inherit !important; }
   .visible-desktop   { display: none !important ; }
@@ -74,7 +78,7 @@
 }
 
 // Phones only
-@media (max-width: $iphone_landscape) {
+@media (max-width: $knc_iphone_landscape) {
   // Hide everything else
   .hidden-desktop    { display: inherit !important; }
   .visible-desktop   { display: none !important; }

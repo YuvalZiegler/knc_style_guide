@@ -24,7 +24,7 @@
   outline: thin dotted #333;
   // Webkit
   outline: 5px auto -webkit-focus-ring-color;
-  outline-offset: -2px;
+  outline-offset: -$extra_padding;
 }
 
 // Center-align a block level element
@@ -128,7 +128,7 @@
 }
 
 // Buttons
-@mixin button($background, $color ) {
+@mixin knc_button($background, $color ) {
 
   background: $background;
   color: $color;
@@ -145,7 +145,7 @@
 }
 
 // GRID
-@mixin fluidGrid($baseName, $columns){
+@mixin knc_fluidGrid($baseName, $columns, $padding: 5px){
   $column_width:  100 / $columns ;
   @for $i from 1 through $columns{
     
@@ -154,8 +154,8 @@
       float:left;
       width: percentage($column_width * $i /100);
       padding:{
-        left: 5px;
-        right:5px;
+        left: $padding;
+        right:$padding;
       }
       &.center{
         @include clearfix;
@@ -177,8 +177,8 @@
       float:left;
       width: percentage($column_width * $i /100);
       padding:{
-        left: 5px;
-        right:5px;
+        left: $padding;
+        right:$padding;
       };
       &.center{
         @include clearfix;
@@ -201,7 +201,8 @@
 }
 // TODO: Look into DRYING this
 // create spans-1 through span-...
-@mixin fixedGrid($baseName, $columns, $full_width:$full_width,$container_padding_lr:$container_padding_lr, $column_margin_r:$column_margin_r ){
+@mixin knc_fixedGrid($baseName, $columns, $full_width: $knc_full_width,$container_padding_lr: $knc_container_padding_lr, $column_margin_r: $knc_column_margin_r){
+  $extra_padding:2px;
 
   $column_width: (($full_width - ($container_padding_lr * 2)) / $columns);
 
@@ -227,7 +228,7 @@
       %#{$baseName}-#{$i}{
         float:left;
         width:100%;
-        max-width:$column_width * $i;
+        max-width:$full_width - ($extra_padding/2 * $columns)  - ($container_padding_lr * 2);
         margin-right:0;
 
         &.center{
@@ -244,7 +245,7 @@
       .#{$baseName}-#{$i}{
         float:left;
         width:100%;
-        max-width:$column_width * $i;
+        max-width:$full_width - ($extra_padding/2 * $columns)  - ($container_padding_lr * 2);
         margin-right:0;
 
         &.center{
@@ -262,12 +263,12 @@
       %#{$baseName}-#{$i}{
         float:left;
         width:100%;
-        max-width: (($column_width) * $i) - $column_margin_r - 2px;
-        margin-right: $column_margin_r;
+        max-width: (($column_width) * $i) - $column_margin_r - $extra_padding;
+        margin-right: $column_margin_r+$extra_padding;
 
         &.last {
           margin-right: 0;
-          max-width: ($column_width) * $i -  $column_margin_r - 2px;
+          max-width: ($column_width) * $i -  $column_margin_r - $extra_padding;
         }
 
 
@@ -276,11 +277,11 @@
           max-width:(($column_width) * $i);
           margin-left: auto;
           margin-right: auto;
-          padding-left: $column_margin_r;
+          padding-left: $column_margin_r+$extra_padding;
           float: none;
           & > [class*=span]:last-child{
             margin-right: 0;
-            width:($column_width) * $i -  $column_margin_r - 2px;
+            width:($column_width) * $i -  $column_margin_r - $extra_padding;
           }
         }
       }
@@ -288,12 +289,12 @@
       .#{$baseName}-#{$i}{
         float:left;
         width:100%;
-        max-width: (($column_width) * $i) - $column_margin_r - 2px;
-        margin-right: $column_margin_r;
+        max-width: (($column_width) * $i) - $column_margin_r - $extra_padding;
+        margin-right: $column_margin_r+$extra_padding;
 
         &.last {
           margin-right: 0;
-          max-width: ($column_width) * $i -  $column_margin_r - 2px;
+          max-width: ($column_width) * $i -  $column_margin_r - $extra_padding;
         }
 
 
@@ -302,11 +303,11 @@
           max-width:(($column_width) * $i);
           margin-left: auto;
           margin-right: auto;
-          padding-left: $column_margin_r;
+          padding-left: $column_margin_r+$extra_padding;
           float: none;
           & > [class*=span]:last-child{
             margin-right: 0;
-            width:($column_width) * $i -  $column_margin_r - 2px;
+            width:($column_width) * $i -  $column_margin_r - $extra_padding;
           }
         }
       }
@@ -316,11 +317,10 @@
 }
 
 // TYPOGRAPHY
-
 @mixin serif-font {
-  font-family: $serifFontFamily;
+  font-family: $knc_serifFontFamily;
 }
 
 @mixin sans-font {
-  font-family: $sansFontFamily;
+  font-family: $knc_sansFontFamily;
 }

@@ -4,46 +4,46 @@
   width:100%;
 }
 
-.container {
+.knc_container {
   overflow:hidden;
   width:        100%;
-  max-width:    $full_width;
+  max-width: $knc_full_width;
   margin: 0 auto;
 }
 
 // a block of content inside the .container
-.block{
+.knc_block {
   width:        100%;
-  padding-left: $container_padding_lr;
-  padding-right:$container_padding_lr;
+  padding-left: $knc_container_padding_lr;
+  padding-right: $knc_container_padding_lr;
   margin: 0.5em auto;
   clear:both;
   @include clearfix;
 }
 
 // GENERATED GRIDS
-@include fixedGrid(span, 12);
-@include fluidGrid(f-span, 6);
-@media screen and (max-width: $tablet) {
+@include knc_fixedGrid(span, 12);
+@include knc_fluidGrid(f-span, 6, 10px);
+@media screen and (max-width: $knc_tablet) {
   .span-6, .span-7, .span-8, .span-9, .span-10, .span-11  {
     max-width:100%;
   }
   .f-span-4, .f-span-5, .f-span-6, {
     width:100%;
   }
-  .block{
+  .knc_block {
     padding-left:25px;
     padding-right:25px;
   }
-  @include fixedGrid(span, 6, $tablet);
-  @include fixedGrid(tablet-span, 6, $tablet);
-  @include fluidGrid(f-span, 3);
-  @include fluidGrid(tablet-f-span, 6);
+  @include knc_fixedGrid(span, 6, $knc_tablet);
+  @include knc_fixedGrid(tablet-span, 6, $knc_tablet);
+  @include knc_fluidGrid(f-span, 3);
+  @include knc_fluidGrid(tablet-f-span, 6);
 }
 
 
-@media screen and (max-width: $iphone) {
-   .block{
+@media screen and (max-width: $knc_iphone) {
+   .knc_block {
      padding-left:10px;
      padding-right:10px;
    }
@@ -55,15 +55,15 @@
   .f-span-3 {
     width:100%;
   }
-  @include fixedGrid(span, 2, $iphone, 10px);
-  @include fixedGrid(phone-span, 2, $iphone, 10px, 5px);
-  @include fluidGrid(f-span, 2);
-  @include fluidGrid(phone-f-span, 2);
+  @include knc_fixedGrid(span, 2, $knc_iphone, 10px);
+  @include knc_fixedGrid(phone-span, 2, $knc_iphone, 10px, 5px);
+  @include knc_fluidGrid(f-span, 2);
+  @include knc_fluidGrid(phone-f-span, 2);
 }
 
 
 // VERTICAL GRID /////////////////////
- .section{
+ .knc_section{
   padding-top:1em;
   padding-bottom:1em;
   margin-top: 2em;

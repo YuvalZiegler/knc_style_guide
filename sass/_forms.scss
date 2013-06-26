@@ -1,10 +1,10 @@
-.button{
+.knc_button {
 
-  font-family: $sansFontFamily;
+  font-family: $knc_sansFontFamily;
   font-size: 0.9em;
   font-weight: 900;
-  line-height: $fieldHeight;
-  height:$fieldHeight;
+  line-height: $knc_fieldHeight;
+  height: $knc_fieldHeight;
   margin-top:0.2em;
   margin-bottom:0.2em;
   display: inline-block;
@@ -16,20 +16,20 @@
   text-decoration: none !important;
   color: white !important;
   
-  @include button($knc_marigold , #fff);
+  @include knc_button($knc_marigold , #fff);
 
   &.inverted{
-    @include button($knc_dark_gray , #fff);
+    @include knc_button($knc_dark_gray , #fff);
   }
   &.green{
-    @include button($green , #fff);
+    @include knc_button($knc_green, #fff);
   }
   &.red{
-    @include button($red , #fff); 
+    @include knc_button($knc_red, #fff);
   }
   &.short{
-    height:$fieldHeight - 10;
-    line-height:$fieldHeight - 10;
+    height: $knc_fieldHeight - 10;
+    line-height: $knc_fieldHeight - 10;
 
   }
   
@@ -47,10 +47,10 @@ form {
       text-transform: uppercase;
       width:100%;
       font-weight: 700;
-      font-size: 1.3em;
+      font-size: 1.1em;
       padding-bottom: 0.5em;
       margin-bottom: 0.5em;
-      border-bottom:  $light_border;
+      border-bottom: $knc_light_border;
 
     }
 
@@ -64,13 +64,14 @@ form {
       font-weight: 700;
       letter-spacing: 0.02em;
       @include sans-font;
-      font-size: 0.95em;
-
+      
+      font-size: 0.75em;
       text-transform: uppercase;
-      padding:16px 10px 16px 0;
+      padding:18px 10px 19px 0;
       overflow:hidden;
       line-height:1em;
       text-overflow:ellipsis;
+      letter-spacing:1px;
       
       &.right {
         text-align: right;
@@ -79,7 +80,7 @@ form {
       &.left {
         text-align: left;
       }
-      @media screen and (max-width: $tablet)  {
+      @media screen and (max-width: $knc_tablet)  {
         text-align: left;
         padding-bottom: 0;  
         &.right{
@@ -99,12 +100,12 @@ form {
     input[type=email],
     input[type=password],
     textarea {
-      border: $input_border;
+      border: $knc_input_border;
       box-shadow: none;
       border-radius: 4px;
 
       .transparent  & {
-        border: $input_border_over_transparent;
+        border: $knc_input_border_over_transparent;
       }
 
 
@@ -117,7 +118,7 @@ form {
     }
 
     input[type="text"], input[type="email"], input[type="password"], textarea, select {
-      background: $white;
+      background: $knc_white;
       //width:100%;
       padding: 8px;
       margin-top: 0.5em;
@@ -126,9 +127,9 @@ form {
       
       &.error { 
         @include transition(background 0.5s);
-        border-color: $red; 
-        background-color: $light_red;
-        @include placeholder(rgba($red,0.8));
+        border-color: $knc_red;
+        background-color: $knc_light_red;
+        @include placeholder(rgba($knc_red,0.8));
       }
       &.percentage { 
         background: #fff asset-url("percentage.png", image) no-repeat 95% 50%; width: 50px; 
@@ -154,12 +155,12 @@ form {
     // applies only when no js
     select { 
       line-height: 1em;
-      height:$fieldHeight - 10;
+      height: $knc_fieldHeight - 10;
       margin-top: 6px;
-      border:$input_border;
+      border: $knc_input_border;
       padding-top:5px;
       .transparent & {
-        border: $input_border_over_transparent;
+        border: $knc_input_border_over_transparent;
       }
     }
     
@@ -177,14 +178,14 @@ form {
 
     .chzn-container { margin-top: 0.4em; }
 
-    .chzn-container-active .chzn-single { border-color: $link_color; }
+    .chzn-container-active .chzn-single { border-color: $knc_link_color; }
 
     .field_with_errors {
       input[type="text"], input[type="email"], input[type="password"], textarea {
         background-color: $knc_gray;
-        border-color: $dark_red;
+        border-color: $knc_dark_red;
       }
-      span.error { margin-left: 0.5em; color: $dark_red; }
+      span.error { margin-left: 0.5em; color: $knc_dark_red; }
     }
   }
 
@@ -245,10 +246,21 @@ form {
     display: block;
     float: left;
     cursor: pointer;
-    font-size: 0.9em;
+    font-size: 0.75em;
     line-height: 1.4em;
-    padding-top: 6px;
+    padding-top: 8px;
+    
 
+  }
+  .serif 
+  {
+    .prettycheckbox { 
+      label{
+          @include serif-font;
+          text-transform:none;
+          letter-spacing:0;
+      }
+    } 
   }
 
   .prettycheckbox.disabled a,
@@ -277,12 +289,12 @@ form {
      position: absolute;
      top: 9px;
      right: 4px;
-     background: #efeeec;
+     background: $knc_medium_gray;
      width: 30px;
      height: 30px;
      line-height: 29px;
      
-     @media screen and (max-width: $tablet) {
+     @media screen and (max-width: $knc_tablet) {
        top:9px;
       
      }

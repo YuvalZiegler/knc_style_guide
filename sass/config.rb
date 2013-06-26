@@ -1,8 +1,8 @@
 http_path = "/"
-css_dir = "../stylesheet"
+css_dir = "."
 sass_dir = "."
 images_dir = "img"
 javascripts_dir = "js"
-output_style = :nested
+output_style = :compressed
 relative_assets=true
 line_comments = false

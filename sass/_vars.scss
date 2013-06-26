@@ -2,26 +2,11 @@
 $asset_path: "../images";
 $prettycheckable_path: "../images/prettyCheckable-orange.png";
 
-/*
-// Deprecated //////////////////////
-// BRAND
-$cream: #F3EEE5;
-$marigold: #FBC90D;
-$gray: #766F69;
-// OTHER
-
-$red: #e45560;
-$light_green: #eeffde;
-$blue: #244276;
-$light_blue: #deeaff;
-$light_yellow: #fffedb;
-$lightGray: #efefef;
-*/
-$white:           #fff;
-$green:           #7db14c;
-$red:             #e45560;
-$dark_red:        darken($red,20%);
-$light_red:       #ffebeb;
+$knc_white:           #fff;
+$knc_green:           #7db14c;
+$knc_red:             #e45560;
+$knc_dark_red:        darken($knc_red,20%);
+$knc_light_red:       #ffebeb;
 $knc_cream:       #F3EEE5;
 $knc_marigold:    #FBC90D;
 $knc_bright_gray: #f8f8f8;
@@ -30,52 +15,51 @@ $knc_gray:        #766F69;
 $knc_dark_gray:   #4E4A47;
 $knc_medium_gray: darken($knc_light_gray,5%);
 
-$block_gray:      #e5e5e5;
+$knc_block_gray:      #e5e5e5;
 
-$header_background:#f4f0e7; //#f3f2f0;
-$background_color: #efeeec;
-$text_color: #4e4a47;
-$link_color: $text_color;
-$border_color: #e0dfdc;
-$hrBorder: rgba( #ddd, 0.5);
+$knc_header_background:#f4f0e7; //#f3f2f0;
+$knc_background_color: #efeeec;
+$knc_text_color: #4e4a47;
+$knc_link_color: $knc_text_color;
+$knc_border_color: #e0dfdc;
+$knc_hrBorder: rgba( #ddd, 0.5);
 
 
 // borders
-$input_border:                  4px $knc_light_gray solid;
-$input_border_over_transparent: 4px $knc_medium_gray solid;
-
-$light_border: 1px solid $knc_light_gray;
+$knc_input_border:                  4px $knc_light_gray solid;
+$knc_input_border_over_transparent: 4px $knc_medium_gray solid;
+$knc_light_border: 1px solid $knc_light_gray;
 
 //$darkBorder: 1px solid $lightGray;
 
 // Media Queries size:
-$iphone: 480px;
-$iphone_landscape: 480px;
-$tablet: 720px;
-$small_screen:920px;
+$knc_iphone: 480px;
+$knc_iphone_landscape: 480px;
+$knc_tablet: 720px;
+$knc_small_screen:920px;
 
 // TYPOGRAPHY
-$baseFontSize:16px;
-$baseEm:1em;
-$baseLineHeight:24px;
-$sansFontFamily:  'brandon-grotesque', 'Helvetica Neue', Arial, sans-serif;
-$serifFontFamily: 'adobe-caslon-pro', Georgia, serif;
-$headingsFontFamily: $sansFontFamily;
-$headingsFontWeight: bold;
-@include establish-baseline($baseFontSize);
+$knc_baseFontSize:15px;
+$knc_baseEm:1em;
+$knc_baseLineHeight:24px;
+$knc_sansFontFamily:  'brandon-grotesque', 'Helvetica Neue', Arial, sans-serif;
+$knc_serifFontFamily: 'adobe-caslon-pro', Georgia, serif;
+$knc_headingsFontFamily: $knc_sansFontFamily;
+$knc_headingsFontWeight: bold;
+@include establish-baseline($knc_baseFontSize);
 
 // Form
-$fieldHeight: 44px;
+$knc_fieldHeight: 44px;
 
 // Generic Layout
-$horizontalComponentOffset:1em;
+$knc_horizontalComponentOffset:1em;
 
 
 // GRID SYSTEM VARS
-$full_width: $small_screen;
-$container_padding_lr: 40px;
-$columns: 12;
-$column_margin_r: 10px;
+$knc_full_width: $knc_small_screen;
+$knc_container_padding_lr: 40px;
+$knc_columns: 12;
+$knc_column_margin_r: 10px;
 ////////////////////////
 *{
   @include box-sizing(border-box);

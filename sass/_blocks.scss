@@ -2,7 +2,7 @@
   
   position:relative;
   width:100%;
-  background: $header_background;
+  background: $knc_header_background;
   margin:0;
   
   .header{
@@ -10,7 +10,7 @@
     padding-top:30px;
     padding-bottom:30px;
 
-    @media screen and (max-width: $tablet) {
+    @media screen and (max-width: $knc_tablet) {
       padding-bottom: 75px;
       padding-left: 10px;
     }
@@ -21,7 +21,7 @@
     height: 100px; 
     margin:0 auto;
     
-    @media screen and (max-width: $tablet) {
+    @media screen and (max-width: $knc_tablet) {
         width : 65.5px;
         height: 50px;
         float:left;

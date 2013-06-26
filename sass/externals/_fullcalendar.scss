@@ -65,7 +65,7 @@ html .fc,
 .fc-header-title h2 {
 	@extend h3;
 	font-weight:200;
-	color:$white;
+	color: $knc_white;
 	white-space: nowrap;
 
 	}
@@ -214,7 +214,7 @@ html .fc,
 	font-weight:900;
 	border:none;
 	background:$knc_marigold;
-	color:$white;
+	color: $knc_white;
 	text-transform:uppercase;
 	}
 
@@ -222,7 +222,7 @@ html .fc,
 .fc-state-down,
 .fc-state-active,
 .fc-state-disabled {
-	color: $white;
+	color: $knc_white;
 	//background-color: darken($knc_marigold,3%);
 	}
 
@@ -587,11 +587,11 @@ table.fc-border-separate {
 .fc-day-header{
 	@include sans-font;
 	background: $knc_dark_gray;
-	color:$white;
+	color: $knc_white;
 	text-transform: uppercase;
 	border:none;	
 	
-	@media screen and (max-width:$iphone) {
+	@media screen and (max-width: $knc_iphone) {
 		font-size:0.8em;
 	}
 
@@ -616,7 +616,7 @@ table.fc-border-separate {
 		background-color:$knc_dark_gray;
 	}
 	&.available{
-		background-color:$green;
+		background-color: $knc_green;
 	}	
 	&.booked{
 	  

@@ -13,9 +13,9 @@
 /* One container to bind them... */
 .dk_container {
   font-family: 'helvetica', arial, sans-serif;
-  background: $white;
+  background: $knc_white;
   border-radius: 4px;
-  height:$fieldHeight - 8;
+  height: $knc_fieldHeight - 8;
   margin-top:5px;
   font-size:0.8em;
   width:100%;
@@ -41,11 +41,11 @@
   color: rgba($knc_gray,0.5);
   padding: 7px 45px 7px 10px;
   border-radius: 4px;
-  border:$input_border;
-  height:$fieldHeight - 8;
+  border: $knc_input_border;
+  height: $knc_fieldHeight - 8;
   line-height: 13px;
   .transparent &{
-    border:$input_border_over_transparent;
+    border: $knc_input_border_over_transparent;
   }
 }
   .dk_toggle:hover {
@@ -89,7 +89,7 @@
   }
   .dk_options a:hover,
   .dk_option_current a {
-    background-color: $white;
+    background-color: $knc_white;
     border-bottom-color: $knc_marigold;
     color:$knc_marigold;
     text-decoration: none;

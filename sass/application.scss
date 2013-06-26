@@ -10,41 +10,32 @@
 ////////////////////////////////////////////////////
 @import "externals/font_awesome/font-awesome";
 // PARTIALS IMPORTS
+
 @import "vars";
 @import "mixins";
-
-// TEMPORARY NAMESPACING
-
-  /* GRID */
-  @import "grid";
-  /* TYPOGRAPHY */
-  @import "typography";
-  /* COLORS */
-  @import "colors";
-  /* BLOCKS */ 
-  @import "blocks";
-  /* ELEMENTS */
-  @import "elements";
-  /* FORMS */
-  @import "forms";
-  /* MODIFIERS */
-  @import "modifiers";
-  /* UTILITIES */
-  @import "utilities";
+/* GRID */
+@import "grid";
+/* TYPOGRAPHY */
+@import "typography";
+/* COLORS */
+@import "colors";
+/* BLOCKS */ 
+@import "blocks";
+/* ELEMENTS */
+@import "elements";
+/* FORMS */
+@import "forms";
+/* MODIFIERS */
+@import "modifiers";
+/* UTILITIES */
+@import "utilities";
 
 //////////////////////////////////////////////////////
 
 
 body{
     background: $knc_light_gray;
-    color: $knc_dark_gray;
+    color:      $knc_dark_gray;
 }
-// STYLE GUIDE ONLY - REMOVE FROM PRODUCTION:
-.swatch{
-  width:50px;
-  padding: $baseLineHeight 0;
-  border-radius:50%;
-  margin:1em auto;
-  
-}
+
 

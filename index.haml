@@ -199,8 +199,8 @@
             ADELPHI STREET
           %h3
             4 BEDROOMS • 1 BATHROOMS • 2000 SQUARE FEET
-          %h6.serif.thin
-            %em
+          %h3
+            %address
               395 adelphi st, #2l
           .separator
           .span-8.center
@@ -252,7 +252,7 @@
               %a{href:"#", class:"knc_button inverted span-2"}
                 inverted
             .span-2.phone-span-1
-              %a{href:"#", class:"knc_button knc_green span-2"}
+              %a{href:"#", class:"knc_button green span-2"}
                 green
             .span-2.phone-span-1
               %a{href:"#", class:"knc_button red span-2"}
@@ -267,7 +267,7 @@
               %a{href:"#", class:"knc_button short inverted span-2"}
                 inverted
             .span-2.phone-span-1
-              %a{href:"#", class:"knc_button short knc_green span-2"}
+              %a{href:"#", class:"knc_button short green span-2"}
                 green
             .span-2.phone-span-1
               %a{href:"#", class:"knc_button short red span-2 "}
@@ -333,7 +333,7 @@
                 %span.f-span-3.note Example block-level help text here.
               .clear
                 %label.f-span-2.right{:for => "select-choice"} gender:
-                .f-span-3
+                .f-span-3.knc_drop_down
                   %select#select-choice.f-span-3{:name => "selecta", :tabindex =>"9" }
                     %option{:value => "male"} Male
                     %option{:value => "female"} Female
@@ -441,14 +441,15 @@
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             %form
               %fieldset
-                .clear.input-append
-                  %label.hide Check In Date
-                  %input.f-span-6{:placeholder => "Check In", :type => "text", :id=>"startDate"}
-                  %i.icon-calendar
-                .clear.input-append
-                  %label.hide Check Out Date
-                  %input.f-span-6{:placeholder => "Check Out", :type => "text", :id=>"endDate"}
-                  %i.icon-calendar
+                .clear
+                  .input-append.f-span-3.tablet-f-span-3.phone-f-span-1
+                    %label.hide Check In Date
+                    %input.f-span-6{:placeholder => "Check In", :type => "text", :id=>"startDate"}
+                    %i.icon-calendar
+                  .input-append.f-span-3.tablet-f-span-3.phone-f-span-1
+                    %label.hide Check Out Date
+                    %input.f-span-6{:placeholder => "Check Out", :type => "text", :id=>"endDate"}
+                    %i.icon-calendar
                 .clear
                   .input-append.f-span-3.tablet-f-span-3.phone-f-span-1
                     %label.hide Number Of Adults

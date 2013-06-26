@@ -34,7 +34,6 @@
   }
   
 }
-
 form {
 
   fieldset {
@@ -246,9 +245,9 @@ form {
     display: block;
     float: left;
     cursor: pointer;
-    font-size: 0.75em;
+    font-size: 0.8em;
     line-height: 1.4em;
-    padding-top: 8px;
+    padding-top: 10px;
     
 
   }
@@ -280,7 +279,6 @@ form {
 
 
 }
-
 // input with icon
 .input-append{
 
@@ -307,7 +305,7 @@ form {
       padding-left:0;
       
       i{
-        right:9px;
+        right:11px;
       }
       
       &:last-of-type{
@@ -319,10 +317,14 @@ form {
       }
 
 }
-
 ///////////////////////////////////
 // DROP Kick
 @import "externals/dropkick";
+.knc_drop_down{
+  padding-left:0;
+  padding-right:0;
+
+}
 
 .ui-datepicker { @include serif-font; }
 

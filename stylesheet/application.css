@@ -45,23 +45,6 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block; }
 
-@font-face {
-  font-family: "brandon-grotesque";
-  src: url('fonts/../../font/Brandon_bld.eot');
-  src: url('fonts/../../font/Brandon_bld.eot?#iefix') format('eot'), url('fonts/../../font/Brandon_bld.woff') format('woff'), url('fonts/../../font/Brandon_bld.ttf') format('truetype'), url('fonts/../../font/Brandon_bld.svg') format('svg');
-  font-weight: 700; }
-
-@font-face {
-  font-family: "brandon-grotesque";
-  src: url('fonts/../../font/Brandon_thin.eot');
-  src: url('fonts/../../font/Brandon_thin.eot?#iefix') format('eot'), url('fonts/../../font/Brandon_thin.woff') format('woff'), url('fonts/../../font/Brandon_thin.ttf') format('truetype'), url('fonts/../../font/Brandon_thin.svg') format('svg');
-  font-weight: 200; }
-
-@font-face {
-  font-family: "adobe-caslon-pro";
-  src: url('fonts/../../font/caslon540-webfont.eot');
-  src: url('fonts/../../font/caslon540-webfont.eot?#iefix') format('eot'), url('fonts/../../font/caslon540-webfont.woff') format('woff'), url('fonts/../../font/caslon540-webfont.ttf') format('truetype'), url('fonts/../../font/caslon540-webfont.svg') format('svg'); }
-
 /*
  *  Font Awesome 3.2.1
  *  the iconic font designed for Bootstrap
@@ -2101,22 +2084,22 @@ html {
     .center.info-card:after, .info-card .center.row:after {
       clear: both; }
 
-.f-span-6, #header .button_group a {
+.f-span-6, #header .knc_button_group a {
   float: left;
   width: 100%;
   padding-left: 10px;
   padding-right: 10px; }
-  .f-span-6.center, #header .button_group a.center {
+  .f-span-6.center, #header .knc_button_group a.center {
     *zoom: 1;
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
     float: none; }
-    .f-span-6.center:before, #header .button_group a.center:before, .f-span-6.center:after, #header .button_group a.center:after {
+    .f-span-6.center:before, #header .knc_button_group a.center:before, .f-span-6.center:after, #header .knc_button_group a.center:after {
       display: table;
       content: "";
       line-height: 0; }
-    .f-span-6.center:after, #header .button_group a.center:after {
+    .f-span-6.center:after, #header .knc_button_group a.center:after {
       clear: both; }
 
 .push-f-span-none {
@@ -2129,7 +2112,7 @@ html {
   .span-6, .span-7, .span-8, .span-9, .span-10, .span-11 {
     max-width: 100%; }
 
-  .f-span-4, .f-span-5, .f-span-6, #header .button_group a {
+  .f-span-4, .f-span-5, .f-span-6, #header .knc_button_group a {
     width: 100%; }
 
   .knc_block {
@@ -3061,7 +3044,8 @@ html {
 /* TYPOGRAPHY */
 body {
   font-family: "adobe-caslon-pro", Georgia, serif;
-  font-size: 100%; }
+  font-size: 100%;
+  -webkit-font-smoothing: antialiased; }
 
 p {
   margin: 0 0 12px; }
@@ -3100,15 +3084,15 @@ h1, h2, h3, .fc-header-title h2, h4, h5, h6 {
     line-height: 1; }
 
 h1 {
-  font-size: 3em;
-  line-height: 1.2em; }
+  font-size: 3.3em;
+  line-height: 1.15em; }
 
 h2 {
   font-size: 1.33em;
   line-height: 1em; }
 
 h3, .fc-header-title h2 {
-  font-size: 1.1em;
+  font-size: 1.2em;
   line-height: 1em; }
 
 h4 {
@@ -3246,9 +3230,11 @@ blockquote:after {
   content: ""; }
 
 address {
+  text-transform: lowercase;
   display: block;
   margin-bottom: 24px;
-  font-style: normal;
+  font-weight: 200;
+  font-style: italic;
   line-height: 24px; }
 
 a {
@@ -3367,7 +3353,7 @@ a {
     #header .logo img {
       width: 100%;
       height: auto; }
-  #header .button_group {
+  #header .knc_button_group {
     font-family: "brandon-grotesque", "Helvetica Neue", Arial, sans-serif;
     font-weight: 700;
     font-size: 0.7em;
@@ -3377,7 +3363,7 @@ a {
     right: 0;
     width: 170px;
     text-transform: uppercase; }
-    #header .button_group a {
+    #header .knc_button_group a {
       letter-spacing: 1px;
       margin: 5px 0;
       background: #fbf7f4;
@@ -5341,9 +5327,9 @@ form .prettyradio label {
   display: block;
   float: left;
   cursor: pointer;
-  font-size: 0.75em;
+  font-size: 0.8em;
   line-height: 1.4em;
-  padding-top: 8px; }
+  padding-top: 10px; }
 form .serif .prettycheckbox label {
   font-family: "adobe-caslon-pro", Georgia, serif;
   text-transform: none;
@@ -5375,7 +5361,7 @@ form .prettyradio.disabled a {
 .f-span-3.input-append, .tablet-f-span-3.input-append {
   padding-left: 0; }
   .f-span-3.input-append i, .tablet-f-span-3.input-append i {
-    right: 9px; }
+    right: 11px; }
   .f-span-3.input-append:last-of-type, .tablet-f-span-3.input-append:last-of-type {
     padding-right: 0px; }
     .f-span-3.input-append:last-of-type i, .tablet-f-span-3.input-append:last-of-type i {
@@ -5527,6 +5513,10 @@ form .prettyradio.disabled a {
   visibility: hidden; }
 
 /***** End Critical to the continued enjoyment of working dropdowns ******/
+.knc_drop_down {
+  padding-left: 0;
+  padding-right: 0; }
+
 .ui-datepicker {
   font-family: "adobe-caslon-pro", Georgia, serif; }
 
@@ -5557,11 +5547,11 @@ form .prettyradio.disabled a {
     clear: both; }
 
 .debug {
-  background: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #eeeeee), color-stop(100%, #dddddd));
-  background: -webkit-linear-gradient(left, #eeeeee, #dddddd);
-  background: -moz-linear-gradient(left, #eeeeee, #dddddd);
-  background: -o-linear-gradient(left, #eeeeee, #dddddd);
-  background: linear-gradient(left, #eeeeee, #dddddd); }
+  background: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #eeeeee), color-stop(100%, #e0e0e0));
+  background: -webkit-linear-gradient(left, #eeeeee, #e0e0e0);
+  background: -moz-linear-gradient(left, #eeeeee, #e0e0e0);
+  background: -o-linear-gradient(left, #eeeeee, #e0e0e0);
+  background: linear-gradient(left, #eeeeee, #e0e0e0); }
 
 @-ms-viewport {
   width: device-width; }

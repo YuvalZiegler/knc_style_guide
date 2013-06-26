@@ -2,6 +2,7 @@
 body {
   @include serif-font;
   font-size:100%;
+  -webkit-font-smoothing: antialiased;
 }
 
 
@@ -54,15 +55,15 @@ h1, h2, h3, h4, h5, h6 {
 
 
 h1 { 
-  font-size: $knc_baseEm * 3;
-  line-height: $knc_baseEm * 1.2;
+  font-size: $knc_baseEm * 3.3;
+  line-height: $knc_baseEm * 1.15;
 }
 h2 { 
   font-size: $knc_baseEm * 1.33;
   line-height: $knc_baseEm;
 } 
 h3 { 
-  font-size: $knc_baseEm * 1.1;
+  font-size: $knc_baseEm * 1.2;
   line-height: $knc_baseEm * 1;
 } 
 h4 { 
@@ -222,9 +223,12 @@ blockquote:after {
 
 // Addresses
 address {
+
+  text-transform: lowercase;
   display: block;
   margin-bottom: $knc_baseLineHeight;
-  font-style: normal;
+  font-weight: 200;
+  font-style: italic;
   line-height: $knc_baseLineHeight;
 }
 
